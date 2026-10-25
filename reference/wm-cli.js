@@ -10,7 +10,8 @@ const rgba = new Uint8ClampedArray(buf.buffer, buf.byteOffset, buf.length);
 if (cmd === 'embed') {
   const payload = JSON.parse(fs.readFileSync(a, 'utf8'));
   const t0 = Date.now();
-  WM.embed(rgba, W, H, payload);
+  const sf = +(process.env.WM_STRENGTH || 1);
+  WM.embed(rgba, W, H, payload, { strength1: sf, strength2: sf });
   fs.writeFileSync(b, Buffer.from(rgba.buffer, rgba.byteOffset, rgba.length));
   console.log(JSON.stringify({ ms: Date.now() - t0 }));
 } else if (cmd === 'read') {

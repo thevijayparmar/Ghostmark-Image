@@ -12,16 +12,32 @@ PAYLOAD = dict(lat=12.971599, lon=77.594566, alt=920, t=1792929600, tenth=4, man
 
 
 def photo_files():
-    fs = glob.glob(PHOTOS + '/*.jpg') + glob.glob(PHOTOS + '/*.JPG')
+    fs = [f for f in glob.glob(PHOTOS + '/*') if f.lower().endswith(('.jpg', '.jpeg'))]
     return sorted(set(fs), key=lambda p: int(p.split('(')[1].split(')')[0]))
 
 
-def load(path):
-    return np.asarray(ImageOps.exif_transpose(Image.open(path)).convert('RGB'))
+def heic_for(path):
+    h = os.path.splitext(path)[0] + '.HEIC'
+    return h if os.path.exists(h) else None
 
 
-def node(*args):
-    r = subprocess.run(['node', CLI] + [str(a) for a in args], capture_output=True, text=True)
+def device(path):
+    ex = Image.open(path).getexif()
+    clean = lambda v: str(v or '').replace(chr(0), '').strip()
+    return clean(ex.get(271)), clean(ex.get(272))
+
+
+def load(path, cap_mp=24.0):
+    if path.lower().endswith('.heic'):
+        import pillow_heif; pillow_heif.register_heif_opener()
+    im = ImageOps.exif_transpose(Image.open(path)).convert('RGB')
+    if im.width * im.height > cap_mp * 1e6:          # the app decodes at most ~4096 px long edge
+        s = 4096 / max(im.size); im = im.resize((round(im.width * s), round(im.height * s)), Image.LANCZOS)
+    return np.asarray(im)
+
+
+def node(*args, env=None):
+    r = subprocess.run(['node', CLI] + [str(a) for a in args], capture_output=True, text=True, env=env)
     if r.returncode:
         raise RuntimeError(r.stderr)
     return json.loads(r.stdout)
@@ -31,12 +47,12 @@ def _tmp(ext):
     return os.path.join(TMP, uuid.uuid4().hex + ext)
 
 
-def embed(rgb, payload=PAYLOAD, strength=None):
+def embed(rgb, payload=PAYLOAD, strength=1.0):
     h, w = rgb.shape[:2]
     pi, po, pj = _tmp('.rgba'), _tmp('.rgba'), _tmp('.json')
     np.dstack([rgb, np.full((h, w), 255, np.uint8)]).tofile(pi)
     json.dump(payload, open(pj, 'w'))
-    t = node('embed', pi, w, h, pj, po)
+    t = node('embed', pi, w, h, pj, po, env=dict(os.environ, WM_STRENGTH=str(strength)))
     out = np.fromfile(po, np.uint8).reshape(h, w, 4)[..., :3]
     for f in (pi, po, pj):
         os.remove(f)
@@ -80,3 +96,19 @@ def correct(r, payload=PAYLOAD):
 def psnr(a, b):
     mse = np.mean((a.astype(np.float64) - b.astype(np.float64)) ** 2)
     return 99.0 if mse == 0 else 10 * np.log10(255 ** 2 / mse)
+
+
+def ssim(a, b):
+    """Mean SSIM on luma (11x11 gaussian window, sigma 1.5)."""
+    x = cv2.cvtColor(a, cv2.COLOR_RGB2GRAY).astype(np.float64); y = cv2.cvtColor(b, cv2.COLOR_RGB2GRAY).astype(np.float64)
+    c1, c2 = (0.01 * 255) ** 2, (0.03 * 255) ** 2
+    g = lambda z: cv2.GaussianBlur(z, (11, 11), 1.5)
+    mx, my = g(x), g(y); sxx, syy, sxy = g(x * x) - mx * mx, g(y * y) - my * my, g(x * y) - mx * my
+    m = ((2 * mx * my + c1) * (2 * sxy + c2)) / ((mx * mx + my * my + c1) * (sxx + syy + c2))
+    return float(m.mean())
+
+
+def delta_e(a, b):
+    """Mean CIE76 colour difference (small crop-free estimate on a 1/4 size copy)."""
+    s = lambda z: cv2.cvtColor(cv2.resize(z, None, fx=.25, fy=.25, interpolation=cv2.INTER_AREA).astype(np.float32) / 255, cv2.COLOR_RGB2Lab)
+    return float(np.sqrt(((s(a) - s(b)) ** 2).sum(2)).mean())
