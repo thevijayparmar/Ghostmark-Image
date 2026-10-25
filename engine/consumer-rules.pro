@@ -1,0 +1,3 @@
+-keep class com.vgp.markengine.InvisibleMark { *; }
+-keep class com.vgp.markengine.MarkRecord { *; }
+-keep class com.vgp.markengine.MarkReadResult { *; }

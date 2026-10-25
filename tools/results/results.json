@@ -1,0 +1,2917 @@
+{
+ "payload": {
+  "lat": 12.971599,
+  "lon": 77.594566,
+  "alt": 920,
+  "t": 1792929600,
+  "tenth": 4,
+  "manual": 0
+ },
+ "photos": [
+  {
+   "id": 1,
+   "w": 3024,
+   "h": 4032,
+   "mp": 12.2,
+   "embed_ms": 255,
+   "psnr": 37.56,
+   "mean_change": 2.721,
+   "max_change": 9,
+   "p_ge3": 76.44,
+   "p_ge2": 89.74,
+   "bytes_added_pct": 0.0,
+   "read_full_ms": 81,
+   "attacks": [
+    {
+     "name": "Stored JPEG q95 (full size)",
+     "status": "ok",
+     "z1": 37.3,
+     "z2": 9.3,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 69
+    },
+    {
+     "name": "Chat app: 1600 px, q70",
+     "status": "ok",
+     "z1": 35.1,
+     "z2": 8.8,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 69
+    },
+    {
+     "name": "Social: 1080 px, q50",
+     "status": "ok",
+     "z1": 27.3,
+     "z2": 8.2,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 40
+    },
+    {
+     "name": "Thumbnail: 800 px, q40",
+     "status": "ok",
+     "z1": 19.0,
+     "z2": 7.2,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 31
+    },
+    {
+     "name": "Tiny: 600 px, q50",
+     "status": "ok",
+     "z1": 15.0,
+     "z2": 7.0,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 69
+    },
+    {
+     "name": "Screenshot-style PNG, 1080 px",
+     "status": "ok",
+     "z1": 37.0,
+     "z2": 8.5,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 41
+    },
+    {
+     "name": "Brightness/contrast edit + 1600 q70",
+     "status": "ok",
+     "z1": 30.7,
+     "z2": 7.8,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 52
+    },
+    {
+     "name": "Colour drained to 40% + 1600 q70",
+     "status": "ok",
+     "z1": 28.2,
+     "z2": 8.6,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 51
+    },
+    {
+     "name": "Blur (sigma 1.2) + 1600 q70",
+     "status": "ok",
+     "z1": 34.4,
+     "z2": 8.0,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 66
+    },
+    {
+     "name": "25% of area painted over + 1600 q70",
+     "status": "ok",
+     "z1": 30.2,
+     "z2": 8.3,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 51
+    },
+    {
+     "name": "Black and white + 1600 q70",
+     "status": "part",
+     "z1": 0,
+     "z2": 8.9,
+     "ok1": false,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 107
+    },
+    {
+     "name": "CONTROL: unmarked photo, 1600 q70",
+     "status": "none",
+     "z1": 2.5,
+     "z2": 1.1,
+     "ok1": false,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 202
+    }
+   ],
+   "res_sweep": [
+    {
+     "L": 300,
+     "q": 70,
+     "z1": 8.1,
+     "z2": 2.4,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 300,
+     "q": 40,
+     "z1": 4.1,
+     "z2": 1.3,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 400,
+     "q": 70,
+     "z1": 14.9,
+     "z2": 3.4,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 400,
+     "q": 40,
+     "z1": 8.0,
+     "z2": 2.4,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 500,
+     "q": 70,
+     "z1": 17.9,
+     "z2": 6.1,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 500,
+     "q": 40,
+     "z1": 9.1,
+     "z2": 5.9,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 600,
+     "q": 70,
+     "z1": 22.8,
+     "z2": 7.2,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 600,
+     "q": 40,
+     "z1": 12.6,
+     "z2": 7.0,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 700,
+     "q": 70,
+     "z1": 24.0,
+     "z2": 7.5,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 700,
+     "q": 40,
+     "z1": 16.2,
+     "z2": 7.3,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 800,
+     "q": 70,
+     "z1": 29.0,
+     "z2": 7.4,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 800,
+     "q": 40,
+     "z1": 19.0,
+     "z2": 7.2,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1000,
+     "q": 70,
+     "z1": 31.8,
+     "z2": 8.2,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1000,
+     "q": 40,
+     "z1": 24.4,
+     "z2": 7.9,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1280,
+     "q": 70,
+     "z1": 34.2,
+     "z2": 8.4,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1280,
+     "q": 40,
+     "z1": 27.6,
+     "z2": 8.1,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1600,
+     "q": 70,
+     "z1": 35.1,
+     "z2": 8.8,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1600,
+     "q": 40,
+     "z1": 30.7,
+     "z2": 8.8,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 2000,
+     "q": 70,
+     "z1": 35.8,
+     "z2": 9.1,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 2000,
+     "q": 40,
+     "z1": 32.9,
+     "z2": 9.0,
+     "ok1": true,
+     "ok2": true
+    }
+   ],
+   "q_sweep": [
+    {
+     "q": 95,
+     "z1": 36.9,
+     "z2": 8.9,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 80,
+     "z1": 36.2,
+     "z2": 8.9,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 60,
+     "z1": 33.8,
+     "z2": 8.8,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 40,
+     "z1": 30.7,
+     "z2": 8.8,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 30,
+     "z1": 27.5,
+     "z2": 8.8,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 20,
+     "z1": 22.6,
+     "z2": 8.6,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 15,
+     "z1": 19.0,
+     "z2": 8.5,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 10,
+     "z1": 17.5,
+     "z2": 8.6,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 5,
+     "z1": 12.7,
+     "z2": 7.8,
+     "ok1": true,
+     "ok2": true
+    }
+   ],
+   "crops": [
+    {
+     "name": "10% off right edge",
+     "status": "ok",
+     "ok1": true,
+     "ok2": true,
+     "z1": 33.1,
+     "ms": 3017
+    },
+    {
+     "name": "centre 75%",
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 25.2,
+     "ms": 4082
+    },
+    {
+     "name": "centre 55%",
+     "status": "damaged",
+     "ok1": false,
+     "ok2": false,
+     "z1": 0,
+     "ms": 7288
+    },
+    {
+     "name": "top-left quarter",
+     "status": "nocrop",
+     "ok1": false,
+     "ok2": false,
+     "z1": 0,
+     "ms": 7610
+    }
+   ],
+   "screen": [
+    {
+     "kind": "monitor",
+     "status": "ok",
+     "ok1": true,
+     "ok2": true,
+     "z1": 33.5,
+     "ms": 15907
+    },
+    {
+     "kind": "print",
+     "status": "ok",
+     "ok1": true,
+     "ok2": true,
+     "z1": 27.9,
+     "ms": 13562
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "w": 3024,
+   "h": 4032,
+   "mp": 12.2,
+   "embed_ms": 254,
+   "psnr": 41.09,
+   "mean_change": 1.549,
+   "max_change": 9,
+   "p_ge3": 35.89,
+   "p_ge2": 52.81,
+   "bytes_added_pct": 1.1,
+   "read_full_ms": 228,
+   "attacks": [
+    {
+     "name": "Stored JPEG q95 (full size)",
+     "status": "ok",
+     "z1": 20.3,
+     "z2": 6.1,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 215
+    },
+    {
+     "name": "Chat app: 1600 px, q70",
+     "status": "ok",
+     "z1": 17.7,
+     "z2": 5.5,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 142
+    },
+    {
+     "name": "Social: 1080 px, q50",
+     "status": "ok",
+     "z1": 12.4,
+     "z2": 4.7,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 90
+    },
+    {
+     "name": "Thumbnail: 800 px, q40",
+     "status": "ok",
+     "z1": 9.3,
+     "z2": 3.7,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 69
+    },
+    {
+     "name": "Tiny: 600 px, q50",
+     "status": "damaged",
+     "z1": 6.7,
+     "z2": 3.3,
+     "ok1": false,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 85
+    },
+    {
+     "name": "Screenshot-style PNG, 1080 px",
+     "status": "ok",
+     "z1": 19.4,
+     "z2": 5.1,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 85
+    },
+    {
+     "name": "Brightness/contrast edit + 1600 q70",
+     "status": "ok",
+     "z1": 14.8,
+     "z2": 5.0,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 131
+    },
+    {
+     "name": "Colour drained to 40% + 1600 q70",
+     "status": "ok",
+     "z1": 13.5,
+     "z2": 5.3,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 139
+    },
+    {
+     "name": "Blur (sigma 1.2) + 1600 q70",
+     "status": "ok",
+     "z1": 16.4,
+     "z2": 4.4,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 136
+    },
+    {
+     "name": "25% of area painted over + 1600 q70",
+     "status": "ok",
+     "z1": 16.0,
+     "z2": 5.3,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 158
+    },
+    {
+     "name": "Black and white + 1600 q70",
+     "status": "damaged",
+     "z1": 0.0,
+     "z2": 5.5,
+     "ok1": false,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 161
+    },
+    {
+     "name": "CONTROL: unmarked photo, 1600 q70",
+     "status": "none",
+     "z1": 0.5,
+     "z2": 0.6,
+     "ok1": false,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 249
+    }
+   ],
+   "res_sweep": [
+    {
+     "L": 300,
+     "q": 70,
+     "z1": 3.5,
+     "z2": 1.5,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 300,
+     "q": 40,
+     "z1": 2.1,
+     "z2": 2.0,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 400,
+     "q": 70,
+     "z1": 4.9,
+     "z2": 3.2,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 400,
+     "q": 40,
+     "z1": 3.1,
+     "z2": 3.3,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 500,
+     "q": 70,
+     "z1": 7.0,
+     "z2": 3.6,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 500,
+     "q": 40,
+     "z1": 4.8,
+     "z2": 2.8,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 600,
+     "q": 70,
+     "z1": 9.4,
+     "z2": 4.1,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 600,
+     "q": 40,
+     "z1": 4.5,
+     "z2": 3.4,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 700,
+     "q": 70,
+     "z1": 11.9,
+     "z2": 3.8,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 700,
+     "q": 40,
+     "z1": 7.4,
+     "z2": 3.7,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 800,
+     "q": 70,
+     "z1": 12.7,
+     "z2": 4.4,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 800,
+     "q": 40,
+     "z1": 9.3,
+     "z2": 3.7,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 1000,
+     "q": 70,
+     "z1": 14.9,
+     "z2": 5.1,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 1000,
+     "q": 40,
+     "z1": 11.7,
+     "z2": 4.7,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 1280,
+     "q": 70,
+     "z1": 16.5,
+     "z2": 5.1,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 1280,
+     "q": 40,
+     "z1": 13.1,
+     "z2": 4.9,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 1600,
+     "q": 70,
+     "z1": 17.7,
+     "z2": 5.5,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 1600,
+     "q": 40,
+     "z1": 14.8,
+     "z2": 5.2,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 2000,
+     "q": 70,
+     "z1": 18.0,
+     "z2": 5.7,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 2000,
+     "q": 40,
+     "z1": 16.3,
+     "z2": 5.7,
+     "ok1": true,
+     "ok2": false
+    }
+   ],
+   "q_sweep": [
+    {
+     "q": 95,
+     "z1": 19.6,
+     "z2": 5.7,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 80,
+     "z1": 18.4,
+     "z2": 5.5,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 60,
+     "z1": 16.6,
+     "z2": 5.4,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 40,
+     "z1": 14.8,
+     "z2": 5.2,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 30,
+     "z1": 13.1,
+     "z2": 5.1,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 20,
+     "z1": 11.8,
+     "z2": 5.1,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 15,
+     "z1": 10.2,
+     "z2": 4.9,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 10,
+     "z1": 8.1,
+     "z2": 4.4,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 5,
+     "z1": 5.6,
+     "z2": 4.1,
+     "ok1": false,
+     "ok2": false
+    }
+   ],
+   "crops": [
+    {
+     "name": "10% off right edge",
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 16.3,
+     "ms": 2577
+    },
+    {
+     "name": "centre 75%",
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 12.1,
+     "ms": 3572
+    },
+    {
+     "name": "centre 55%",
+     "status": "none",
+     "ok1": false,
+     "ok2": false,
+     "z1": 0,
+     "ms": 7695
+    },
+    {
+     "name": "top-left quarter",
+     "status": "nocrop",
+     "ok1": false,
+     "ok2": false,
+     "z1": 0,
+     "ms": 7192
+    }
+   ],
+   "screen": [
+    {
+     "kind": "monitor",
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 15.0,
+     "ms": 16041
+    },
+    {
+     "kind": "print",
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 12.3,
+     "ms": 13294
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "w": 3024,
+   "h": 4032,
+   "mp": 12.2,
+   "embed_ms": 254,
+   "psnr": 38.05,
+   "mean_change": 2.492,
+   "max_change": 9,
+   "p_ge3": 67.49,
+   "p_ge2": 81.64,
+   "bytes_added_pct": 0.3,
+   "read_full_ms": 71,
+   "attacks": [
+    {
+     "name": "Stored JPEG q95 (full size)",
+     "status": "ok",
+     "z1": 33.5,
+     "z2": 15.3,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 74
+    },
+    {
+     "name": "Chat app: 1600 px, q70",
+     "status": "ok",
+     "z1": 31.2,
+     "z2": 14.6,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 72
+    },
+    {
+     "name": "Social: 1080 px, q50",
+     "status": "ok",
+     "z1": 22.3,
+     "z2": 13.6,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 38
+    },
+    {
+     "name": "Thumbnail: 800 px, q40",
+     "status": "ok",
+     "z1": 15.6,
+     "z2": 12.1,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 30
+    },
+    {
+     "name": "Tiny: 600 px, q50",
+     "status": "ok",
+     "z1": 12.1,
+     "z2": 9.9,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 25
+    },
+    {
+     "name": "Screenshot-style PNG, 1080 px",
+     "status": "ok",
+     "z1": 33.1,
+     "z2": 14.1,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 39
+    },
+    {
+     "name": "Brightness/contrast edit + 1600 q70",
+     "status": "ok",
+     "z1": 31.3,
+     "z2": 14.1,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 47
+    },
+    {
+     "name": "Colour drained to 40% + 1600 q70",
+     "status": "ok",
+     "z1": 23.5,
+     "z2": 14.5,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 57
+    },
+    {
+     "name": "Blur (sigma 1.2) + 1600 q70",
+     "status": "ok",
+     "z1": 30.2,
+     "z2": 12.6,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 53
+    },
+    {
+     "name": "25% of area painted over + 1600 q70",
+     "status": "ok",
+     "z1": 27.9,
+     "z2": 12.7,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 54
+    },
+    {
+     "name": "Black and white + 1600 q70",
+     "status": "part",
+     "z1": 0.0,
+     "z2": 14.6,
+     "ok1": false,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 79
+    },
+    {
+     "name": "CONTROL: unmarked photo, 1600 q70",
+     "status": "none",
+     "z1": 1.2,
+     "z2": 1.8,
+     "ok1": false,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 188
+    }
+   ],
+   "res_sweep": [
+    {
+     "L": 300,
+     "q": 70,
+     "z1": 4.7,
+     "z2": 3.1,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 300,
+     "q": 40,
+     "z1": 2.7,
+     "z2": 2.6,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 400,
+     "q": 70,
+     "z1": 9.3,
+     "z2": 5.6,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 400,
+     "q": 40,
+     "z1": 4.9,
+     "z2": 4.7,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 500,
+     "q": 70,
+     "z1": 14.2,
+     "z2": 9.3,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 500,
+     "q": 40,
+     "z1": 7.1,
+     "z2": 8.1,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 600,
+     "q": 70,
+     "z1": 18.9,
+     "z2": 10.4,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 600,
+     "q": 40,
+     "z1": 9.7,
+     "z2": 10.0,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 700,
+     "q": 70,
+     "z1": 20.9,
+     "z2": 11.7,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 700,
+     "q": 40,
+     "z1": 11.4,
+     "z2": 11.4,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 800,
+     "q": 70,
+     "z1": 23.2,
+     "z2": 12.5,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 800,
+     "q": 40,
+     "z1": 15.6,
+     "z2": 12.1,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1000,
+     "q": 70,
+     "z1": 27.0,
+     "z2": 13.6,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1000,
+     "q": 40,
+     "z1": 18.5,
+     "z2": 13.4,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1280,
+     "q": 70,
+     "z1": 29.8,
+     "z2": 14.1,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1280,
+     "q": 40,
+     "z1": 22.8,
+     "z2": 13.8,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1600,
+     "q": 70,
+     "z1": 31.2,
+     "z2": 14.6,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1600,
+     "q": 40,
+     "z1": 26.0,
+     "z2": 14.4,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 2000,
+     "q": 70,
+     "z1": 32.0,
+     "z2": 15.0,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 2000,
+     "q": 40,
+     "z1": 28.2,
+     "z2": 14.9,
+     "ok1": true,
+     "ok2": true
+    }
+   ],
+   "q_sweep": [
+    {
+     "q": 95,
+     "z1": 33.3,
+     "z2": 14.7,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 80,
+     "z1": 32.3,
+     "z2": 14.6,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 60,
+     "z1": 29.6,
+     "z2": 14.5,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 40,
+     "z1": 26.0,
+     "z2": 14.4,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 30,
+     "z1": 22.4,
+     "z2": 14.4,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 20,
+     "z1": 20.0,
+     "z2": 14.2,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 15,
+     "z1": 17.3,
+     "z2": 13.9,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 10,
+     "z1": 12.2,
+     "z2": 13.6,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 5,
+     "z1": 3.5,
+     "z2": 12.3,
+     "ok1": false,
+     "ok2": true
+    }
+   ],
+   "crops": [
+    {
+     "name": "10% off right edge",
+     "status": "ok",
+     "ok1": true,
+     "ok2": true,
+     "z1": 28.5,
+     "ms": 2961
+    },
+    {
+     "name": "centre 75%",
+     "status": "ok",
+     "ok1": true,
+     "ok2": true,
+     "z1": 21.8,
+     "ms": 3980
+    },
+    {
+     "name": "centre 55%",
+     "status": "part",
+     "ok1": false,
+     "ok2": true,
+     "z1": 0,
+     "ms": 7761
+    },
+    {
+     "name": "top-left quarter",
+     "status": "nocrop",
+     "ok1": false,
+     "ok2": false,
+     "z1": 0,
+     "ms": 7004
+    }
+   ],
+   "screen": [
+    {
+     "kind": "monitor",
+     "status": "ok",
+     "ok1": true,
+     "ok2": true,
+     "z1": 28.8,
+     "ms": 16257
+    },
+    {
+     "kind": "print",
+     "status": "ok",
+     "ok1": true,
+     "ok2": true,
+     "z1": 22.4,
+     "ms": 13637
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "w": 3456,
+   "h": 4608,
+   "mp": 15.9,
+   "embed_ms": 286,
+   "psnr": 38.45,
+   "mean_change": 2.353,
+   "max_change": 9,
+   "p_ge3": 65.05,
+   "p_ge2": 78.43,
+   "bytes_added_pct": 0.4,
+   "read_full_ms": 91,
+   "attacks": [
+    {
+     "name": "Stored JPEG q95 (full size)",
+     "status": "ok",
+     "z1": 27.1,
+     "z2": 11.8,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 86
+    },
+    {
+     "name": "Chat app: 1600 px, q70",
+     "status": "ok",
+     "z1": 25.8,
+     "z2": 10.9,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 63
+    },
+    {
+     "name": "Social: 1080 px, q50",
+     "status": "ok",
+     "z1": 19.0,
+     "z2": 10.4,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 41
+    },
+    {
+     "name": "Thumbnail: 800 px, q40",
+     "status": "ok",
+     "z1": 13.1,
+     "z2": 9.2,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 38
+    },
+    {
+     "name": "Tiny: 600 px, q50",
+     "status": "ok",
+     "z1": 10.8,
+     "z2": 8.4,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 24
+    },
+    {
+     "name": "Screenshot-style PNG, 1080 px",
+     "status": "ok",
+     "z1": 26.7,
+     "z2": 10.9,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 38
+    },
+    {
+     "name": "Brightness/contrast edit + 1600 q70",
+     "status": "ok",
+     "z1": 26.0,
+     "z2": 11.4,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 48
+    },
+    {
+     "name": "Colour drained to 40% + 1600 q70",
+     "status": "ok",
+     "z1": 20.0,
+     "z2": 10.9,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 58
+    },
+    {
+     "name": "Blur (sigma 1.2) + 1600 q70",
+     "status": "ok",
+     "z1": 24.5,
+     "z2": 10.1,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 63
+    },
+    {
+     "name": "25% of area painted over + 1600 q70",
+     "status": "ok",
+     "z1": 22.4,
+     "z2": 10.2,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 47
+    },
+    {
+     "name": "Black and white + 1600 q70",
+     "status": "part",
+     "z1": 0,
+     "z2": 10.9,
+     "ok1": false,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 86
+    },
+    {
+     "name": "CONTROL: unmarked photo, 1600 q70",
+     "status": "none",
+     "z1": 0.9,
+     "z2": 0.9,
+     "ok1": false,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 172
+    }
+   ],
+   "res_sweep": [
+    {
+     "L": 300,
+     "q": 70,
+     "z1": 5.1,
+     "z2": 2.4,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 300,
+     "q": 40,
+     "z1": 2.4,
+     "z2": 1.6,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 400,
+     "q": 70,
+     "z1": 8.5,
+     "z2": 5.9,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 400,
+     "q": 40,
+     "z1": 2.8,
+     "z2": 5.3,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 500,
+     "q": 70,
+     "z1": 12.2,
+     "z2": 6.0,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 500,
+     "q": 40,
+     "z1": 6.4,
+     "z2": 5.6,
+     "ok1": false,
+     "ok2": true
+    },
+    {
+     "L": 600,
+     "q": 70,
+     "z1": 15.5,
+     "z2": 8.4,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 600,
+     "q": 40,
+     "z1": 9.9,
+     "z2": 7.7,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 700,
+     "q": 70,
+     "z1": 17.5,
+     "z2": 8.2,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 700,
+     "q": 40,
+     "z1": 10.7,
+     "z2": 8.0,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 800,
+     "q": 70,
+     "z1": 19.4,
+     "z2": 9.5,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 800,
+     "q": 40,
+     "z1": 13.1,
+     "z2": 9.2,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1000,
+     "q": 70,
+     "z1": 21.9,
+     "z2": 9.9,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1000,
+     "q": 40,
+     "z1": 14.8,
+     "z2": 9.7,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1280,
+     "q": 70,
+     "z1": 24.1,
+     "z2": 10.7,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1280,
+     "q": 40,
+     "z1": 19.3,
+     "z2": 10.4,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1600,
+     "q": 70,
+     "z1": 25.8,
+     "z2": 10.9,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1600,
+     "q": 40,
+     "z1": 21.1,
+     "z2": 10.8,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 2000,
+     "q": 70,
+     "z1": 26.2,
+     "z2": 11.4,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 2000,
+     "q": 40,
+     "z1": 22.8,
+     "z2": 11.2,
+     "ok1": true,
+     "ok2": true
+    }
+   ],
+   "q_sweep": [
+    {
+     "q": 95,
+     "z1": 26.9,
+     "z2": 11.1,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 80,
+     "z1": 26.0,
+     "z2": 11.0,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 60,
+     "z1": 24.5,
+     "z2": 10.8,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 40,
+     "z1": 21.1,
+     "z2": 10.8,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 30,
+     "z1": 18.4,
+     "z2": 10.7,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 20,
+     "z1": 15.9,
+     "z2": 10.6,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 15,
+     "z1": 15.3,
+     "z2": 10.4,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 10,
+     "z1": 11.9,
+     "z2": 9.7,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 5,
+     "z1": 12.8,
+     "z2": 9.1,
+     "ok1": true,
+     "ok2": true
+    }
+   ],
+   "crops": [
+    {
+     "name": "10% off right edge",
+     "status": "ok",
+     "ok1": true,
+     "ok2": true,
+     "z1": 24.5,
+     "ms": 2759
+    },
+    {
+     "name": "centre 75%",
+     "status": "ok",
+     "ok1": true,
+     "ok2": true,
+     "z1": 18.6,
+     "ms": 4059
+    },
+    {
+     "name": "centre 55%",
+     "status": "damaged",
+     "ok1": false,
+     "ok2": false,
+     "z1": 0,
+     "ms": 7035
+    },
+    {
+     "name": "top-left quarter",
+     "status": "nocrop",
+     "ok1": false,
+     "ok2": false,
+     "z1": 0,
+     "ms": 7708
+    }
+   ],
+   "screen": [
+    {
+     "kind": "monitor",
+     "status": "ok",
+     "ok1": true,
+     "ok2": true,
+     "z1": 23.6,
+     "ms": 16215
+    },
+    {
+     "kind": "print",
+     "status": "ok",
+     "ok1": true,
+     "ok2": true,
+     "z1": 18.0,
+     "ms": 13504
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "w": 3456,
+   "h": 4608,
+   "mp": 15.9,
+   "embed_ms": 481,
+   "psnr": 39.68,
+   "mean_change": 1.912,
+   "max_change": 9,
+   "p_ge3": 49.23,
+   "p_ge2": 63.35,
+   "bytes_added_pct": 1.1,
+   "read_full_ms": 127,
+   "attacks": [
+    {
+     "name": "Stored JPEG q95 (full size)",
+     "status": "ok",
+     "z1": 26.7,
+     "z2": 10.4,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 167
+    },
+    {
+     "name": "Chat app: 1600 px, q70",
+     "status": "ok",
+     "z1": 23.4,
+     "z2": 9.0,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 101
+    },
+    {
+     "name": "Social: 1080 px, q50",
+     "status": "ok",
+     "z1": 15.9,
+     "z2": 7.0,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 67
+    },
+    {
+     "name": "Thumbnail: 800 px, q40",
+     "status": "ok",
+     "z1": 8.2,
+     "z2": 5.1,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 58
+    },
+    {
+     "name": "Tiny: 600 px, q50",
+     "status": "ok",
+     "z1": 7.9,
+     "z2": 4.3,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 107
+    },
+    {
+     "name": "Screenshot-style PNG, 1080 px",
+     "status": "ok",
+     "z1": 25.4,
+     "z2": 8.3,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 88
+    },
+    {
+     "name": "Brightness/contrast edit + 1600 q70",
+     "status": "ok",
+     "z1": 24.7,
+     "z2": 9.7,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 127
+    },
+    {
+     "name": "Colour drained to 40% + 1600 q70",
+     "status": "ok",
+     "z1": 15.1,
+     "z2": 9.0,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 99
+    },
+    {
+     "name": "Blur (sigma 1.2) + 1600 q70",
+     "status": "ok",
+     "z1": 20.6,
+     "z2": 5.7,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 101
+    },
+    {
+     "name": "25% of area painted over + 1600 q70",
+     "status": "ok",
+     "z1": 19.5,
+     "z2": 9.2,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 95
+    },
+    {
+     "name": "Black and white + 1600 q70",
+     "status": "part",
+     "z1": 0.0,
+     "z2": 9.1,
+     "ok1": false,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 157
+    },
+    {
+     "name": "CONTROL: unmarked photo, 1600 q70",
+     "status": "none",
+     "z1": 1.4,
+     "z2": 1.8,
+     "ok1": false,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 299
+    }
+   ],
+   "res_sweep": [
+    {
+     "L": 300,
+     "q": 70,
+     "z1": 1.7,
+     "z2": 0.4,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 300,
+     "q": 40,
+     "z1": 1.9,
+     "z2": 0.8,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 400,
+     "q": 70,
+     "z1": 5.0,
+     "z2": 2.4,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 400,
+     "q": 40,
+     "z1": 1.2,
+     "z2": 1.2,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 500,
+     "q": 70,
+     "z1": 8.1,
+     "z2": 4.2,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 500,
+     "q": 40,
+     "z1": 2.9,
+     "z2": 2.5,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 600,
+     "q": 70,
+     "z1": 12.0,
+     "z2": 5.1,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 600,
+     "q": 40,
+     "z1": 5.1,
+     "z2": 3.8,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 700,
+     "q": 70,
+     "z1": 13.7,
+     "z2": 6.2,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 700,
+     "q": 40,
+     "z1": 6.6,
+     "z2": 5.2,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 800,
+     "q": 70,
+     "z1": 16.4,
+     "z2": 6.4,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 800,
+     "q": 40,
+     "z1": 8.2,
+     "z2": 5.1,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1000,
+     "q": 70,
+     "z1": 19.3,
+     "z2": 7.5,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1000,
+     "q": 40,
+     "z1": 11.3,
+     "z2": 7.0,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1280,
+     "q": 70,
+     "z1": 22.0,
+     "z2": 8.3,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1280,
+     "q": 40,
+     "z1": 15.0,
+     "z2": 7.7,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1600,
+     "q": 70,
+     "z1": 23.4,
+     "z2": 9.0,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1600,
+     "q": 40,
+     "z1": 18.8,
+     "z2": 8.8,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 2000,
+     "q": 70,
+     "z1": 24.3,
+     "z2": 9.6,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 2000,
+     "q": 40,
+     "z1": 20.4,
+     "z2": 9.4,
+     "ok1": true,
+     "ok2": true
+    }
+   ],
+   "q_sweep": [
+    {
+     "q": 95,
+     "z1": 26.2,
+     "z2": 9.6,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 80,
+     "z1": 25.1,
+     "z2": 9.3,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 60,
+     "z1": 22.4,
+     "z2": 9.1,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 40,
+     "z1": 18.8,
+     "z2": 8.8,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 30,
+     "z1": 17.4,
+     "z2": 8.5,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 20,
+     "z1": 14.4,
+     "z2": 8.3,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 15,
+     "z1": 12.2,
+     "z2": 7.7,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 10,
+     "z1": 13.4,
+     "z2": 6.4,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 5,
+     "z1": 3.7,
+     "z2": 4.2,
+     "ok1": false,
+     "ok2": true
+    }
+   ],
+   "crops": [
+    {
+     "name": "10% off right edge",
+     "status": "ok",
+     "ok1": true,
+     "ok2": true,
+     "z1": 22.3,
+     "ms": 2581
+    },
+    {
+     "name": "centre 75%",
+     "status": "ok",
+     "ok1": true,
+     "ok2": true,
+     "z1": 18.7,
+     "ms": 3651
+    },
+    {
+     "name": "centre 55%",
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 14.3,
+     "ms": 3451
+    },
+    {
+     "name": "top-left quarter",
+     "status": "nocrop",
+     "ok1": false,
+     "ok2": false,
+     "z1": 0,
+     "ms": 7354
+    }
+   ],
+   "screen": [
+    {
+     "kind": "monitor",
+     "status": "ok",
+     "ok1": true,
+     "ok2": true,
+     "z1": 19.9,
+     "ms": 14206
+    },
+    {
+     "kind": "print",
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 15.4,
+     "ms": 13078
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "w": 2304,
+   "h": 4096,
+   "mp": 9.4,
+   "embed_ms": 459,
+   "psnr": 45.53,
+   "mean_change": 0.856,
+   "max_change": 9,
+   "p_ge3": 11.18,
+   "p_ge2": 23.53,
+   "bytes_added_pct": 3.1,
+   "read_full_ms": 716,
+   "attacks": [
+    {
+     "name": "Stored JPEG q95 (full size)",
+     "status": "ok",
+     "z1": 17.5,
+     "z2": 4.1,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 972
+    },
+    {
+     "name": "Chat app: 1600 px, q70",
+     "status": "ok",
+     "z1": 14.4,
+     "z2": 4.2,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 213
+    },
+    {
+     "name": "Social: 1080 px, q50",
+     "status": "ok",
+     "z1": 8.2,
+     "z2": 4.1,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 173
+    },
+    {
+     "name": "Thumbnail: 800 px, q40",
+     "status": "damaged",
+     "z1": 5.9,
+     "z2": 4.1,
+     "ok1": false,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 159
+    },
+    {
+     "name": "Tiny: 600 px, q50",
+     "status": "damaged",
+     "z1": 4.6,
+     "z2": 2.9,
+     "ok1": false,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 109
+    },
+    {
+     "name": "Screenshot-style PNG, 1080 px",
+     "status": "ok",
+     "z1": 17.4,
+     "z2": 4.1,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 142
+    },
+    {
+     "name": "Brightness/contrast edit + 1600 q70",
+     "status": "ok",
+     "z1": 13.6,
+     "z2": 4.1,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 203
+    },
+    {
+     "name": "Colour drained to 40% + 1600 q70",
+     "status": "ok",
+     "z1": 9.5,
+     "z2": 4.1,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 209
+    },
+    {
+     "name": "Blur (sigma 1.2) + 1600 q70",
+     "status": "ok",
+     "z1": 14.1,
+     "z2": 4.2,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 195
+    },
+    {
+     "name": "25% of area painted over + 1600 q70",
+     "status": "ok",
+     "z1": 12.5,
+     "z2": 3.8,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 205
+    },
+    {
+     "name": "Black and white + 1600 q70",
+     "status": "damaged",
+     "z1": 0.0,
+     "z2": 4.2,
+     "ok1": false,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 368
+    },
+    {
+     "name": "CONTROL: unmarked photo, 1600 q70",
+     "status": "none",
+     "z1": 1.0,
+     "z2": 2.7,
+     "ok1": false,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 254
+    }
+   ],
+   "res_sweep": [
+    {
+     "L": 300,
+     "q": 70,
+     "z1": 2.4,
+     "z2": 3.1,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 300,
+     "q": 40,
+     "z1": 1.2,
+     "z2": 2.4,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 400,
+     "q": 70,
+     "z1": 4.2,
+     "z2": 1.5,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 400,
+     "q": 40,
+     "z1": 1.2,
+     "z2": 1.7,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 500,
+     "q": 70,
+     "z1": 3.6,
+     "z2": 3.8,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 500,
+     "q": 40,
+     "z1": 1.4,
+     "z2": 3.8,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 600,
+     "q": 70,
+     "z1": 7.1,
+     "z2": 3.8,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 600,
+     "q": 40,
+     "z1": 3.7,
+     "z2": 2.9,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 700,
+     "q": 70,
+     "z1": 7.1,
+     "z2": 4.2,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 700,
+     "q": 40,
+     "z1": 4.1,
+     "z2": 3.3,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 800,
+     "q": 70,
+     "z1": 9.1,
+     "z2": 4.0,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 800,
+     "q": 40,
+     "z1": 5.9,
+     "z2": 4.1,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 1000,
+     "q": 70,
+     "z1": 11.4,
+     "z2": 4.2,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 1000,
+     "q": 40,
+     "z1": 7.8,
+     "z2": 4.3,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 1280,
+     "q": 70,
+     "z1": 13.4,
+     "z2": 4.3,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 1280,
+     "q": 40,
+     "z1": 9.2,
+     "z2": 4.0,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 1600,
+     "q": 70,
+     "z1": 14.4,
+     "z2": 4.2,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 1600,
+     "q": 40,
+     "z1": 12.2,
+     "z2": 4.2,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 2000,
+     "q": 70,
+     "z1": 15.5,
+     "z2": 4.1,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 2000,
+     "q": 40,
+     "z1": 13.5,
+     "z2": 3.9,
+     "ok1": true,
+     "ok2": false
+    }
+   ],
+   "q_sweep": [
+    {
+     "q": 95,
+     "z1": 17.6,
+     "z2": 4.2,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 80,
+     "z1": 15.5,
+     "z2": 4.2,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 60,
+     "z1": 13.4,
+     "z2": 4.2,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 40,
+     "z1": 12.2,
+     "z2": 4.2,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 30,
+     "z1": 11.1,
+     "z2": 4.0,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 20,
+     "z1": 8.2,
+     "z2": 3.9,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 15,
+     "z1": 4.5,
+     "z2": 4.0,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "q": 10,
+     "z1": 4.6,
+     "z2": 3.6,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "q": 5,
+     "z1": 4.1,
+     "z2": 2.6,
+     "ok1": false,
+     "ok2": false
+    }
+   ],
+   "crops": [
+    {
+     "name": "10% off right edge",
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 13.6,
+     "ms": 3439
+    },
+    {
+     "name": "centre 75%",
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 11.0,
+     "ms": 4832
+    },
+    {
+     "name": "centre 55%",
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 9.1,
+     "ms": 4509
+    },
+    {
+     "name": "top-left quarter",
+     "status": "nocrop",
+     "ok1": false,
+     "ok2": false,
+     "z1": 0,
+     "ms": 4266
+    }
+   ],
+   "screen": [
+    {
+     "kind": "monitor",
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 13.4,
+     "ms": 10241
+    },
+    {
+     "kind": "print",
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 11.2,
+     "ms": 10271
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "w": 5712,
+   "h": 3213,
+   "mp": 18.4,
+   "embed_ms": 613,
+   "psnr": 40.31,
+   "mean_change": 1.676,
+   "max_change": 9,
+   "p_ge3": 40.52,
+   "p_ge2": 51.57,
+   "bytes_added_pct": 1.7,
+   "read_full_ms": 155,
+   "attacks": [
+    {
+     "name": "Stored JPEG q95 (full size)",
+     "status": "ok",
+     "z1": 28.6,
+     "z2": 8.1,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 164
+    },
+    {
+     "name": "Chat app: 1600 px, q70",
+     "status": "ok",
+     "z1": 25.1,
+     "z2": 7.5,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 77
+    },
+    {
+     "name": "Social: 1080 px, q50",
+     "status": "ok",
+     "z1": 15.7,
+     "z2": 6.8,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 139
+    },
+    {
+     "name": "Thumbnail: 800 px, q40",
+     "status": "ok",
+     "z1": 9.9,
+     "z2": 5.2,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 121
+    },
+    {
+     "name": "Tiny: 600 px, q50",
+     "status": "damaged",
+     "z1": 6.8,
+     "z2": 5.1,
+     "ok1": false,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 106
+    },
+    {
+     "name": "Screenshot-style PNG, 1080 px",
+     "status": "ok",
+     "z1": 27.6,
+     "z2": 7.0,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 71
+    },
+    {
+     "name": "Brightness/contrast edit + 1600 q70",
+     "status": "ok",
+     "z1": 25.0,
+     "z2": 7.3,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 85
+    },
+    {
+     "name": "Colour drained to 40% + 1600 q70",
+     "status": "ok",
+     "z1": 17.0,
+     "z2": 7.5,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 91
+    },
+    {
+     "name": "Blur (sigma 1.2) + 1600 q70",
+     "status": "ok",
+     "z1": 24.1,
+     "z2": 6.0,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 212
+    },
+    {
+     "name": "25% of area painted over + 1600 q70",
+     "status": "ok",
+     "z1": 23.4,
+     "z2": 7.6,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 83
+    },
+    {
+     "name": "Black and white + 1600 q70",
+     "status": "part",
+     "z1": 0.0,
+     "z2": 7.5,
+     "ok1": false,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 145
+    },
+    {
+     "name": "CONTROL: unmarked photo, 1600 q70",
+     "status": "none",
+     "z1": 2.3,
+     "z2": 1.5,
+     "ok1": false,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 257
+    }
+   ],
+   "res_sweep": [
+    {
+     "L": 300,
+     "q": 70,
+     "z1": 5.2,
+     "z2": 1.4,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 300,
+     "q": 40,
+     "z1": 0.9,
+     "z2": 1.1,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 400,
+     "q": 70,
+     "z1": 5.1,
+     "z2": 2.7,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 400,
+     "q": 40,
+     "z1": 2.9,
+     "z2": 2.6,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 500,
+     "q": 70,
+     "z1": 7.8,
+     "z2": 3.7,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 500,
+     "q": 40,
+     "z1": 4.0,
+     "z2": 3.0,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 600,
+     "q": 70,
+     "z1": 12.6,
+     "z2": 5.6,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 600,
+     "q": 40,
+     "z1": 4.3,
+     "z2": 5.0,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 700,
+     "q": 70,
+     "z1": 15.1,
+     "z2": 5.2,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 700,
+     "q": 40,
+     "z1": 7.1,
+     "z2": 5.0,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 800,
+     "q": 70,
+     "z1": 17.4,
+     "z2": 5.5,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 800,
+     "q": 40,
+     "z1": 9.9,
+     "z2": 5.2,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 1000,
+     "q": 70,
+     "z1": 19.7,
+     "z2": 6.7,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1000,
+     "q": 40,
+     "z1": 12.9,
+     "z2": 6.3,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 1280,
+     "q": 70,
+     "z1": 23.6,
+     "z2": 7.1,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1280,
+     "q": 40,
+     "z1": 15.5,
+     "z2": 6.8,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1600,
+     "q": 70,
+     "z1": 25.1,
+     "z2": 7.5,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1600,
+     "q": 40,
+     "z1": 19.1,
+     "z2": 7.4,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 2000,
+     "q": 70,
+     "z1": 26.2,
+     "z2": 7.3,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 2000,
+     "q": 40,
+     "z1": 21.7,
+     "z2": 7.4,
+     "ok1": true,
+     "ok2": true
+    }
+   ],
+   "q_sweep": [
+    {
+     "q": 95,
+     "z1": 28.2,
+     "z2": 7.5,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 80,
+     "z1": 26.4,
+     "z2": 7.5,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 60,
+     "z1": 23.6,
+     "z2": 7.5,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 40,
+     "z1": 19.1,
+     "z2": 7.4,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 30,
+     "z1": 16.8,
+     "z2": 7.1,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 20,
+     "z1": 13.9,
+     "z2": 7.1,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 15,
+     "z1": 12.9,
+     "z2": 7.0,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 10,
+     "z1": 10.8,
+     "z2": 6.5,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 5,
+     "z1": 4.7,
+     "z2": 5.3,
+     "ok1": false,
+     "ok2": false
+    }
+   ],
+   "crops": [
+    {
+     "name": "10% off right edge",
+     "status": "ok",
+     "ok1": true,
+     "ok2": true,
+     "z1": 24.8,
+     "ms": 5717
+    },
+    {
+     "name": "centre 75%",
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 16.6,
+     "ms": 5554
+    },
+    {
+     "name": "centre 55%",
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 11.3,
+     "ms": 5278
+    },
+    {
+     "name": "top-left quarter",
+     "status": "nocrop",
+     "ok1": false,
+     "ok2": false,
+     "z1": 0,
+     "ms": 5318
+    }
+   ],
+   "screen": [
+    {
+     "kind": "monitor",
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 22.1,
+     "ms": 12460
+    },
+    {
+     "kind": "print",
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 17.8,
+     "ms": 11977
+    }
+   ]
+  }
+ ]
+}

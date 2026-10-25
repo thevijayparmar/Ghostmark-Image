@@ -1,0 +1,39 @@
+Mark Engine Attribution Licence, version 1.0
+
+Copyright (c) 2026 Vijay Parmar (https://github.com/thevijayparmar)
+All rights reserved except as granted below.
+
+1. GRANT. Permission is granted, free of charge, to any person to use, copy and
+   modify the source code, documentation and binaries in this repository
+   (the "Software") inside their own applications, products and services,
+   including commercial ones, provided that the conditions below are met.
+
+2. CREDIT (required). Every application, product or service that includes the
+   Software, in whole or in part, must give visible credit to the author, for
+   example in an About / Credits screen or in the product documentation:
+
+       "Uses Mark Engine by Vijay Parmar - github.com/thevijayparmar/MarkEngine"
+
+   Copies of the source code that you distribute inside your own project must
+   keep this licence file and the copyright notice.
+
+3. NO STAND-ALONE REDISTRIBUTION. You may not sell, sublicense, publish or
+   redistribute the Software, or a modified version of it, as a stand-alone
+   library, SDK, package or code repository, or as a substitute for it, without
+   the author's prior written permission. Shipping it inside an application is
+   allowed.
+
+4. NO ENDORSEMENT. The author's name may not be used to promote a product that
+   uses the Software beyond the credit required in section 2.
+
+5. NO WARRANTY. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO MERCHANTABILITY, FITNESS FOR
+   A PARTICULAR PURPOSE AND NON-INFRINGEMENT. THE SOFTWARE DOES NOT PROVE THE
+   AUTHENTICITY OF A PHOTOGRAPH. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY
+   CLAIM, DAMAGES OR OTHER LIABILITY ARISING FROM THE USE OF THE SOFTWARE.
+
+6. TERMINATION. Rights under this licence end automatically if you break any of
+   its conditions; they are restored when you remedy the breach.
+
+The demonstration photographs in samples/ and assets/ are provided for
+illustration of the Software only and may not be reused separately.
