@@ -11,7 +11,7 @@ It writes and reads **exactly the same mark** as the Android (Kotlin) engine and
 ## Install
 
 ```bash
-pip install ./python[files]      # from the repository root; [files] adds Pillow
+pip install "ghostmark-image[files]"   # from PyPI; [files] adds Pillow
 pip install -e ./python[test]    # for development and the tests
 ```
 

@@ -1,3 +1,11 @@
+# PyPI: DONE (2026-10-26)
+
+Published as `ghostmark-image` 1.1.0 via trusted publishing (workflow `publish-pypi.yml`, environment `pypi`). Install: `pip install "ghostmark-image[files]"`.
+For the next version: bump `version` in `python/pyproject.toml`, push, publish a GitHub Release; the workflow uploads it.
+
+---
+Original manual steps (kept for reference):
+
 # Publishing the Python engine on PyPI (you do this: it needs your PyPI account)
 
 1. Create an account on pypi.org and on test.pypi.org; enable 2FA; create an API token for each.

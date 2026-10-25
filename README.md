@@ -9,7 +9,7 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache%202.0-orange?logo=apache&logoColor=white" alt="Apache 2.0 licence"></a>
   <img src="https://img.shields.io/badge/Android-minSdk%2026-3DDC84?logo=android&logoColor=white" alt="Android minSdk 26">
   <img src="https://img.shields.io/badge/Kotlin-Android%20engine-7F52FF?logo=kotlin&logoColor=white" alt="Kotlin">
-  <img src="https://img.shields.io/badge/Python-3.9%2B-3776AB?logo=python&logoColor=white" alt="Python 3.9+">
+  <a href="https://pypi.org/project/ghostmark-image/"><img src="https://img.shields.io/pypi/v/ghostmark-image?logo=pypi&logoColor=white&label=PyPI&color=3776AB" alt="PyPI version"></a>
   <img src="https://img.shields.io/badge/JavaScript-reference-F7DF1E?logo=javascript&logoColor=black" alt="JavaScript reference engine">
   <a href="https://github.com/thevijayparmar/Ghostmark-Image/actions/workflows/python.yml"><img src="https://github.com/thevijayparmar/Ghostmark-Image/actions/workflows/python.yml/badge.svg" alt="Python CI"></a>
   <img src="https://img.shields.io/badge/Dependencies-0-2F7CF6" alt="Zero dependencies">
@@ -676,7 +676,7 @@ The Android engine is the production one. For everything that is **not** an Andr
 </div>
 
 ```bash
-pip install ./python[files]          # numpy (+ Pillow for the file helpers); Python 3.9+
+pip install "ghostmark-image[files]"   # numpy (+ Pillow for the file helpers); Python 3.9+
 ghostmark mark photo.jpg marked.jpg --lat 12.9716 --lon 77.5946 --alt 920 --time 2026-10-25T12:00:00Z
 ghostmark read shared_copy.jpg       # status ok = full record; part = location only (+-10 m); none = no mark
 ```

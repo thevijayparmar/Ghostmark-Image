@@ -3,7 +3,7 @@
 **Photos that remember where and when they were taken, even after the metadata is gone.**
 
 ## New
-* 🐍 **Python engine** (`python/`): numpy only, same mark format as Android. `pip install ./python[files]`, CLI `ghostmark mark|read`.
+* 🐍 **Python engine** (`python/`): numpy only, same mark format as Android. `pip install "ghostmark-image[files]"`, CLI `ghostmark mark|read`.
 * 🌗 **Black-and-white study:** the brightness layer returned the location after a grey filter plus a chat app for 29 of 40 photos (39 of 40 when the mark is written at 2x strength).
 * 📸 **Benchmark widened** to 40 photos from 11 cameras, 480 attacked copies: 371 full records, 0 wrong values, 0 false alarms in 320 unmarked reads.
 * ⚖️ **Apache-2.0** licence (was a custom attribution licence). Keep the NOTICE file.
