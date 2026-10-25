@@ -15,6 +15,7 @@ Nothing in this folder is needed to build or use the library. It is the launch t
 | `awesome-lists.md` | lists to send a pull request to, with the PR text |
 | `pypi-publish.md` | steps to put the Python engine on PyPI (needs your PyPI account) |
 | `faq-answers.md` | the questions people will ask, with honest answers |
+| `social-images/` | 10 ready-made 1920x1080 post images in different styles, with a caption for each |
 | `media/` | demo GIF, hero animation, logo, banner, photo wall, charts, ready to attach |
 
 ## Order that works
