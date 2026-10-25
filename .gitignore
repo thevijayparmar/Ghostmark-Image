@@ -9,3 +9,5 @@ __pycache__/
 .pytest_cache/
 *.pyc
 tools/results/run_*.log
+python/dist/
+python/build/

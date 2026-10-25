@@ -16,6 +16,6 @@
 
 **Licence?** Apache-2.0. Keep the NOTICE; a credit line is appreciated.
 
-**Is the Android app phone-tested?** The Kotlin engine passed 29 JVM tests and a trial app on a real phone. The Field Camera app that uses it is still in testing.
+**Is the Android engine phone-tested?** Yes: 29 JVM tests, a trial app, and the Field Camera app that uses it have been tested on a real phone.
 
 **Why is the Python engine slower?** Pure numpy, no native code: 2 s to mark and 0.5 s to read a 12 MP photo.
