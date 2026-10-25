@@ -13,6 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "MarkEngine"
+rootProject.name = "Ghostmark-Image"
 include(":engine")
 include(":trial")

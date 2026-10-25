@@ -1,4 +1,4 @@
-# Mark Engine: invisible mark format spec (v1)
+# Ghostmark: invisible mark format spec (v1)
 
 `reference/wm-engine.js` is the reference implementation and wins over this text if they disagree.
 The Kotlin engine (`engine/`) must read and write exactly this format.
