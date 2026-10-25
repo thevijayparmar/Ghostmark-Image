@@ -16,6 +16,7 @@ Nothing in this folder is needed to build or use the library. It is the launch t
 | `pypi-publish.md` | steps to put the Python engine on PyPI (needs your PyPI account) |
 | `faq-answers.md` | the questions people will ask, with honest answers |
 | `social-images-v2/` | 10 visual-first 1920x1080 post images (output, not explanation), with a caption for each |
+| `social-images-v3/` | 10 use-case images (inspection, survey, evidence, travel), with a caption for each |
 | `media/` | demo GIF, hero animation, logo, banner, photo wall, charts, ready to attach |
 
 ## Order that works
