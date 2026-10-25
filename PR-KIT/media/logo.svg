@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Ghostmark logo: a ghost whose body carries a hidden grid of pixels">
+  <title>Ghostmark</title>
+  <rect width="512" height="512" rx="112" fill="#0d1117"/>
+  <!-- ghost -->
+  <path fill="#f0f6fc" d="M136 384V236C136 152 190 100 256 100C322 100 376 152 376 236V384Q346 424 316 384Q286 344 256 384Q226 424 196 384Q166 344 136 384Z"/>
+  <!-- eyes -->
+  <circle cx="216" cy="224" r="20" fill="#0d1117"/>
+  <circle cx="296" cy="224" r="20" fill="#0d1117"/>
+  <!-- the hidden mark: a small grid of tiles on the body -->
+  <g>
+    <rect x="200" y="282" width="26" height="26" rx="5" fill="#38bdf8"/>
+    <rect x="234" y="282" width="26" height="26" rx="5" fill="#a78bfa"/>
+    <rect x="268" y="282" width="26" height="26" rx="5" fill="#38bdf8"/>
+    <rect x="217" y="316" width="26" height="26" rx="5" fill="#a78bfa"/>
+    <rect x="251" y="316" width="26" height="26" rx="5" fill="#38bdf8"/>
+  </g>
+  <!-- tiles drifting off the ghost: the mark rides in the pixels -->
+  <rect x="392" y="196" width="22" height="22" rx="4" fill="#38bdf8"/>
+  <rect x="420" y="236" width="16" height="16" rx="3" fill="#a78bfa"/>
+  <rect x="396" y="274" width="12" height="12" rx="2" fill="#38bdf8" opacity=".7"/>
+  <rect x="428" y="306" width="9" height="9" rx="2" fill="#a78bfa" opacity=".6"/>
+</svg>

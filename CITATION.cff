@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use Ghostmark in research or a product write-up, please cite it as below."
+title: "Ghostmark-Image: an invisible two-layer photo mark for location, altitude and time"
+type: software
+version: 1.1.0
+date-released: 2026-10-26
+license: Apache-2.0
+repository-code: "https://github.com/thevijayparmar/Ghostmark-Image"
+authors:
+  - family-names: Parmar
+    given-names: Vijay
+    alias: thevijayparmar
+  - family-names: Bhatti
+    given-names: Prathvi
+    alias: poronita
+keywords: [watermark, steganography, geotag, photo provenance, android, python]

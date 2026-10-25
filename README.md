@@ -6,11 +6,12 @@
 
 <div align="center">
 
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-Attribution-orange?logo=opensourceinitiative&logoColor=white" alt="Attribution licence"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache%202.0-orange?logo=apache&logoColor=white" alt="Apache 2.0 licence"></a>
   <img src="https://img.shields.io/badge/Android-minSdk%2026-3DDC84?logo=android&logoColor=white" alt="Android minSdk 26">
   <img src="https://img.shields.io/badge/Kotlin-Android%20engine-7F52FF?logo=kotlin&logoColor=white" alt="Kotlin">
   <img src="https://img.shields.io/badge/Python-3.9%2B-3776AB?logo=python&logoColor=white" alt="Python 3.9+">
   <img src="https://img.shields.io/badge/JavaScript-reference-F7DF1E?logo=javascript&logoColor=black" alt="JavaScript reference engine">
+  <a href="https://github.com/thevijayparmar/Ghostmark-Image/actions/workflows/python.yml"><img src="https://github.com/thevijayparmar/Ghostmark-Image/actions/workflows/python.yml/badge.svg" alt="Python CI"></a>
   <img src="https://img.shields.io/badge/Dependencies-0-2F7CF6" alt="Zero dependencies">
   <img src="https://img.shields.io/badge/AAR-97%20KB-2F7CF6" alt="97 KB AAR">
   <img src="https://img.shields.io/badge/Tests-29%20Kotlin%20%2B%2014%20Python-3fb950" alt="42 tests passing">
@@ -738,6 +739,7 @@ Full API, four integration flows and an AI-assistant checklist: [`engine/ENGINE.
 ```
 engine/       the Android library: source, ENGINE.md, FORMAT-SPEC.md, 29 JVM tests with cross-language fixtures
 python/       the Python engine (numpy only): package, CLI, 14 tests, examples
+PR-KIT/       launch toolkit: social preview, post drafts, release notes, FAQ (not needed to use the library)
 dist/         prebuilt ghostmark-1.1.0.aar (97 KB)
 trial/        small Compose sample app: Capture, Read, Screen/print with a corner editor
 reference/    JavaScript reference implementation + CLI
@@ -757,11 +759,11 @@ Benchmark note: attacks ran on the JavaScript reference engine, which shares for
 
 ## 📜 Licence and credit
 
-Copyright © 2026 **Vijay Parmar**. Free to use, modify and ship inside your own apps, including commercial ones, **as long as you credit the author**, for example in your About screen:
+**Open source under the [Apache License 2.0](LICENSE).** Use it, change it, ship it, commercially or not, in any app or tool. The one thing we ask is the thing the licence already requires: **keep the credit.** Keep the [`NOTICE`](NOTICE) file with your distribution, and we would love a line in your About screen or docs:
 
 > Uses Ghostmark by Vijay Parmar, github.com/thevijayparmar/Ghostmark-Image
 
-The engine may not be resold or republished as a stand-alone library or SDK. The binding text is in [LICENSE](LICENSE).
+Copyright © 2026 Vijay Parmar. Contributions are welcome: see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 **Contributors:** [Vijay Parmar](https://github.com/thevijayparmar) · [Prathvi Bhatti](https://github.com/poronita) (co-author)
 

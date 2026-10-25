@@ -1,0 +1,7 @@
+DESCRIPTION (one line, GitHub "About"):
+Invisible photo watermark that hides location, altitude and time in the pixels. Survives WhatsApp, crops and black-and-white. Android (Kotlin), Python, JavaScript.
+
+WEBSITE: leave empty (or the LinkedIn post once it exists)
+
+TOPICS (paste one by one):
+watermark  invisible-watermark  steganography  geotag  gps  android  kotlin  python  image-processing  photo-forensics  provenance  computer-vision  open-source

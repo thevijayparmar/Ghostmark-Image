@@ -84,6 +84,6 @@ pytest -q          # 14 tests, ~10 s
 
 ## Licence
 
-Ghostmark Attribution Licence v1.0, see [`../LICENSE`](../LICENSE). Free to use and modify in your own tools, including commercial ones, **with visible credit**:
+Apache License 2.0, see [`../LICENSE`](../LICENSE) and [`../NOTICE`](../NOTICE). Free for any use, including commercial; keep the NOTICE with your distribution. A line of credit is appreciated:
 
 > Uses Ghostmark by Vijay Parmar, github.com/thevijayparmar/Ghostmark-Image
