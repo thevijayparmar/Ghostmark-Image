@@ -501,12 +501,7 @@
      "small_z1": 28.6,
      "small_ok1": true
     }
-   ],
-   "heic": {
-    "ok1": true,
-    "z1": 25.5,
-    "mp": 12.6
-   }
+   ]
   },
   {
    "id": 2,
@@ -1001,12 +996,7 @@
      "small_z1": 15.6,
      "small_ok1": true
     }
-   ],
-   "heic": {
-    "ok1": false,
-    "z1": 6.3,
-    "mp": 12.2
-   }
+   ]
   },
   {
    "id": 3,
@@ -1501,12 +1491,7 @@
      "small_z1": 24.8,
      "small_ok1": true
     }
-   ],
-   "heic": {
-    "ok1": true,
-    "z1": 7.7,
-    "mp": 12.6
-   }
+   ]
   },
   {
    "id": 4,
@@ -2001,12 +1986,7 @@
      "small_z1": 23.6,
      "small_ok1": true
     }
-   ],
-   "heic": {
-    "ok1": true,
-    "z1": 27.4,
-    "mp": 12.6
-   }
+   ]
   },
   {
    "id": 5,
@@ -2501,12 +2481,7 @@
      "small_z1": 19.1,
      "small_ok1": true
     }
-   ],
-   "heic": {
-    "ok1": true,
-    "z1": 22.5,
-    "mp": 12.6
-   }
+   ]
   },
   {
    "id": 6,
@@ -3001,12 +2976,7 @@
      "small_z1": 9.7,
      "small_ok1": true
     }
-   ],
-   "heic": {
-    "ok1": true,
-    "z1": 25.9,
-    "mp": 12.6
-   }
+   ]
   },
   {
    "id": 7,
@@ -3501,12 +3471,7 @@
      "small_z1": 17.9,
      "small_ok1": true
     }
-   ],
-   "heic": {
-    "ok1": true,
-    "z1": 21.5,
-    "mp": 12.6
-   }
+   ]
   },
   {
    "id": 8,
@@ -4001,12 +3966,7 @@
      "small_z1": 16.8,
      "small_ok1": true
     }
-   ],
-   "heic": {
-    "ok1": true,
-    "z1": 22.5,
-    "mp": 12.2
-   }
+   ]
   },
   {
    "id": 9,
@@ -4501,12 +4461,7 @@
      "small_z1": 7.9,
      "small_ok1": true
     }
-   ],
-   "heic": {
-    "ok1": true,
-    "z1": 17.5,
-    "mp": 12.2
-   }
+   ]
   },
   {
    "id": 10,
@@ -5001,12 +4956,7 @@
      "small_z1": 16.1,
      "small_ok1": true
     }
-   ],
-   "heic": {
-    "ok1": true,
-    "z1": 15.2,
-    "mp": 12.2
-   }
+   ]
   },
   {
    "id": 11,
@@ -5501,12 +5451,7 @@
      "small_z1": 25.2,
      "small_ok1": true
     }
-   ],
-   "heic": {
-    "ok1": true,
-    "z1": 22.1,
-    "mp": 12.6
-   }
+   ]
   },
   {
    "id": 12,
@@ -6001,12 +5946,7 @@
      "small_z1": 23.7,
      "small_ok1": true
     }
-   ],
-   "heic": {
-    "ok1": true,
-    "z1": 20.7,
-    "mp": 12.2
-   }
+   ]
   },
   {
    "id": 13,
@@ -6501,12 +6441,7 @@
      "small_z1": 13.7,
      "small_ok1": true
     }
-   ],
-   "heic": {
-    "ok1": true,
-    "z1": 26.6,
-    "mp": 12.6
-   }
+   ]
   },
   {
    "id": 14,
@@ -7001,12 +6936,7 @@
      "small_z1": 17.7,
      "small_ok1": true
     }
-   ],
-   "heic": {
-    "ok1": true,
-    "z1": 19.5,
-    "mp": 12.6
-   }
+   ]
   },
   {
    "id": 15,
@@ -7501,12 +7431,7 @@
      "small_z1": 16.2,
      "small_ok1": true
     }
-   ],
-   "heic": {
-    "ok1": true,
-    "z1": 24.1,
-    "mp": 12.6
-   }
+   ]
   },
   {
    "id": 16,
@@ -8001,12 +7926,7 @@
      "small_z1": 17.0,
      "small_ok1": true
     }
-   ],
-   "heic": {
-    "ok1": true,
-    "z1": 21.7,
-    "mp": 18.4
-   }
+   ]
   },
   {
    "id": 17,
@@ -8501,12 +8421,7 @@
      "small_z1": 20.6,
      "small_ok1": true
     }
-   ],
-   "heic": {
-    "ok1": true,
-    "z1": 20.4,
-    "mp": 18.4
-   }
+   ]
   },
   {
    "id": 18,
@@ -11477,7 +11392,8422 @@
      "small_ok1": true
     }
    ]
+  },
+  {
+   "id": 24,
+   "file": "Photos for Testing (1)-1.jpg",
+   "make": "Apple",
+   "model": "iPhone 17 Pro",
+   "w": 3072,
+   "h": 4096,
+   "mp": 12.6,
+   "embed_ms": 390,
+   "psnr": 42.26,
+   "ssim": 0.99782,
+   "dE": 1.427,
+   "mean_change": 1.343,
+   "max_change": 9,
+   "p_ge3": 28.43,
+   "bytes_added_pct": 2.6,
+   "texture": 0.553,
+   "luma": 141.0,
+   "read_full_ms": 346,
+   "attacks": [
+    {
+     "name": "Stored JPEG q95 (full size)",
+     "status": "ok",
+     "z1": 25.5,
+     "z2": 8.8,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 288
+    },
+    {
+     "name": "Chat app: 1600 px, q70",
+     "status": "ok",
+     "z1": 22.5,
+     "z2": 8.1,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 207
+    },
+    {
+     "name": "Social: 1080 px, q50",
+     "status": "ok",
+     "z1": 15.4,
+     "z2": 7.5,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 128
+    },
+    {
+     "name": "Thumbnail: 800 px, q40",
+     "status": "ok",
+     "z1": 9.1,
+     "z2": 6.2,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 113
+    },
+    {
+     "name": "Tiny: 600 px, q50",
+     "status": "ok",
+     "z1": 6.5,
+     "z2": 6.2,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 100
+    },
+    {
+     "name": "Shared three times (1600 > 1280 > 1080)",
+     "status": "ok",
+     "z1": 12.5,
+     "z2": 7.3,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 124
+    },
+    {
+     "name": "Screenshot-style PNG, 1080 px",
+     "status": "ok",
+     "z1": 25.1,
+     "z2": 7.7,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 137
+    },
+    {
+     "name": "Brightness/contrast edit + 1600 q70",
+     "status": "ok",
+     "z1": 23.4,
+     "z2": 8.5,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 186
+    },
+    {
+     "name": "Colour drained to 40% + 1600 q70",
+     "status": "ok",
+     "z1": 16.7,
+     "z2": 9.3,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 187
+    },
+    {
+     "name": "Blur (sigma 1.2) + 1600 q70",
+     "status": "ok",
+     "z1": 21.0,
+     "z2": 7.1,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 199
+    },
+    {
+     "name": "25% of area painted over + 1600 q70",
+     "status": "ok",
+     "z1": 20.3,
+     "z2": 6.9,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 184
+    },
+    {
+     "name": "Black and white + 1600 q70",
+     "status": "part",
+     "z1": 0.0,
+     "z2": 8.1,
+     "ok1": false,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 312
+    },
+    {
+     "name": "CONTROL: unmarked photo, 1600 q70",
+     "status": "none",
+     "z1": 0.3,
+     "z2": 0.9,
+     "ok1": false,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 695
+    }
+   ],
+   "res_sweep": [
+    {
+     "L": 300,
+     "q": 70,
+     "z1": 4.0,
+     "z2": 1.0,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 300,
+     "q": 40,
+     "z1": 1.6,
+     "z2": 0.9,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 400,
+     "q": 70,
+     "z1": 6.3,
+     "z2": 2.1,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 400,
+     "q": 40,
+     "z1": -0.4,
+     "z2": 1.3,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 500,
+     "q": 70,
+     "z1": 9.8,
+     "z2": 3.9,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 500,
+     "q": 40,
+     "z1": 3.8,
+     "z2": 4.4,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 600,
+     "q": 70,
+     "z1": 12.4,
+     "z2": 6.2,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 600,
+     "q": 40,
+     "z1": 4.8,
+     "z2": 5.8,
+     "ok1": false,
+     "ok2": true
+    },
+    {
+     "L": 700,
+     "q": 70,
+     "z1": 14.1,
+     "z2": 6.2,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 700,
+     "q": 40,
+     "z1": 7.5,
+     "z2": 5.5,
+     "ok1": false,
+     "ok2": true
+    },
+    {
+     "L": 800,
+     "q": 70,
+     "z1": 16.0,
+     "z2": 6.6,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 800,
+     "q": 40,
+     "z1": 9.1,
+     "z2": 6.2,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1000,
+     "q": 70,
+     "z1": 19.2,
+     "z2": 7.2,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1000,
+     "q": 40,
+     "z1": 12.6,
+     "z2": 7.0,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1280,
+     "q": 70,
+     "z1": 20.6,
+     "z2": 7.6,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1280,
+     "q": 40,
+     "z1": 15.2,
+     "z2": 7.5,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1600,
+     "q": 70,
+     "z1": 22.5,
+     "z2": 8.1,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1600,
+     "q": 40,
+     "z1": 18.7,
+     "z2": 8.1,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 2000,
+     "q": 70,
+     "z1": 23.7,
+     "z2": 8.4,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 2000,
+     "q": 40,
+     "z1": 20.2,
+     "z2": 8.3,
+     "ok1": true,
+     "ok2": true
+    }
+   ],
+   "q_sweep": [
+    {
+     "q": 95,
+     "z1": 25.1,
+     "z2": 8.2,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 80,
+     "z1": 23.7,
+     "z2": 8.1,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 60,
+     "z1": 21.3,
+     "z2": 8.1,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 40,
+     "z1": 18.7,
+     "z2": 8.1,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 30,
+     "z1": 17.2,
+     "z2": 7.9,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 20,
+     "z1": 12.9,
+     "z2": 7.5,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 15,
+     "z1": 11.6,
+     "z2": 7.3,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 10,
+     "z1": 12.9,
+     "z2": 6.9,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 5,
+     "z1": 6.5,
+     "z2": 5.2,
+     "ok1": false,
+     "ok2": true
+    }
+   ],
+   "crops": [
+    {
+     "name": "centre 90%",
+     "area": 81,
+     "status": "ok",
+     "ok1": true,
+     "ok2": true,
+     "z1": 20.8,
+     "ms": 5979
+    },
+    {
+     "name": "centre 75%",
+     "area": 56,
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 15.8,
+     "ms": 5926
+    },
+    {
+     "name": "centre 60%",
+     "area": 36,
+     "status": "ok",
+     "ok1": true,
+     "ok2": true,
+     "z1": 12.6,
+     "ms": 5840
+    },
+    {
+     "name": "centre 45%",
+     "area": 20,
+     "status": "nocrop",
+     "ok1": false,
+     "ok2": false,
+     "z1": 0,
+     "ms": 10778
+    },
+    {
+     "name": "right 10% trimmed",
+     "area": 90,
+     "status": "ok",
+     "ok1": true,
+     "ok2": true,
+     "z1": 22.5,
+     "ms": 4064
+    },
+    {
+     "name": "top-left quarter",
+     "area": 25,
+     "status": "nocrop",
+     "ok1": false,
+     "ok2": false,
+     "z1": 0,
+     "ms": 10735
+    }
+   ],
+   "screen": [
+    {
+     "kind": "monitor",
+     "status": "ok",
+     "ok1": true,
+     "ok2": true,
+     "z1": 21.5,
+     "ms": 23817
+    },
+    {
+     "kind": "print",
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 17.0,
+     "ms": 23040
+    }
+   ],
+   "strength": [
+    {
+     "s": 0.5,
+     "psnr": 47.16,
+     "chat_z1": 15.0,
+     "chat_ok1": true,
+     "small_z1": 4.6,
+     "small_ok1": false
+    },
+    {
+     "s": 0.75,
+     "psnr": 44.47,
+     "chat_z1": 19.4,
+     "chat_ok1": true,
+     "small_z1": 7.2,
+     "small_ok1": false
+    },
+    {
+     "s": 1.0,
+     "psnr": 42.26,
+     "chat_z1": 22.5,
+     "chat_ok1": true,
+     "small_z1": 9.1,
+     "small_ok1": true
+    },
+    {
+     "s": 1.5,
+     "psnr": 38.95,
+     "chat_z1": 25.6,
+     "chat_ok1": true,
+     "small_z1": 13.3,
+     "small_ok1": true
+    },
+    {
+     "s": 2.0,
+     "psnr": 36.53,
+     "chat_z1": 27.3,
+     "chat_ok1": true,
+     "small_z1": 16.6,
+     "small_ok1": true
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "file": "Photos for Testing (2)-1.jpg",
+   "make": "Apple",
+   "model": "iPhone 17 Pro",
+   "w": 3024,
+   "h": 4032,
+   "mp": 12.2,
+   "embed_ms": 378,
+   "psnr": 42.99,
+   "ssim": 0.99774,
+   "dE": 1.258,
+   "mean_change": 1.193,
+   "max_change": 9,
+   "p_ge3": 23.43,
+   "bytes_added_pct": 2.3,
+   "texture": 0.4964,
+   "luma": 120.7,
+   "read_full_ms": 362,
+   "attacks": [
+    {
+     "name": "Stored JPEG q95 (full size)",
+     "status": "part",
+     "z1": 6.3,
+     "z2": 7.5,
+     "ok1": false,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 475
+    },
+    {
+     "name": "Chat app: 1600 px, q70",
+     "status": "part",
+     "z1": 5.8,
+     "z2": 7.3,
+     "ok1": false,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 442
+    },
+    {
+     "name": "Social: 1080 px, q50",
+     "status": "part",
+     "z1": 5.5,
+     "z2": 6.9,
+     "ok1": false,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 491
+    },
+    {
+     "name": "Thumbnail: 800 px, q40",
+     "status": "damaged",
+     "z1": 4.6,
+     "z2": 6.5,
+     "ok1": false,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 538
+    },
+    {
+     "name": "Tiny: 600 px, q50",
+     "status": "damaged",
+     "z1": 3.8,
+     "z2": 6.1,
+     "ok1": false,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 316
+    },
+    {
+     "name": "Shared three times (1600 > 1280 > 1080)",
+     "status": "damaged",
+     "z1": 4.8,
+     "z2": 6.8,
+     "ok1": false,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 441
+    },
+    {
+     "name": "Screenshot-style PNG, 1080 px",
+     "status": "part",
+     "z1": 6.2,
+     "z2": 7.0,
+     "ok1": false,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 206
+    },
+    {
+     "name": "Brightness/contrast edit + 1600 q70",
+     "status": "part",
+     "z1": 5.7,
+     "z2": 7.2,
+     "ok1": false,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 371
+    },
+    {
+     "name": "Colour drained to 40% + 1600 q70",
+     "status": "part",
+     "z1": 5.6,
+     "z2": 7.0,
+     "ok1": false,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 350
+    },
+    {
+     "name": "Blur (sigma 1.2) + 1600 q70",
+     "status": "part",
+     "z1": 5.8,
+     "z2": 6.9,
+     "ok1": false,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 332
+    },
+    {
+     "name": "25% of area painted over + 1600 q70",
+     "status": "damaged",
+     "z1": 5.0,
+     "z2": 6.1,
+     "ok1": false,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 680
+    },
+    {
+     "name": "Black and white + 1600 q70",
+     "status": "part",
+     "z1": 0.0,
+     "z2": 7.2,
+     "ok1": false,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 323
+    },
+    {
+     "name": "CONTROL: unmarked photo, 1600 q70",
+     "status": "none",
+     "z1": 1.5,
+     "z2": 2.0,
+     "ok1": false,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 617
+    }
+   ],
+   "res_sweep": [
+    {
+     "L": 300,
+     "q": 70,
+     "z1": 2.0,
+     "z2": 3.9,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 300,
+     "q": 40,
+     "z1": 2.2,
+     "z2": 3.2,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 400,
+     "q": 70,
+     "z1": 3.0,
+     "z2": 4.4,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 400,
+     "q": 40,
+     "z1": 2.1,
+     "z2": 3.9,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 500,
+     "q": 70,
+     "z1": 3.8,
+     "z2": 5.5,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 500,
+     "q": 40,
+     "z1": 3.1,
+     "z2": 5.4,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 600,
+     "q": 70,
+     "z1": 4.6,
+     "z2": 6.5,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 600,
+     "q": 40,
+     "z1": 3.3,
+     "z2": 6.3,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 700,
+     "q": 70,
+     "z1": 4.7,
+     "z2": 6.4,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 700,
+     "q": 40,
+     "z1": 4.6,
+     "z2": 6.0,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 800,
+     "q": 70,
+     "z1": 5.2,
+     "z2": 6.4,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 800,
+     "q": 40,
+     "z1": 4.6,
+     "z2": 6.5,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 1000,
+     "q": 70,
+     "z1": 5.5,
+     "z2": 7.0,
+     "ok1": false,
+     "ok2": true
+    },
+    {
+     "L": 1000,
+     "q": 40,
+     "z1": 5.1,
+     "z2": 6.8,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 1280,
+     "q": 70,
+     "z1": 5.9,
+     "z2": 7.0,
+     "ok1": false,
+     "ok2": true
+    },
+    {
+     "L": 1280,
+     "q": 40,
+     "z1": 5.6,
+     "z2": 7.2,
+     "ok1": false,
+     "ok2": true
+    },
+    {
+     "L": 1600,
+     "q": 70,
+     "z1": 5.8,
+     "z2": 7.3,
+     "ok1": false,
+     "ok2": true
+    },
+    {
+     "L": 1600,
+     "q": 40,
+     "z1": 5.5,
+     "z2": 7.2,
+     "ok1": false,
+     "ok2": true
+    },
+    {
+     "L": 2000,
+     "q": 70,
+     "z1": 5.9,
+     "z2": 7.2,
+     "ok1": false,
+     "ok2": true
+    },
+    {
+     "L": 2000,
+     "q": 40,
+     "z1": 6.0,
+     "z2": 7.3,
+     "ok1": false,
+     "ok2": true
+    }
+   ],
+   "q_sweep": [
+    {
+     "q": 95,
+     "z1": 6.1,
+     "z2": 7.3,
+     "ok1": false,
+     "ok2": true
+    },
+    {
+     "q": 80,
+     "z1": 6.0,
+     "z2": 7.3,
+     "ok1": false,
+     "ok2": true
+    },
+    {
+     "q": 60,
+     "z1": 5.7,
+     "z2": 7.2,
+     "ok1": false,
+     "ok2": true
+    },
+    {
+     "q": 40,
+     "z1": 5.5,
+     "z2": 7.2,
+     "ok1": false,
+     "ok2": true
+    },
+    {
+     "q": 30,
+     "z1": 5.9,
+     "z2": 7.2,
+     "ok1": false,
+     "ok2": true
+    },
+    {
+     "q": 20,
+     "z1": 5.2,
+     "z2": 7.1,
+     "ok1": false,
+     "ok2": true
+    },
+    {
+     "q": 15,
+     "z1": 4.7,
+     "z2": 7.0,
+     "ok1": false,
+     "ok2": true
+    },
+    {
+     "q": 10,
+     "z1": 4.4,
+     "z2": 6.9,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "q": 5,
+     "z1": 2.6,
+     "z2": 6.0,
+     "ok1": false,
+     "ok2": false
+    }
+   ],
+   "crops": [
+    {
+     "name": "centre 90%",
+     "area": 81,
+     "status": "nocrop",
+     "ok1": false,
+     "ok2": false,
+     "z1": 0,
+     "ms": 11636
+    },
+    {
+     "name": "centre 75%",
+     "area": 56,
+     "status": "nocrop",
+     "ok1": false,
+     "ok2": false,
+     "z1": 0,
+     "ms": 10831
+    },
+    {
+     "name": "centre 60%",
+     "area": 36,
+     "status": "nocrop",
+     "ok1": false,
+     "ok2": false,
+     "z1": 0,
+     "ms": 11034
+    },
+    {
+     "name": "centre 45%",
+     "area": 20,
+     "status": "nocrop",
+     "ok1": false,
+     "ok2": false,
+     "z1": 0,
+     "ms": 10302
+    },
+    {
+     "name": "right 10% trimmed",
+     "area": 90,
+     "status": "nocrop",
+     "ok1": false,
+     "ok2": false,
+     "z1": 0,
+     "ms": 10061
+    },
+    {
+     "name": "top-left quarter",
+     "area": 25,
+     "status": "nocrop",
+     "ok1": false,
+     "ok2": false,
+     "z1": 0,
+     "ms": 9623
+    }
+   ],
+   "screen": [
+    {
+     "kind": "monitor",
+     "status": "damaged",
+     "ok1": false,
+     "ok2": false,
+     "z1": 5.9,
+     "ms": 24787
+    },
+    {
+     "kind": "print",
+     "status": "damaged",
+     "ok1": false,
+     "ok2": false,
+     "z1": 5.9,
+     "ms": 23300
+    }
+   ],
+   "strength": [
+    {
+     "s": 0.5,
+     "psnr": 47.65,
+     "chat_z1": 3.3,
+     "chat_ok1": false,
+     "small_z1": 2.6,
+     "small_ok1": false
+    },
+    {
+     "s": 0.75,
+     "psnr": 45.14,
+     "chat_z1": 4.4,
+     "chat_ok1": false,
+     "small_z1": 3.6,
+     "small_ok1": false
+    },
+    {
+     "s": 1.0,
+     "psnr": 42.99,
+     "chat_z1": 5.8,
+     "chat_ok1": false,
+     "small_z1": 4.6,
+     "small_ok1": false
+    },
+    {
+     "s": 1.5,
+     "psnr": 39.72,
+     "chat_z1": 8.3,
+     "chat_ok1": false,
+     "small_z1": 6.5,
+     "small_ok1": false
+    },
+    {
+     "s": 2.0,
+     "psnr": 37.32,
+     "chat_z1": 10.7,
+     "chat_ok1": true,
+     "small_z1": 8.1,
+     "small_ok1": false
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "file": "Photos for Testing (3)-1.jpg",
+   "make": "Apple",
+   "model": "iPhone 17 Pro",
+   "w": 3072,
+   "h": 4096,
+   "mp": 12.6,
+   "embed_ms": 351,
+   "psnr": 41.3,
+   "ssim": 0.99652,
+   "dE": 1.537,
+   "mean_change": 1.517,
+   "max_change": 9,
+   "p_ge3": 34.76,
+   "bytes_added_pct": 1.8,
+   "texture": 0.5977,
+   "luma": 117.9,
+   "read_full_ms": 378,
+   "attacks": [
+    {
+     "name": "Stored JPEG q95 (full size)",
+     "status": "ok",
+     "z1": 7.7,
+     "z2": 6.9,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 254
+    },
+    {
+     "name": "Chat app: 1600 px, q70",
+     "status": "ok",
+     "z1": 6.8,
+     "z2": 6.5,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 226
+    },
+    {
+     "name": "Social: 1080 px, q50",
+     "status": "ok",
+     "z1": 5.5,
+     "z2": 5.7,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 363
+    },
+    {
+     "name": "Thumbnail: 800 px, q40",
+     "status": "damaged",
+     "z1": 4.1,
+     "z2": 5.5,
+     "ok1": false,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 311
+    },
+    {
+     "name": "Tiny: 600 px, q50",
+     "status": "damaged",
+     "z1": 3.8,
+     "z2": 5.0,
+     "ok1": false,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 272
+    },
+    {
+     "name": "Shared three times (1600 > 1280 > 1080)",
+     "status": "damaged",
+     "z1": 4.7,
+     "z2": 5.5,
+     "ok1": false,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 624
+    },
+    {
+     "name": "Screenshot-style PNG, 1080 px",
+     "status": "ok",
+     "z1": 7.5,
+     "z2": 6.1,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 332
+    },
+    {
+     "name": "Brightness/contrast edit + 1600 q70",
+     "status": "ok",
+     "z1": 6.5,
+     "z2": 6.9,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 188
+    },
+    {
+     "name": "Colour drained to 40% + 1600 q70",
+     "status": "part",
+     "z1": 5.8,
+     "z2": 6.3,
+     "ok1": false,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 346
+    },
+    {
+     "name": "Blur (sigma 1.2) + 1600 q70",
+     "status": "ok",
+     "z1": 6.7,
+     "z2": 5.7,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 548
+    },
+    {
+     "name": "25% of area painted over + 1600 q70",
+     "status": "damaged",
+     "z1": 4.6,
+     "z2": 4.3,
+     "ok1": false,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 686
+    },
+    {
+     "name": "Black and white + 1600 q70",
+     "status": "part",
+     "z1": 0.0,
+     "z2": 6.5,
+     "ok1": false,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 382
+    },
+    {
+     "name": "CONTROL: unmarked photo, 1600 q70",
+     "status": "none",
+     "z1": -0.3,
+     "z2": 1.2,
+     "ok1": false,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 732
+    }
+   ],
+   "res_sweep": [
+    {
+     "L": 300,
+     "q": 70,
+     "z1": 2.0,
+     "z2": 0.8,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 300,
+     "q": 40,
+     "z1": 1.7,
+     "z2": 0.3,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 400,
+     "q": 70,
+     "z1": 3.1,
+     "z2": 3.7,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 400,
+     "q": 40,
+     "z1": 2.0,
+     "z2": 3.3,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 500,
+     "q": 70,
+     "z1": 4.0,
+     "z2": 4.0,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 500,
+     "q": 40,
+     "z1": 2.4,
+     "z2": 3.5,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 600,
+     "q": 70,
+     "z1": 4.6,
+     "z2": 5.4,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 600,
+     "q": 40,
+     "z1": 4.0,
+     "z2": 5.3,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 700,
+     "q": 70,
+     "z1": 5.2,
+     "z2": 5.7,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 700,
+     "q": 40,
+     "z1": 4.4,
+     "z2": 5.3,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 800,
+     "q": 70,
+     "z1": 5.7,
+     "z2": 5.8,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 800,
+     "q": 40,
+     "z1": 4.1,
+     "z2": 5.5,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 1000,
+     "q": 70,
+     "z1": 5.8,
+     "z2": 5.7,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 1000,
+     "q": 40,
+     "z1": 4.5,
+     "z2": 5.6,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 1280,
+     "q": 70,
+     "z1": 6.5,
+     "z2": 6.2,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1280,
+     "q": 40,
+     "z1": 5.6,
+     "z2": 6.1,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 1600,
+     "q": 70,
+     "z1": 6.8,
+     "z2": 6.5,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1600,
+     "q": 40,
+     "z1": 6.1,
+     "z2": 6.4,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 2000,
+     "q": 70,
+     "z1": 7.2,
+     "z2": 6.5,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 2000,
+     "q": 40,
+     "z1": 6.5,
+     "z2": 6.4,
+     "ok1": true,
+     "ok2": true
+    }
+   ],
+   "q_sweep": [
+    {
+     "q": 95,
+     "z1": 7.6,
+     "z2": 6.6,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 80,
+     "z1": 7.2,
+     "z2": 6.5,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 60,
+     "z1": 6.6,
+     "z2": 6.5,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 40,
+     "z1": 6.1,
+     "z2": 6.4,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 30,
+     "z1": 6.1,
+     "z2": 6.4,
+     "ok1": false,
+     "ok2": true
+    },
+    {
+     "q": 20,
+     "z1": 5.7,
+     "z2": 6.4,
+     "ok1": false,
+     "ok2": true
+    },
+    {
+     "q": 15,
+     "z1": 5.1,
+     "z2": 6.3,
+     "ok1": false,
+     "ok2": true
+    },
+    {
+     "q": 10,
+     "z1": 4.8,
+     "z2": 6.0,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "q": 5,
+     "z1": 2.8,
+     "z2": 5.5,
+     "ok1": false,
+     "ok2": false
+    }
+   ],
+   "crops": [
+    {
+     "name": "centre 90%",
+     "area": 81,
+     "status": "nocrop",
+     "ok1": false,
+     "ok2": false,
+     "z1": 0,
+     "ms": 11763
+    },
+    {
+     "name": "centre 75%",
+     "area": 56,
+     "status": "nocrop",
+     "ok1": false,
+     "ok2": false,
+     "z1": 0,
+     "ms": 10828
+    },
+    {
+     "name": "centre 60%",
+     "area": 36,
+     "status": "nocrop",
+     "ok1": false,
+     "ok2": false,
+     "z1": 0,
+     "ms": 11184
+    },
+    {
+     "name": "centre 45%",
+     "area": 20,
+     "status": "nocrop",
+     "ok1": false,
+     "ok2": false,
+     "z1": 0,
+     "ms": 11596
+    },
+    {
+     "name": "right 10% trimmed",
+     "area": 90,
+     "status": "nocrop",
+     "ok1": false,
+     "ok2": false,
+     "z1": 0,
+     "ms": 9523
+    },
+    {
+     "name": "top-left quarter",
+     "area": 25,
+     "status": "nocrop",
+     "ok1": false,
+     "ok2": false,
+     "z1": 0,
+     "ms": 9664
+    }
+   ],
+   "screen": [
+    {
+     "kind": "monitor",
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 7.0,
+     "ms": 25071
+    },
+    {
+     "kind": "print",
+     "status": "damaged",
+     "ok1": false,
+     "ok2": false,
+     "z1": 6.4,
+     "ms": 24115
+    }
+   ],
+   "strength": [
+    {
+     "s": 0.5,
+     "psnr": 46.41,
+     "chat_z1": 3.1,
+     "chat_ok1": false,
+     "small_z1": 1.7,
+     "small_ok1": false
+    },
+    {
+     "s": 0.75,
+     "psnr": 43.57,
+     "chat_z1": 4.9,
+     "chat_ok1": false,
+     "small_z1": 2.9,
+     "small_ok1": false
+    },
+    {
+     "s": 1.0,
+     "psnr": 41.3,
+     "chat_z1": 6.8,
+     "chat_ok1": true,
+     "small_z1": 4.1,
+     "small_ok1": false
+    },
+    {
+     "s": 1.5,
+     "psnr": 37.96,
+     "chat_z1": 10.4,
+     "chat_ok1": true,
+     "small_z1": 6.5,
+     "small_ok1": true
+    },
+    {
+     "s": 2.0,
+     "psnr": 35.53,
+     "chat_z1": 13.6,
+     "chat_ok1": true,
+     "small_z1": 9.3,
+     "small_ok1": true
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "file": "Photos for Testing (4)-1.jpg",
+   "make": "Apple",
+   "model": "iPhone 17 Pro",
+   "w": 3072,
+   "h": 4096,
+   "mp": 12.6,
+   "embed_ms": 397,
+   "psnr": 41.62,
+   "ssim": 0.99743,
+   "dE": 1.575,
+   "mean_change": 1.487,
+   "max_change": 9,
+   "p_ge3": 33.34,
+   "bytes_added_pct": 2.2,
+   "texture": 0.5653,
+   "luma": 125.9,
+   "read_full_ms": 242,
+   "attacks": [
+    {
+     "name": "Stored JPEG q95 (full size)",
+     "status": "ok",
+     "z1": 27.3,
+     "z2": 12.4,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 320
+    },
+    {
+     "name": "Chat app: 1600 px, q70",
+     "status": "ok",
+     "z1": 24.6,
+     "z2": 11.8,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 240
+    },
+    {
+     "name": "Social: 1080 px, q50",
+     "status": "ok",
+     "z1": 16.2,
+     "z2": 11.0,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 142
+    },
+    {
+     "name": "Thumbnail: 800 px, q40",
+     "status": "ok",
+     "z1": 9.2,
+     "z2": 9.2,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 257
+    },
+    {
+     "name": "Tiny: 600 px, q50",
+     "status": "ok",
+     "z1": 7.5,
+     "z2": 8.1,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 99
+    },
+    {
+     "name": "Shared three times (1600 > 1280 > 1080)",
+     "status": "ok",
+     "z1": 12.7,
+     "z2": 10.6,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 168
+    },
+    {
+     "name": "Screenshot-style PNG, 1080 px",
+     "status": "ok",
+     "z1": 26.6,
+     "z2": 11.6,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 131
+    },
+    {
+     "name": "Brightness/contrast edit + 1600 q70",
+     "status": "ok",
+     "z1": 24.1,
+     "z2": 11.8,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 172
+    },
+    {
+     "name": "Colour drained to 40% + 1600 q70",
+     "status": "ok",
+     "z1": 16.8,
+     "z2": 11.9,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 190
+    },
+    {
+     "name": "Blur (sigma 1.2) + 1600 q70",
+     "status": "ok",
+     "z1": 23.1,
+     "z2": 10.1,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 179
+    },
+    {
+     "name": "25% of area painted over + 1600 q70",
+     "status": "ok",
+     "z1": 21.3,
+     "z2": 9.8,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 210
+    },
+    {
+     "name": "Black and white + 1600 q70",
+     "status": "part",
+     "z1": -0.0,
+     "z2": 11.8,
+     "ok1": false,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 340
+    },
+    {
+     "name": "CONTROL: unmarked photo, 1600 q70",
+     "status": "none",
+     "z1": 1.2,
+     "z2": 1.7,
+     "ok1": false,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 654
+    }
+   ],
+   "res_sweep": [
+    {
+     "L": 300,
+     "q": 70,
+     "z1": 3.8,
+     "z2": 1.1,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 300,
+     "q": 40,
+     "z1": 1.3,
+     "z2": 1.0,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 400,
+     "q": 70,
+     "z1": 7.1,
+     "z2": 4.1,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 400,
+     "q": 40,
+     "z1": 2.2,
+     "z2": 2.6,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 500,
+     "q": 70,
+     "z1": 9.4,
+     "z2": 6.5,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 500,
+     "q": 40,
+     "z1": 3.6,
+     "z2": 4.9,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 600,
+     "q": 70,
+     "z1": 12.7,
+     "z2": 8.6,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 600,
+     "q": 40,
+     "z1": 4.8,
+     "z2": 7.8,
+     "ok1": false,
+     "ok2": true
+    },
+    {
+     "L": 700,
+     "q": 70,
+     "z1": 14.6,
+     "z2": 9.0,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 700,
+     "q": 40,
+     "z1": 8.6,
+     "z2": 8.6,
+     "ok1": false,
+     "ok2": true
+    },
+    {
+     "L": 800,
+     "q": 70,
+     "z1": 17.3,
+     "z2": 10.0,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 800,
+     "q": 40,
+     "z1": 9.2,
+     "z2": 9.2,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 1000,
+     "q": 70,
+     "z1": 20.1,
+     "z2": 10.7,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1000,
+     "q": 40,
+     "z1": 12.7,
+     "z2": 10.5,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1280,
+     "q": 70,
+     "z1": 22.9,
+     "z2": 11.4,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1280,
+     "q": 40,
+     "z1": 15.9,
+     "z2": 11.2,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1600,
+     "q": 70,
+     "z1": 24.6,
+     "z2": 11.8,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1600,
+     "q": 40,
+     "z1": 19.3,
+     "z2": 11.5,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 2000,
+     "q": 70,
+     "z1": 25.1,
+     "z2": 12.0,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 2000,
+     "q": 40,
+     "z1": 21.9,
+     "z2": 11.9,
+     "ok1": true,
+     "ok2": true
+    }
+   ],
+   "q_sweep": [
+    {
+     "q": 95,
+     "z1": 27.1,
+     "z2": 11.8,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 80,
+     "z1": 25.7,
+     "z2": 11.8,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 60,
+     "z1": 23.3,
+     "z2": 11.6,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 40,
+     "z1": 19.3,
+     "z2": 11.5,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 30,
+     "z1": 17.0,
+     "z2": 11.6,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 20,
+     "z1": 16.0,
+     "z2": 11.4,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 15,
+     "z1": 13.4,
+     "z2": 11.2,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 10,
+     "z1": 13.3,
+     "z2": 10.5,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 5,
+     "z1": 6.0,
+     "z2": 8.9,
+     "ok1": false,
+     "ok2": true
+    }
+   ],
+   "crops": [
+    {
+     "name": "centre 90%",
+     "area": 81,
+     "status": "ok",
+     "ok1": true,
+     "ok2": true,
+     "z1": 21.4,
+     "ms": 6544
+    },
+    {
+     "name": "centre 75%",
+     "area": 56,
+     "status": "ok",
+     "ok1": true,
+     "ok2": true,
+     "z1": 17.1,
+     "ms": 5679
+    },
+    {
+     "name": "centre 60%",
+     "area": 36,
+     "status": "ok",
+     "ok1": true,
+     "ok2": true,
+     "z1": 13.9,
+     "ms": 5858
+    },
+    {
+     "name": "centre 45%",
+     "area": 20,
+     "status": "nocrop",
+     "ok1": false,
+     "ok2": false,
+     "z1": 0,
+     "ms": 10993
+    },
+    {
+     "name": "right 10% trimmed",
+     "area": 90,
+     "status": "ok",
+     "ok1": true,
+     "ok2": true,
+     "z1": 23.1,
+     "ms": 4023
+    },
+    {
+     "name": "top-left quarter",
+     "area": 25,
+     "status": "nocrop",
+     "ok1": false,
+     "ok2": false,
+     "z1": 0,
+     "ms": 11111
+    }
+   ],
+   "screen": [
+    {
+     "kind": "monitor",
+     "status": "ok",
+     "ok1": true,
+     "ok2": true,
+     "z1": 22.6,
+     "ms": 23259
+    },
+    {
+     "kind": "print",
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 19.3,
+     "ms": 22746
+    }
+   ],
+   "strength": [
+    {
+     "s": 0.5,
+     "psnr": 46.69,
+     "chat_z1": 16.5,
+     "chat_ok1": true,
+     "small_z1": 5.0,
+     "small_ok1": false
+    },
+    {
+     "s": 0.75,
+     "psnr": 43.87,
+     "chat_z1": 21.2,
+     "chat_ok1": true,
+     "small_z1": 7.3,
+     "small_ok1": false
+    },
+    {
+     "s": 1.0,
+     "psnr": 41.62,
+     "chat_z1": 24.6,
+     "chat_ok1": true,
+     "small_z1": 9.2,
+     "small_ok1": true
+    },
+    {
+     "s": 1.5,
+     "psnr": 38.29,
+     "chat_z1": 27.4,
+     "chat_ok1": true,
+     "small_z1": 14.2,
+     "small_ok1": true
+    },
+    {
+     "s": 2.0,
+     "psnr": 35.85,
+     "chat_z1": 28.6,
+     "chat_ok1": true,
+     "small_z1": 16.8,
+     "small_ok1": true
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "file": "Photos for Testing (5)-1.jpg",
+   "make": "Apple",
+   "model": "iPhone 17 Pro",
+   "w": 3072,
+   "h": 4096,
+   "mp": 12.6,
+   "embed_ms": 335,
+   "psnr": 42.98,
+   "ssim": 0.99566,
+   "dE": 1.226,
+   "mean_change": 1.177,
+   "max_change": 9,
+   "p_ge3": 22.56,
+   "bytes_added_pct": 3.2,
+   "texture": 0.4737,
+   "luma": 135.7,
+   "read_full_ms": 1254,
+   "attacks": [
+    {
+     "name": "Stored JPEG q95 (full size)",
+     "status": "ok",
+     "z1": 22.5,
+     "z2": 3.5,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 751
+    },
+    {
+     "name": "Chat app: 1600 px, q70",
+     "status": "ok",
+     "z1": 19.9,
+     "z2": 3.0,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 533
+    },
+    {
+     "name": "Social: 1080 px, q50",
+     "status": "ok",
+     "z1": 14.7,
+     "z2": 2.6,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 311
+    },
+    {
+     "name": "Thumbnail: 800 px, q40",
+     "status": "ok",
+     "z1": 9.6,
+     "z2": 1.7,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 269
+    },
+    {
+     "name": "Tiny: 600 px, q50",
+     "status": "damaged",
+     "z1": 7.3,
+     "z2": 1.9,
+     "ok1": false,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 235
+    },
+    {
+     "name": "Shared three times (1600 > 1280 > 1080)",
+     "status": "ok",
+     "z1": 12.5,
+     "z2": 2.6,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 331
+    },
+    {
+     "name": "Screenshot-style PNG, 1080 px",
+     "status": "ok",
+     "z1": 21.9,
+     "z2": 3.1,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 332
+    },
+    {
+     "name": "Brightness/contrast edit + 1600 q70",
+     "status": "ok",
+     "z1": 19.0,
+     "z2": 2.6,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 545
+    },
+    {
+     "name": "Colour drained to 40% + 1600 q70",
+     "status": "ok",
+     "z1": 14.8,
+     "z2": 3.0,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 571
+    },
+    {
+     "name": "Blur (sigma 1.2) + 1600 q70",
+     "status": "ok",
+     "z1": 19.1,
+     "z2": 2.3,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 576
+    },
+    {
+     "name": "25% of area painted over + 1600 q70",
+     "status": "ok",
+     "z1": 16.3,
+     "z2": 1.4,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 549
+    },
+    {
+     "name": "Black and white + 1600 q70",
+     "status": "none",
+     "z1": 0.0,
+     "z2": 3.1,
+     "ok1": false,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 718
+    },
+    {
+     "name": "CONTROL: unmarked photo, 1600 q70",
+     "status": "none",
+     "z1": 1.7,
+     "z2": 0.6,
+     "ok1": false,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 711
+    }
+   ],
+   "res_sweep": [
+    {
+     "L": 300,
+     "q": 70,
+     "z1": 4.6,
+     "z2": 2.2,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 300,
+     "q": 40,
+     "z1": 1.3,
+     "z2": 1.6,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 400,
+     "q": 70,
+     "z1": 6.2,
+     "z2": 0.7,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 400,
+     "q": 40,
+     "z1": 3.4,
+     "z2": 0.6,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 500,
+     "q": 70,
+     "z1": 8.7,
+     "z2": 1.8,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 500,
+     "q": 40,
+     "z1": 4.9,
+     "z2": 2.0,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 600,
+     "q": 70,
+     "z1": 9.9,
+     "z2": 2.4,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 600,
+     "q": 40,
+     "z1": 7.8,
+     "z2": 1.8,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 700,
+     "q": 70,
+     "z1": 12.6,
+     "z2": 2.5,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 700,
+     "q": 40,
+     "z1": 8.9,
+     "z2": 2.4,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 800,
+     "q": 70,
+     "z1": 14.3,
+     "z2": 1.9,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 800,
+     "q": 40,
+     "z1": 9.6,
+     "z2": 1.7,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 1000,
+     "q": 70,
+     "z1": 17.2,
+     "z2": 2.7,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 1000,
+     "q": 40,
+     "z1": 12.1,
+     "z2": 2.4,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 1280,
+     "q": 70,
+     "z1": 19.0,
+     "z2": 3.0,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 1280,
+     "q": 40,
+     "z1": 14.2,
+     "z2": 2.7,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 1600,
+     "q": 70,
+     "z1": 19.9,
+     "z2": 3.0,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 1600,
+     "q": 40,
+     "z1": 16.7,
+     "z2": 2.8,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 2000,
+     "q": 70,
+     "z1": 20.8,
+     "z2": 3.2,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 2000,
+     "q": 40,
+     "z1": 18.8,
+     "z2": 3.2,
+     "ok1": true,
+     "ok2": false
+    }
+   ],
+   "q_sweep": [
+    {
+     "q": 95,
+     "z1": 22.1,
+     "z2": 3.1,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 80,
+     "z1": 21.0,
+     "z2": 3.0,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 60,
+     "z1": 18.5,
+     "z2": 2.9,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 40,
+     "z1": 16.7,
+     "z2": 2.8,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 30,
+     "z1": 15.5,
+     "z2": 2.7,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 20,
+     "z1": 13.8,
+     "z2": 2.6,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 15,
+     "z1": 10.7,
+     "z2": 2.7,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 10,
+     "z1": 10.3,
+     "z2": 2.0,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 5,
+     "z1": 3.6,
+     "z2": 2.2,
+     "ok1": false,
+     "ok2": false
+    }
+   ],
+   "crops": [
+    {
+     "name": "centre 90%",
+     "area": 81,
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 17.7,
+     "ms": 6059
+    },
+    {
+     "name": "centre 75%",
+     "area": 56,
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 15.1,
+     "ms": 5738
+    },
+    {
+     "name": "centre 60%",
+     "area": 36,
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 12.9,
+     "ms": 5572
+    },
+    {
+     "name": "centre 45%",
+     "area": 20,
+     "status": "nocrop",
+     "ok1": false,
+     "ok2": false,
+     "z1": 0,
+     "ms": 11761
+    },
+    {
+     "name": "right 10% trimmed",
+     "area": 90,
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 19.0,
+     "ms": 3931
+    },
+    {
+     "name": "top-left quarter",
+     "area": 25,
+     "status": "nocrop",
+     "ok1": false,
+     "ok2": false,
+     "z1": 0,
+     "ms": 10993
+    }
+   ],
+   "screen": [
+    {
+     "kind": "monitor",
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 19.2,
+     "ms": 23593
+    },
+    {
+     "kind": "print",
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 15.8,
+     "ms": 22769
+    }
+   ],
+   "strength": [
+    {
+     "s": 0.5,
+     "psnr": 47.61,
+     "chat_z1": 13.4,
+     "chat_ok1": true,
+     "small_z1": 5.7,
+     "small_ok1": false
+    },
+    {
+     "s": 0.75,
+     "psnr": 45.11,
+     "chat_z1": 17.1,
+     "chat_ok1": true,
+     "small_z1": 7.5,
+     "small_ok1": false
+    },
+    {
+     "s": 1.0,
+     "psnr": 42.98,
+     "chat_z1": 19.9,
+     "chat_ok1": true,
+     "small_z1": 9.6,
+     "small_ok1": true
+    },
+    {
+     "s": 1.5,
+     "psnr": 39.73,
+     "chat_z1": 23.4,
+     "chat_ok1": true,
+     "small_z1": 12.8,
+     "small_ok1": true
+    },
+    {
+     "s": 2.0,
+     "psnr": 37.36,
+     "chat_z1": 24.7,
+     "chat_ok1": true,
+     "small_z1": 15.3,
+     "small_ok1": true
+    }
+   ]
+  },
+  {
+   "id": 29,
+   "file": "Photos for Testing (6)-1.jpg",
+   "make": "Apple",
+   "model": "iPhone 17 Pro",
+   "w": 3072,
+   "h": 4096,
+   "mp": 12.6,
+   "embed_ms": 388,
+   "psnr": 41.88,
+   "ssim": 0.99662,
+   "dE": 1.332,
+   "mean_change": 1.332,
+   "max_change": 9,
+   "p_ge3": 27.72,
+   "bytes_added_pct": 2.6,
+   "texture": 0.4981,
+   "luma": 140.3,
+   "read_full_ms": 471,
+   "attacks": [
+    {
+     "name": "Stored JPEG q95 (full size)",
+     "status": "ok",
+     "z1": 25.9,
+     "z2": 9.2,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 249
+    },
+    {
+     "name": "Chat app: 1600 px, q70",
+     "status": "ok",
+     "z1": 22.7,
+     "z2": 8.7,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 204
+    },
+    {
+     "name": "Social: 1080 px, q50",
+     "status": "ok",
+     "z1": 15.6,
+     "z2": 8.0,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 122
+    },
+    {
+     "name": "Thumbnail: 800 px, q40",
+     "status": "ok",
+     "z1": 9.3,
+     "z2": 6.8,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 249
+    },
+    {
+     "name": "Tiny: 600 px, q50",
+     "status": "ok",
+     "z1": 7.5,
+     "z2": 5.6,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 244
+    },
+    {
+     "name": "Shared three times (1600 > 1280 > 1080)",
+     "status": "ok",
+     "z1": 12.7,
+     "z2": 7.4,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 358
+    },
+    {
+     "name": "Screenshot-style PNG, 1080 px",
+     "status": "ok",
+     "z1": 25.4,
+     "z2": 8.3,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 171
+    },
+    {
+     "name": "Brightness/contrast edit + 1600 q70",
+     "status": "ok",
+     "z1": 23.3,
+     "z2": 8.5,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 182
+    },
+    {
+     "name": "Colour drained to 40% + 1600 q70",
+     "status": "ok",
+     "z1": 17.4,
+     "z2": 8.7,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 198
+    },
+    {
+     "name": "Blur (sigma 1.2) + 1600 q70",
+     "status": "ok",
+     "z1": 21.4,
+     "z2": 7.4,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 511
+    },
+    {
+     "name": "25% of area painted over + 1600 q70",
+     "status": "ok",
+     "z1": 20.0,
+     "z2": 7.9,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 216
+    },
+    {
+     "name": "Black and white + 1600 q70",
+     "status": "part",
+     "z1": 0.0,
+     "z2": 8.8,
+     "ok1": false,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 334
+    },
+    {
+     "name": "CONTROL: unmarked photo, 1600 q70",
+     "status": "none",
+     "z1": 1.1,
+     "z2": 1.5,
+     "ok1": false,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 712
+    }
+   ],
+   "res_sweep": [
+    {
+     "L": 300,
+     "q": 70,
+     "z1": 3.5,
+     "z2": 2.4,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 300,
+     "q": 40,
+     "z1": 0.4,
+     "z2": 1.0,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 400,
+     "q": 70,
+     "z1": 5.5,
+     "z2": 3.5,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 400,
+     "q": 40,
+     "z1": 2.5,
+     "z2": 3.1,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 500,
+     "q": 70,
+     "z1": 9.3,
+     "z2": 4.3,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 500,
+     "q": 40,
+     "z1": 4.3,
+     "z2": 3.8,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 600,
+     "q": 70,
+     "z1": 12.2,
+     "z2": 6.2,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 600,
+     "q": 40,
+     "z1": 5.3,
+     "z2": 5.6,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 700,
+     "q": 70,
+     "z1": 14.4,
+     "z2": 7.2,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 700,
+     "q": 40,
+     "z1": 6.7,
+     "z2": 6.4,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 800,
+     "q": 70,
+     "z1": 16.7,
+     "z2": 7.5,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 800,
+     "q": 40,
+     "z1": 9.3,
+     "z2": 6.8,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 1000,
+     "q": 70,
+     "z1": 19.1,
+     "z2": 7.6,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1000,
+     "q": 40,
+     "z1": 11.4,
+     "z2": 7.4,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1280,
+     "q": 70,
+     "z1": 21.6,
+     "z2": 8.7,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1280,
+     "q": 40,
+     "z1": 14.5,
+     "z2": 8.5,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1600,
+     "q": 70,
+     "z1": 22.7,
+     "z2": 8.7,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1600,
+     "q": 40,
+     "z1": 17.9,
+     "z2": 8.7,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 2000,
+     "q": 70,
+     "z1": 23.6,
+     "z2": 8.6,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 2000,
+     "q": 40,
+     "z1": 20.1,
+     "z2": 8.6,
+     "ok1": true,
+     "ok2": true
+    }
+   ],
+   "q_sweep": [
+    {
+     "q": 95,
+     "z1": 25.5,
+     "z2": 8.9,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 80,
+     "z1": 24.2,
+     "z2": 8.8,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 60,
+     "z1": 21.9,
+     "z2": 8.8,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 40,
+     "z1": 17.9,
+     "z2": 8.7,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 30,
+     "z1": 17.1,
+     "z2": 8.7,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 20,
+     "z1": 12.7,
+     "z2": 8.4,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 15,
+     "z1": 11.5,
+     "z2": 8.0,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 10,
+     "z1": 12.9,
+     "z2": 7.3,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 5,
+     "z1": 5.8,
+     "z2": 6.4,
+     "ok1": false,
+     "ok2": false
+    }
+   ],
+   "crops": [
+    {
+     "name": "centre 90%",
+     "area": 81,
+     "status": "ok",
+     "ok1": true,
+     "ok2": true,
+     "z1": 19.4,
+     "ms": 5921
+    },
+    {
+     "name": "centre 75%",
+     "area": 56,
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 15.3,
+     "ms": 5811
+    },
+    {
+     "name": "centre 60%",
+     "area": 36,
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 12.8,
+     "ms": 5426
+    },
+    {
+     "name": "centre 45%",
+     "area": 20,
+     "status": "nocrop",
+     "ok1": false,
+     "ok2": false,
+     "z1": 0,
+     "ms": 11366
+    },
+    {
+     "name": "right 10% trimmed",
+     "area": 90,
+     "status": "ok",
+     "ok1": true,
+     "ok2": true,
+     "z1": 22.0,
+     "ms": 4351
+    },
+    {
+     "name": "top-left quarter",
+     "area": 25,
+     "status": "nocrop",
+     "ok1": false,
+     "ok2": false,
+     "z1": 0,
+     "ms": 10815
+    }
+   ],
+   "screen": [
+    {
+     "kind": "monitor",
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 20.7,
+     "ms": 23614
+    },
+    {
+     "kind": "print",
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 16.5,
+     "ms": 22932
+    }
+   ],
+   "strength": [
+    {
+     "s": 0.5,
+     "psnr": 46.78,
+     "chat_z1": 16.5,
+     "chat_ok1": true,
+     "small_z1": 5.0,
+     "small_ok1": false
+    },
+    {
+     "s": 0.75,
+     "psnr": 44.1,
+     "chat_z1": 20.4,
+     "chat_ok1": true,
+     "small_z1": 7.0,
+     "small_ok1": false
+    },
+    {
+     "s": 1.0,
+     "psnr": 41.88,
+     "chat_z1": 22.7,
+     "chat_ok1": true,
+     "small_z1": 9.3,
+     "small_ok1": true
+    },
+    {
+     "s": 1.5,
+     "psnr": 38.56,
+     "chat_z1": 25.3,
+     "chat_ok1": true,
+     "small_z1": 13.7,
+     "small_ok1": true
+    },
+    {
+     "s": 2.0,
+     "psnr": 36.14,
+     "chat_z1": 26.0,
+     "chat_ok1": true,
+     "small_z1": 15.8,
+     "small_ok1": true
+    }
+   ]
+  },
+  {
+   "id": 30,
+   "file": "Photos for Testing (7)-1.jpg",
+   "make": "Apple",
+   "model": "iPhone 17 Pro",
+   "w": 4096,
+   "h": 3072,
+   "mp": 12.6,
+   "embed_ms": 344,
+   "psnr": 44.69,
+   "ssim": 0.99055,
+   "dE": 1.042,
+   "mean_change": 0.941,
+   "max_change": 9,
+   "p_ge3": 14.11,
+   "bytes_added_pct": 3.2,
+   "texture": 0.3746,
+   "luma": 41.7,
+   "read_full_ms": 247,
+   "attacks": [
+    {
+     "name": "Stored JPEG q95 (full size)",
+     "status": "ok",
+     "z1": 21.4,
+     "z2": 7.2,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 342
+    },
+    {
+     "name": "Chat app: 1600 px, q70",
+     "status": "ok",
+     "z1": 17.4,
+     "z2": 6.7,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 657
+    },
+    {
+     "name": "Social: 1080 px, q50",
+     "status": "ok",
+     "z1": 12.4,
+     "z2": 6.3,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 336
+    },
+    {
+     "name": "Thumbnail: 800 px, q40",
+     "status": "damaged",
+     "z1": 7.7,
+     "z2": 5.1,
+     "ok1": false,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 295
+    },
+    {
+     "name": "Tiny: 600 px, q50",
+     "status": "damaged",
+     "z1": 5.6,
+     "z2": 3.5,
+     "ok1": false,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 252
+    },
+    {
+     "name": "Shared three times (1600 > 1280 > 1080)",
+     "status": "ok",
+     "z1": 8.9,
+     "z2": 5.5,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 351
+    },
+    {
+     "name": "Screenshot-style PNG, 1080 px",
+     "status": "ok",
+     "z1": 21.2,
+     "z2": 6.8,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 346
+    },
+    {
+     "name": "Brightness/contrast edit + 1600 q70",
+     "status": "ok",
+     "z1": 16.3,
+     "z2": 5.7,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 537
+    },
+    {
+     "name": "Colour drained to 40% + 1600 q70",
+     "status": "ok",
+     "z1": 13.0,
+     "z2": 6.7,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 193
+    },
+    {
+     "name": "Blur (sigma 1.2) + 1600 q70",
+     "status": "ok",
+     "z1": 16.6,
+     "z2": 5.3,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 527
+    },
+    {
+     "name": "25% of area painted over + 1600 q70",
+     "status": "ok",
+     "z1": 12.4,
+     "z2": 5.9,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 542
+    },
+    {
+     "name": "Black and white + 1600 q70",
+     "status": "part",
+     "z1": 0,
+     "z2": 6.7,
+     "ok1": false,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 381
+    },
+    {
+     "name": "CONTROL: unmarked photo, 1600 q70",
+     "status": "none",
+     "z1": 1.0,
+     "z2": 1.1,
+     "ok1": false,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 729
+    }
+   ],
+   "res_sweep": [
+    {
+     "L": 300,
+     "q": 70,
+     "z1": 2.8,
+     "z2": 2.0,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 300,
+     "q": 40,
+     "z1": 1.7,
+     "z2": 2.3,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 400,
+     "q": 70,
+     "z1": 4.2,
+     "z2": 2.3,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 400,
+     "q": 40,
+     "z1": 2.2,
+     "z2": 2.0,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 500,
+     "q": 70,
+     "z1": 5.7,
+     "z2": 4.0,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 500,
+     "q": 40,
+     "z1": 3.8,
+     "z2": 3.2,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 600,
+     "q": 70,
+     "z1": 8.5,
+     "z2": 4.4,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 600,
+     "q": 40,
+     "z1": 4.6,
+     "z2": 4.0,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 700,
+     "q": 70,
+     "z1": 10.9,
+     "z2": 5.3,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 700,
+     "q": 40,
+     "z1": 5.8,
+     "z2": 4.5,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 800,
+     "q": 70,
+     "z1": 11.7,
+     "z2": 5.5,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 800,
+     "q": 40,
+     "z1": 7.7,
+     "z2": 5.1,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 1000,
+     "q": 70,
+     "z1": 14.0,
+     "z2": 6.3,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 1000,
+     "q": 40,
+     "z1": 9.6,
+     "z2": 5.8,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 1280,
+     "q": 70,
+     "z1": 16.1,
+     "z2": 6.5,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1280,
+     "q": 40,
+     "z1": 12.4,
+     "z2": 6.1,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 1600,
+     "q": 70,
+     "z1": 17.4,
+     "z2": 6.7,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 1600,
+     "q": 40,
+     "z1": 14.6,
+     "z2": 6.7,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 2000,
+     "q": 70,
+     "z1": 18.6,
+     "z2": 7.0,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 2000,
+     "q": 40,
+     "z1": 16.1,
+     "z2": 6.9,
+     "ok1": true,
+     "ok2": true
+    }
+   ],
+   "q_sweep": [
+    {
+     "q": 95,
+     "z1": 21.1,
+     "z2": 6.8,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 80,
+     "z1": 19.1,
+     "z2": 6.9,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 60,
+     "z1": 18.0,
+     "z2": 6.7,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 40,
+     "z1": 14.6,
+     "z2": 6.7,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 30,
+     "z1": 13.4,
+     "z2": 6.6,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 20,
+     "z1": 12.1,
+     "z2": 6.3,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 15,
+     "z1": 6.6,
+     "z2": 5.8,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 10,
+     "z1": 7.3,
+     "z2": 5.6,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "q": 5,
+     "z1": 1.8,
+     "z2": 4.5,
+     "ok1": false,
+     "ok2": false
+    }
+   ],
+   "crops": [
+    {
+     "name": "centre 90%",
+     "area": 81,
+     "status": "ok",
+     "ok1": true,
+     "ok2": true,
+     "z1": 16.7,
+     "ms": 5213
+    },
+    {
+     "name": "centre 75%",
+     "area": 56,
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 15.7,
+     "ms": 5276
+    },
+    {
+     "name": "centre 60%",
+     "area": 36,
+     "status": "ok",
+     "ok1": true,
+     "ok2": true,
+     "z1": 14.2,
+     "ms": 5120
+    },
+    {
+     "name": "centre 45%",
+     "area": 20,
+     "status": "nocrop",
+     "ok1": false,
+     "ok2": false,
+     "z1": 0,
+     "ms": 11353
+    },
+    {
+     "name": "right 10% trimmed",
+     "area": 90,
+     "status": "ok",
+     "ok1": true,
+     "ok2": true,
+     "z1": 17.7,
+     "ms": 3987
+    },
+    {
+     "name": "top-left quarter",
+     "area": 25,
+     "status": "nocrop",
+     "ok1": false,
+     "ok2": false,
+     "z1": 0,
+     "ms": 10702
+    }
+   ],
+   "screen": [
+    {
+     "kind": "monitor",
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 15.5,
+     "ms": 25201
+    },
+    {
+     "kind": "print",
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 13.2,
+     "ms": 24688
+    }
+   ],
+   "strength": [
+    {
+     "s": 0.5,
+     "psnr": 48.73,
+     "chat_z1": 12.6,
+     "chat_ok1": true,
+     "small_z1": 3.6,
+     "small_ok1": false
+    },
+    {
+     "s": 0.75,
+     "psnr": 46.65,
+     "chat_z1": 15.3,
+     "chat_ok1": true,
+     "small_z1": 5.2,
+     "small_ok1": false
+    },
+    {
+     "s": 1.0,
+     "psnr": 44.69,
+     "chat_z1": 17.4,
+     "chat_ok1": true,
+     "small_z1": 7.7,
+     "small_ok1": false
+    },
+    {
+     "s": 1.5,
+     "psnr": 41.56,
+     "chat_z1": 20.4,
+     "chat_ok1": true,
+     "small_z1": 10.3,
+     "small_ok1": true
+    },
+    {
+     "s": 2.0,
+     "psnr": 39.25,
+     "chat_z1": 21.7,
+     "chat_ok1": true,
+     "small_z1": 12.1,
+     "small_ok1": true
+    }
+   ]
+  },
+  {
+   "id": 31,
+   "file": "Photos for Testing (8)-1.jpg",
+   "make": "Apple",
+   "model": "iPhone 17 Pro",
+   "w": 3024,
+   "h": 4032,
+   "mp": 12.2,
+   "embed_ms": 360,
+   "psnr": 42.34,
+   "ssim": 0.99794,
+   "dE": 1.213,
+   "mean_change": 1.163,
+   "max_change": 9,
+   "p_ge3": 21.87,
+   "bytes_added_pct": 3.7,
+   "texture": 0.4525,
+   "luma": 160.6,
+   "read_full_ms": 199,
+   "attacks": [
+    {
+     "name": "Stored JPEG q95 (full size)",
+     "status": "ok",
+     "z1": 22.1,
+     "z2": 6.6,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 242
+    },
+    {
+     "name": "Chat app: 1600 px, q70",
+     "status": "ok",
+     "z1": 20.4,
+     "z2": 6.6,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 632
+    },
+    {
+     "name": "Social: 1080 px, q50",
+     "status": "ok",
+     "z1": 16.4,
+     "z2": 6.1,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 535
+    },
+    {
+     "name": "Thumbnail: 800 px, q40",
+     "status": "ok",
+     "z1": 10.3,
+     "z2": 5.7,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 287
+    },
+    {
+     "name": "Tiny: 600 px, q50",
+     "status": "ok",
+     "z1": 8.5,
+     "z2": 5.7,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 248
+    },
+    {
+     "name": "Shared three times (1600 > 1280 > 1080)",
+     "status": "ok",
+     "z1": 12.5,
+     "z2": 6.2,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 387
+    },
+    {
+     "name": "Screenshot-style PNG, 1080 px",
+     "status": "ok",
+     "z1": 22.1,
+     "z2": 6.5,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 343
+    },
+    {
+     "name": "Brightness/contrast edit + 1600 q70",
+     "status": "ok",
+     "z1": 19.6,
+     "z2": 6.3,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 543
+    },
+    {
+     "name": "Colour drained to 40% + 1600 q70",
+     "status": "ok",
+     "z1": 15.7,
+     "z2": 6.6,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 497
+    },
+    {
+     "name": "Blur (sigma 1.2) + 1600 q70",
+     "status": "ok",
+     "z1": 20.2,
+     "z2": 7.0,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 537
+    },
+    {
+     "name": "25% of area painted over + 1600 q70",
+     "status": "ok",
+     "z1": 15.4,
+     "z2": 4.4,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 512
+    },
+    {
+     "name": "Black and white + 1600 q70",
+     "status": "damaged",
+     "z1": -0.0,
+     "z2": 6.6,
+     "ok1": false,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 637
+    },
+    {
+     "name": "CONTROL: unmarked photo, 1600 q70",
+     "status": "none",
+     "z1": -0.7,
+     "z2": 1.9,
+     "ok1": false,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 944
+    }
+   ],
+   "res_sweep": [
+    {
+     "L": 300,
+     "q": 70,
+     "z1": 1.7,
+     "z2": 0.9,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 300,
+     "q": 40,
+     "z1": -0.1,
+     "z2": 1.8,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 400,
+     "q": 70,
+     "z1": 7.5,
+     "z2": 4.2,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 400,
+     "q": 40,
+     "z1": 2.0,
+     "z2": 3.1,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 500,
+     "q": 70,
+     "z1": 9.7,
+     "z2": 4.6,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 500,
+     "q": 40,
+     "z1": 4.6,
+     "z2": 4.6,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 600,
+     "q": 70,
+     "z1": 12.6,
+     "z2": 6.0,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 600,
+     "q": 40,
+     "z1": 6.5,
+     "z2": 5.2,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 700,
+     "q": 70,
+     "z1": 14.7,
+     "z2": 6.0,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 700,
+     "q": 40,
+     "z1": 8.4,
+     "z2": 5.4,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 800,
+     "q": 70,
+     "z1": 15.8,
+     "z2": 6.0,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 800,
+     "q": 40,
+     "z1": 10.3,
+     "z2": 5.7,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 1000,
+     "q": 70,
+     "z1": 17.7,
+     "z2": 6.2,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 1000,
+     "q": 40,
+     "z1": 12.3,
+     "z2": 6.0,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 1280,
+     "q": 70,
+     "z1": 19.2,
+     "z2": 6.4,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 1280,
+     "q": 40,
+     "z1": 16.0,
+     "z2": 6.4,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 1600,
+     "q": 70,
+     "z1": 20.4,
+     "z2": 6.6,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 1600,
+     "q": 40,
+     "z1": 17.1,
+     "z2": 6.5,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 2000,
+     "q": 70,
+     "z1": 20.9,
+     "z2": 6.6,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 2000,
+     "q": 40,
+     "z1": 18.7,
+     "z2": 6.5,
+     "ok1": true,
+     "ok2": false
+    }
+   ],
+   "q_sweep": [
+    {
+     "q": 95,
+     "z1": 22.0,
+     "z2": 6.7,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 80,
+     "z1": 20.7,
+     "z2": 6.6,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 60,
+     "z1": 18.8,
+     "z2": 6.6,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 40,
+     "z1": 17.1,
+     "z2": 6.5,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 30,
+     "z1": 14.7,
+     "z2": 6.6,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 20,
+     "z1": 12.9,
+     "z2": 6.6,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 15,
+     "z1": 13.7,
+     "z2": 6.5,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 10,
+     "z1": 6.1,
+     "z2": 6.4,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 5,
+     "z1": 11.5,
+     "z2": 6.0,
+     "ok1": true,
+     "ok2": false
+    }
+   ],
+   "crops": [
+    {
+     "name": "centre 90%",
+     "area": 81,
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 18.5,
+     "ms": 5952
+    },
+    {
+     "name": "centre 75%",
+     "area": 56,
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 17.0,
+     "ms": 5900
+    },
+    {
+     "name": "centre 60%",
+     "area": 36,
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 15.3,
+     "ms": 5514
+    },
+    {
+     "name": "centre 45%",
+     "area": 20,
+     "status": "nocrop",
+     "ok1": false,
+     "ok2": false,
+     "z1": 0,
+     "ms": 11277
+    },
+    {
+     "name": "right 10% trimmed",
+     "area": 90,
+     "status": "ok",
+     "ok1": true,
+     "ok2": true,
+     "z1": 20.0,
+     "ms": 4125
+    },
+    {
+     "name": "top-left quarter",
+     "area": 25,
+     "status": "nocrop",
+     "ok1": false,
+     "ok2": false,
+     "z1": 0,
+     "ms": 11550
+    }
+   ],
+   "screen": [
+    {
+     "kind": "monitor",
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 19.3,
+     "ms": 22265
+    },
+    {
+     "kind": "print",
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 16.3,
+     "ms": 23023
+    }
+   ],
+   "strength": [
+    {
+     "s": 0.5,
+     "psnr": 47.02,
+     "chat_z1": 16.1,
+     "chat_ok1": true,
+     "small_z1": 7.0,
+     "small_ok1": false
+    },
+    {
+     "s": 0.75,
+     "psnr": 44.47,
+     "chat_z1": 18.6,
+     "chat_ok1": true,
+     "small_z1": 8.6,
+     "small_ok1": false
+    },
+    {
+     "s": 1.0,
+     "psnr": 42.34,
+     "chat_z1": 20.4,
+     "chat_ok1": true,
+     "small_z1": 10.3,
+     "small_ok1": true
+    },
+    {
+     "s": 1.5,
+     "psnr": 39.02,
+     "chat_z1": 22.2,
+     "chat_ok1": true,
+     "small_z1": 13.0,
+     "small_ok1": true
+    },
+    {
+     "s": 2.0,
+     "psnr": 36.62,
+     "chat_z1": 23.1,
+     "chat_ok1": true,
+     "small_z1": 15.2,
+     "small_ok1": true
+    }
+   ]
+  },
+  {
+   "id": 32,
+   "file": "Photos for Testing (9)-1.jpg",
+   "make": "Apple",
+   "model": "iPhone 17 Pro",
+   "w": 3024,
+   "h": 4032,
+   "mp": 12.2,
+   "embed_ms": 872,
+   "psnr": 43.51,
+   "ssim": 0.9982,
+   "dE": 1.219,
+   "mean_change": 1.071,
+   "max_change": 9,
+   "p_ge3": 18.05,
+   "bytes_added_pct": 3.8,
+   "texture": 0.4274,
+   "luma": 52.7,
+   "read_full_ms": 208,
+   "attacks": [
+    {
+     "name": "Stored JPEG q95 (full size)",
+     "status": "ok",
+     "z1": 17.5,
+     "z2": 4.2,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 291
+    },
+    {
+     "name": "Chat app: 1600 px, q70",
+     "status": "ok",
+     "z1": 14.9,
+     "z2": 3.7,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 574
+    },
+    {
+     "name": "Social: 1080 px, q50",
+     "status": "ok",
+     "z1": 10.8,
+     "z2": 3.0,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 314
+    },
+    {
+     "name": "Thumbnail: 800 px, q40",
+     "status": "damaged",
+     "z1": 7.4,
+     "z2": 2.6,
+     "ok1": false,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 277
+    },
+    {
+     "name": "Tiny: 600 px, q50",
+     "status": "damaged",
+     "z1": 5.6,
+     "z2": 2.0,
+     "ok1": false,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 257
+    },
+    {
+     "name": "Shared three times (1600 > 1280 > 1080)",
+     "status": "ok",
+     "z1": 8.6,
+     "z2": 3.0,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 299
+    },
+    {
+     "name": "Screenshot-style PNG, 1080 px",
+     "status": "ok",
+     "z1": 17.1,
+     "z2": 3.5,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 304
+    },
+    {
+     "name": "Brightness/contrast edit + 1600 q70",
+     "status": "ok",
+     "z1": 15.5,
+     "z2": 3.8,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 567
+    },
+    {
+     "name": "Colour drained to 40% + 1600 q70",
+     "status": "ok",
+     "z1": 11.5,
+     "z2": 3.7,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 519
+    },
+    {
+     "name": "Blur (sigma 1.2) + 1600 q70",
+     "status": "ok",
+     "z1": 14.0,
+     "z2": 3.1,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 602
+    },
+    {
+     "name": "25% of area painted over + 1600 q70",
+     "status": "ok",
+     "z1": 10.4,
+     "z2": 2.4,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 589
+    },
+    {
+     "name": "Black and white + 1600 q70",
+     "status": "damaged",
+     "z1": 0,
+     "z2": 3.8,
+     "ok1": false,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 676
+    },
+    {
+     "name": "CONTROL: unmarked photo, 1600 q70",
+     "status": "none",
+     "z1": 1.0,
+     "z2": 1.3,
+     "ok1": false,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 741
+    }
+   ],
+   "res_sweep": [
+    {
+     "L": 300,
+     "q": 70,
+     "z1": 2.9,
+     "z2": 0.6,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 300,
+     "q": 40,
+     "z1": 1.5,
+     "z2": 1.0,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 400,
+     "q": 70,
+     "z1": 4.8,
+     "z2": 1.8,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 400,
+     "q": 40,
+     "z1": 2.2,
+     "z2": 1.1,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 500,
+     "q": 70,
+     "z1": 5.6,
+     "z2": 2.4,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 500,
+     "q": 40,
+     "z1": 3.4,
+     "z2": 2.0,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 600,
+     "q": 70,
+     "z1": 7.7,
+     "z2": 2.5,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 600,
+     "q": 40,
+     "z1": 3.7,
+     "z2": 1.8,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 700,
+     "q": 70,
+     "z1": 9.2,
+     "z2": 3.2,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 700,
+     "q": 40,
+     "z1": 6.5,
+     "z2": 2.7,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 800,
+     "q": 70,
+     "z1": 10.1,
+     "z2": 2.5,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 800,
+     "q": 40,
+     "z1": 7.4,
+     "z2": 2.6,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 1000,
+     "q": 70,
+     "z1": 12.0,
+     "z2": 3.7,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 1000,
+     "q": 40,
+     "z1": 8.4,
+     "z2": 3.5,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 1280,
+     "q": 70,
+     "z1": 13.7,
+     "z2": 3.7,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 1280,
+     "q": 40,
+     "z1": 11.4,
+     "z2": 3.7,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 1600,
+     "q": 70,
+     "z1": 14.9,
+     "z2": 3.7,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 1600,
+     "q": 40,
+     "z1": 12.8,
+     "z2": 3.6,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 2000,
+     "q": 70,
+     "z1": 15.7,
+     "z2": 4.0,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 2000,
+     "q": 40,
+     "z1": 13.5,
+     "z2": 3.9,
+     "ok1": true,
+     "ok2": false
+    }
+   ],
+   "q_sweep": [
+    {
+     "q": 95,
+     "z1": 17.2,
+     "z2": 3.8,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 80,
+     "z1": 15.9,
+     "z2": 3.7,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 60,
+     "z1": 14.7,
+     "z2": 3.7,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 40,
+     "z1": 12.8,
+     "z2": 3.6,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 30,
+     "z1": 11.0,
+     "z2": 3.6,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 20,
+     "z1": 10.3,
+     "z2": 3.5,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 15,
+     "z1": 7.5,
+     "z2": 3.4,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "q": 10,
+     "z1": 6.5,
+     "z2": 3.2,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "q": 5,
+     "z1": 3.1,
+     "z2": 3.2,
+     "ok1": false,
+     "ok2": false
+    }
+   ],
+   "crops": [
+    {
+     "name": "centre 90%",
+     "area": 81,
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 14.1,
+     "ms": 7096
+    },
+    {
+     "name": "centre 75%",
+     "area": 56,
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 13.3,
+     "ms": 6653
+    },
+    {
+     "name": "centre 60%",
+     "area": 36,
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 12.0,
+     "ms": 6134
+    },
+    {
+     "name": "centre 45%",
+     "area": 20,
+     "status": "nocrop",
+     "ok1": false,
+     "ok2": false,
+     "z1": 0,
+     "ms": 11568
+    },
+    {
+     "name": "right 10% trimmed",
+     "area": 90,
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 14.6,
+     "ms": 4432
+    },
+    {
+     "name": "top-left quarter",
+     "area": 25,
+     "status": "nocrop",
+     "ok1": false,
+     "ok2": false,
+     "z1": 0,
+     "ms": 13490
+    }
+   ],
+   "screen": [
+    {
+     "kind": "monitor",
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 13.5,
+     "ms": 27617
+    },
+    {
+     "kind": "print",
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 11.6,
+     "ms": 24755
+    }
+   ],
+   "strength": [
+    {
+     "s": 0.5,
+     "psnr": 47.98,
+     "chat_z1": 9.2,
+     "chat_ok1": true,
+     "small_z1": 4.4,
+     "small_ok1": false
+    },
+    {
+     "s": 0.75,
+     "psnr": 45.6,
+     "chat_z1": 12.2,
+     "chat_ok1": true,
+     "small_z1": 5.5,
+     "small_ok1": false
+    },
+    {
+     "s": 1.0,
+     "psnr": 43.51,
+     "chat_z1": 14.9,
+     "chat_ok1": true,
+     "small_z1": 7.4,
+     "small_ok1": false
+    },
+    {
+     "s": 1.5,
+     "psnr": 40.26,
+     "chat_z1": 18.7,
+     "chat_ok1": true,
+     "small_z1": 10.1,
+     "small_ok1": true
+    },
+    {
+     "s": 2.0,
+     "psnr": 37.86,
+     "chat_z1": 20.6,
+     "chat_ok1": true,
+     "small_z1": 12.4,
+     "small_ok1": true
+    }
+   ]
+  },
+  {
+   "id": 33,
+   "file": "Photos for Testing (10)-1.jpg",
+   "make": "Apple",
+   "model": "iPhone 17 Pro",
+   "w": 4032,
+   "h": 3024,
+   "mp": 12.2,
+   "embed_ms": 822,
+   "psnr": 47.06,
+   "ssim": 0.99691,
+   "dE": 0.922,
+   "mean_change": 0.719,
+   "max_change": 9,
+   "p_ge3": 6.85,
+   "bytes_added_pct": 9.0,
+   "texture": 0.3289,
+   "luma": 65.9,
+   "read_full_ms": 674,
+   "attacks": [
+    {
+     "name": "Stored JPEG q95 (full size)",
+     "status": "ok",
+     "z1": 15.1,
+     "z2": 3.6,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 812
+    },
+    {
+     "name": "Chat app: 1600 px, q70",
+     "status": "ok",
+     "z1": 12.4,
+     "z2": 3.5,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 513
+    },
+    {
+     "name": "Social: 1080 px, q50",
+     "status": "damaged",
+     "z1": 9.4,
+     "z2": 3.4,
+     "ok1": false,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 367
+    },
+    {
+     "name": "Thumbnail: 800 px, q40",
+     "status": "damaged",
+     "z1": 6.2,
+     "z2": 2.4,
+     "ok1": false,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 290
+    },
+    {
+     "name": "Tiny: 600 px, q50",
+     "status": "damaged",
+     "z1": 3.5,
+     "z2": 1.9,
+     "ok1": false,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 258
+    },
+    {
+     "name": "Shared three times (1600 > 1280 > 1080)",
+     "status": "damaged",
+     "z1": 7.5,
+     "z2": 3.3,
+     "ok1": false,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 433
+    },
+    {
+     "name": "Screenshot-style PNG, 1080 px",
+     "status": "ok",
+     "z1": 15.0,
+     "z2": 4.0,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 341
+    },
+    {
+     "name": "Brightness/contrast edit + 1600 q70",
+     "status": "ok",
+     "z1": 12.0,
+     "z2": 3.6,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 593
+    },
+    {
+     "name": "Colour drained to 40% + 1600 q70",
+     "status": "ok",
+     "z1": 9.5,
+     "z2": 3.5,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 610
+    },
+    {
+     "name": "Blur (sigma 1.2) + 1600 q70",
+     "status": "ok",
+     "z1": 12.4,
+     "z2": 3.2,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 517
+    },
+    {
+     "name": "25% of area painted over + 1600 q70",
+     "status": "ok",
+     "z1": 12.4,
+     "z2": 3.0,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 568
+    },
+    {
+     "name": "Black and white + 1600 q70",
+     "status": "damaged",
+     "z1": 0,
+     "z2": 3.5,
+     "ok1": false,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 685
+    },
+    {
+     "name": "CONTROL: unmarked photo, 1600 q70",
+     "status": "none",
+     "z1": 0.7,
+     "z2": 1.1,
+     "ok1": false,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 690
+    }
+   ],
+   "res_sweep": [
+    {
+     "L": 300,
+     "q": 70,
+     "z1": 2.9,
+     "z2": 1.4,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 300,
+     "q": 40,
+     "z1": 4.6,
+     "z2": 1.3,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 400,
+     "q": 70,
+     "z1": 2.7,
+     "z2": 1.7,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 400,
+     "q": 40,
+     "z1": 3.5,
+     "z2": 2.0,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 500,
+     "q": 70,
+     "z1": 4.2,
+     "z2": 2.2,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 500,
+     "q": 40,
+     "z1": 4.0,
+     "z2": 1.1,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 600,
+     "q": 70,
+     "z1": 7.0,
+     "z2": 2.1,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 600,
+     "q": 40,
+     "z1": 5.1,
+     "z2": 2.3,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 700,
+     "q": 70,
+     "z1": 6.6,
+     "z2": 2.9,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 700,
+     "q": 40,
+     "z1": 6.0,
+     "z2": 2.5,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 800,
+     "q": 70,
+     "z1": 7.3,
+     "z2": 2.9,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 800,
+     "q": 40,
+     "z1": 6.2,
+     "z2": 2.4,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 1000,
+     "q": 70,
+     "z1": 9.2,
+     "z2": 3.0,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 1000,
+     "q": 40,
+     "z1": 8.1,
+     "z2": 3.1,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 1280,
+     "q": 70,
+     "z1": 11.3,
+     "z2": 3.4,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 1280,
+     "q": 40,
+     "z1": 9.3,
+     "z2": 3.4,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 1600,
+     "q": 70,
+     "z1": 12.4,
+     "z2": 3.5,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 1600,
+     "q": 40,
+     "z1": 12.4,
+     "z2": 3.2,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 2000,
+     "q": 70,
+     "z1": 12.8,
+     "z2": 3.5,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 2000,
+     "q": 40,
+     "z1": 13.3,
+     "z2": 3.4,
+     "ok1": true,
+     "ok2": false
+    }
+   ],
+   "q_sweep": [
+    {
+     "q": 95,
+     "z1": 15.1,
+     "z2": 3.6,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 80,
+     "z1": 13.3,
+     "z2": 3.6,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 60,
+     "z1": 11.8,
+     "z2": 3.4,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 40,
+     "z1": 12.4,
+     "z2": 3.2,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 30,
+     "z1": 11.2,
+     "z2": 3.3,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 20,
+     "z1": 7.5,
+     "z2": 3.0,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 15,
+     "z1": 8.0,
+     "z2": 2.5,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "q": 10,
+     "z1": 7.5,
+     "z2": 2.2,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "q": 5,
+     "z1": 4.8,
+     "z2": 1.5,
+     "ok1": false,
+     "ok2": false
+    }
+   ],
+   "crops": [
+    {
+     "name": "centre 90%",
+     "area": 81,
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 9.2,
+     "ms": 6308
+    },
+    {
+     "name": "centre 75%",
+     "area": 56,
+     "status": "damaged",
+     "ok1": false,
+     "ok2": false,
+     "z1": 6.1,
+     "ms": 13139
+    },
+    {
+     "name": "centre 60%",
+     "area": 36,
+     "status": "nocrop",
+     "ok1": false,
+     "ok2": false,
+     "z1": 0,
+     "ms": 11731
+    },
+    {
+     "name": "centre 45%",
+     "area": 20,
+     "status": "nocrop",
+     "ok1": false,
+     "ok2": false,
+     "z1": 0,
+     "ms": 13374
+    },
+    {
+     "name": "right 10% trimmed",
+     "area": 90,
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 11.9,
+     "ms": 4576
+    },
+    {
+     "name": "top-left quarter",
+     "area": 25,
+     "status": "nocrop",
+     "ok1": false,
+     "ok2": false,
+     "z1": 0,
+     "ms": 12402
+    }
+   ],
+   "screen": [
+    {
+     "kind": "monitor",
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 11.3,
+     "ms": 28432
+    },
+    {
+     "kind": "print",
+     "status": "damaged",
+     "ok1": false,
+     "ok2": false,
+     "z1": 8.3,
+     "ms": 29074
+    }
+   ],
+   "strength": [
+    {
+     "s": 0.5,
+     "psnr": 49.94,
+     "chat_z1": 7.4,
+     "chat_ok1": true,
+     "small_z1": 3.5,
+     "small_ok1": false
+    },
+    {
+     "s": 0.75,
+     "psnr": 48.57,
+     "chat_z1": 10.2,
+     "chat_ok1": true,
+     "small_z1": 4.6,
+     "small_ok1": false
+    },
+    {
+     "s": 1.0,
+     "psnr": 47.06,
+     "chat_z1": 12.4,
+     "chat_ok1": true,
+     "small_z1": 6.2,
+     "small_ok1": false
+    },
+    {
+     "s": 1.5,
+     "psnr": 44.05,
+     "chat_z1": 16.4,
+     "chat_ok1": true,
+     "small_z1": 8.5,
+     "small_ok1": true
+    },
+    {
+     "s": 2.0,
+     "psnr": 41.82,
+     "chat_z1": 17.9,
+     "chat_ok1": true,
+     "small_z1": 10.1,
+     "small_ok1": true
+    }
+   ]
+  },
+  {
+   "id": 34,
+   "file": "Photos for Testing (11)-1.jpg",
+   "make": "Apple",
+   "model": "iPhone 17 Pro",
+   "w": 4096,
+   "h": 3072,
+   "mp": 12.6,
+   "embed_ms": 1552,
+   "psnr": 44.96,
+   "ssim": 0.99712,
+   "dE": 1.013,
+   "mean_change": 0.946,
+   "max_change": 9,
+   "p_ge3": 12.93,
+   "bytes_added_pct": 2.8,
+   "texture": 0.3596,
+   "luma": 77.8,
+   "read_full_ms": 300,
+   "attacks": [
+    {
+     "name": "Stored JPEG q95 (full size)",
+     "status": "ok",
+     "z1": 22.1,
+     "z2": 9.6,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 274
+    },
+    {
+     "name": "Chat app: 1600 px, q70",
+     "status": "ok",
+     "z1": 18.1,
+     "z2": 8.4,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 168
+    },
+    {
+     "name": "Social: 1080 px, q50",
+     "status": "ok",
+     "z1": 12.2,
+     "z2": 6.5,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 108
+    },
+    {
+     "name": "Thumbnail: 800 px, q40",
+     "status": "damaged",
+     "z1": 6.6,
+     "z2": 4.8,
+     "ok1": false,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 478
+    },
+    {
+     "name": "Tiny: 600 px, q50",
+     "status": "damaged",
+     "z1": 4.4,
+     "z2": 3.9,
+     "ok1": false,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 266
+    },
+    {
+     "name": "Shared three times (1600 > 1280 > 1080)",
+     "status": "ok",
+     "z1": 9.8,
+     "z2": 6.1,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 143
+    },
+    {
+     "name": "Screenshot-style PNG, 1080 px",
+     "status": "ok",
+     "z1": 21.8,
+     "z2": 7.5,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 128
+    },
+    {
+     "name": "Brightness/contrast edit + 1600 q70",
+     "status": "ok",
+     "z1": 16.9,
+     "z2": 7.9,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 178
+    },
+    {
+     "name": "Colour drained to 40% + 1600 q70",
+     "status": "ok",
+     "z1": 13.9,
+     "z2": 8.3,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 206
+    },
+    {
+     "name": "Blur (sigma 1.2) + 1600 q70",
+     "status": "ok",
+     "z1": 17.3,
+     "z2": 6.5,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 223
+    },
+    {
+     "name": "25% of area painted over + 1600 q70",
+     "status": "ok",
+     "z1": 13.9,
+     "z2": 6.3,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 215
+    },
+    {
+     "name": "Black and white + 1600 q70",
+     "status": "part",
+     "z1": 0.0,
+     "z2": 8.4,
+     "ok1": false,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 340
+    },
+    {
+     "name": "CONTROL: unmarked photo, 1600 q70",
+     "status": "none",
+     "z1": 1.6,
+     "z2": 1.8,
+     "ok1": false,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 708
+    }
+   ],
+   "res_sweep": [
+    {
+     "L": 300,
+     "q": 70,
+     "z1": 3.4,
+     "z2": 1.9,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 300,
+     "q": 40,
+     "z1": 1.7,
+     "z2": 1.9,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 400,
+     "q": 70,
+     "z1": 5.1,
+     "z2": 2.3,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 400,
+     "q": 40,
+     "z1": 1.2,
+     "z2": 1.6,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 500,
+     "q": 70,
+     "z1": 6.0,
+     "z2": 4.3,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 500,
+     "q": 40,
+     "z1": 3.4,
+     "z2": 3.8,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 600,
+     "q": 70,
+     "z1": 9.1,
+     "z2": 4.5,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 600,
+     "q": 40,
+     "z1": 4.0,
+     "z2": 3.8,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 700,
+     "q": 70,
+     "z1": 10.9,
+     "z2": 6.0,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 700,
+     "q": 40,
+     "z1": 4.7,
+     "z2": 4.8,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 800,
+     "q": 70,
+     "z1": 11.8,
+     "z2": 5.9,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 800,
+     "q": 40,
+     "z1": 6.6,
+     "z2": 4.8,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 1000,
+     "q": 70,
+     "z1": 14.5,
+     "z2": 7.3,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1000,
+     "q": 40,
+     "z1": 8.3,
+     "z2": 6.5,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1280,
+     "q": 70,
+     "z1": 17.0,
+     "z2": 7.6,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1280,
+     "q": 40,
+     "z1": 12.4,
+     "z2": 7.4,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1600,
+     "q": 70,
+     "z1": 18.1,
+     "z2": 8.4,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1600,
+     "q": 40,
+     "z1": 13.9,
+     "z2": 7.8,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 2000,
+     "q": 70,
+     "z1": 19.2,
+     "z2": 8.8,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 2000,
+     "q": 40,
+     "z1": 16.5,
+     "z2": 8.5,
+     "ok1": true,
+     "ok2": true
+    }
+   ],
+   "q_sweep": [
+    {
+     "q": 95,
+     "z1": 21.9,
+     "z2": 8.7,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 80,
+     "z1": 19.4,
+     "z2": 8.6,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 60,
+     "z1": 17.5,
+     "z2": 8.4,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 40,
+     "z1": 13.9,
+     "z2": 7.8,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 30,
+     "z1": 13.4,
+     "z2": 7.3,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 20,
+     "z1": 13.9,
+     "z2": 7.1,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 15,
+     "z1": 7.8,
+     "z2": 6.2,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 10,
+     "z1": 8.6,
+     "z2": 5.3,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "q": 5,
+     "z1": 0.8,
+     "z2": 3.2,
+     "ok1": false,
+     "ok2": false
+    }
+   ],
+   "crops": [
+    {
+     "name": "centre 90%",
+     "area": 81,
+     "status": "ok",
+     "ok1": true,
+     "ok2": true,
+     "z1": 17.1,
+     "ms": 6489
+    },
+    {
+     "name": "centre 75%",
+     "area": 56,
+     "status": "ok",
+     "ok1": true,
+     "ok2": true,
+     "z1": 14.6,
+     "ms": 6189
+    },
+    {
+     "name": "centre 60%",
+     "area": 36,
+     "status": "ok",
+     "ok1": true,
+     "ok2": true,
+     "z1": 13.7,
+     "ms": 5675
+    },
+    {
+     "name": "centre 45%",
+     "area": 20,
+     "status": "nocrop",
+     "ok1": false,
+     "ok2": false,
+     "z1": 0,
+     "ms": 12338
+    },
+    {
+     "name": "right 10% trimmed",
+     "area": 90,
+     "status": "ok",
+     "ok1": true,
+     "ok2": true,
+     "z1": 18.1,
+     "ms": 4276
+    },
+    {
+     "name": "top-left quarter",
+     "area": 25,
+     "status": "nocrop",
+     "ok1": false,
+     "ok2": false,
+     "z1": 0,
+     "ms": 13269
+    }
+   ],
+   "screen": [
+    {
+     "kind": "monitor",
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 16.9,
+     "ms": 29734
+    },
+    {
+     "kind": "print",
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 14.2,
+     "ms": 26970
+    }
+   ],
+   "strength": [
+    {
+     "s": 0.5,
+     "psnr": 49.0,
+     "chat_z1": 13.1,
+     "chat_ok1": true,
+     "small_z1": 2.7,
+     "small_ok1": false
+    },
+    {
+     "s": 0.75,
+     "psnr": 46.93,
+     "chat_z1": 15.9,
+     "chat_ok1": true,
+     "small_z1": 4.4,
+     "small_ok1": false
+    },
+    {
+     "s": 1.0,
+     "psnr": 44.96,
+     "chat_z1": 18.1,
+     "chat_ok1": true,
+     "small_z1": 6.6,
+     "small_ok1": false
+    },
+    {
+     "s": 1.5,
+     "psnr": 41.84,
+     "chat_z1": 21.1,
+     "chat_ok1": true,
+     "small_z1": 9.6,
+     "small_ok1": true
+    },
+    {
+     "s": 2.0,
+     "psnr": 39.5,
+     "chat_z1": 22.3,
+     "chat_ok1": true,
+     "small_z1": 11.2,
+     "small_ok1": true
+    }
+   ]
+  },
+  {
+   "id": 35,
+   "file": "Photos for Testing (12)-1.jpg",
+   "make": "Apple",
+   "model": "iPhone 17 Pro",
+   "w": 3024,
+   "h": 4032,
+   "mp": 12.2,
+   "embed_ms": 872,
+   "psnr": 45.92,
+   "ssim": 0.99834,
+   "dE": 0.915,
+   "mean_change": 0.827,
+   "max_change": 9,
+   "p_ge3": 9.61,
+   "bytes_added_pct": 3.6,
+   "texture": 0.3434,
+   "luma": 154.2,
+   "read_full_ms": 662,
+   "attacks": [
+    {
+     "name": "Stored JPEG q95 (full size)",
+     "status": "ok",
+     "z1": 20.7,
+     "z2": 4.1,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 723
+    },
+    {
+     "name": "Chat app: 1600 px, q70",
+     "status": "ok",
+     "z1": 15.9,
+     "z2": 4.0,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 636
+    },
+    {
+     "name": "Social: 1080 px, q50",
+     "status": "ok",
+     "z1": 11.0,
+     "z2": 3.7,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 328
+    },
+    {
+     "name": "Thumbnail: 800 px, q40",
+     "status": "damaged",
+     "z1": 6.2,
+     "z2": 3.6,
+     "ok1": false,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 303
+    },
+    {
+     "name": "Tiny: 600 px, q50",
+     "status": "damaged",
+     "z1": 5.2,
+     "z2": 2.8,
+     "ok1": false,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 230
+    },
+    {
+     "name": "Shared three times (1600 > 1280 > 1080)",
+     "status": "ok",
+     "z1": 7.9,
+     "z2": 3.5,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 351
+    },
+    {
+     "name": "Screenshot-style PNG, 1080 px",
+     "status": "ok",
+     "z1": 20.5,
+     "z2": 3.9,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 413
+    },
+    {
+     "name": "Brightness/contrast edit + 1600 q70",
+     "status": "ok",
+     "z1": 17.3,
+     "z2": 3.7,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 553
+    },
+    {
+     "name": "Colour drained to 40% + 1600 q70",
+     "status": "ok",
+     "z1": 12.2,
+     "z2": 4.2,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 528
+    },
+    {
+     "name": "Blur (sigma 1.2) + 1600 q70",
+     "status": "ok",
+     "z1": 15.7,
+     "z2": 3.7,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 526
+    },
+    {
+     "name": "25% of area painted over + 1600 q70",
+     "status": "ok",
+     "z1": 14.7,
+     "z2": 3.9,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 610
+    },
+    {
+     "name": "Black and white + 1600 q70",
+     "status": "damaged",
+     "z1": 0.0,
+     "z2": 4.1,
+     "ok1": false,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 665
+    },
+    {
+     "name": "CONTROL: unmarked photo, 1600 q70",
+     "status": "none",
+     "z1": 0.9,
+     "z2": -0.1,
+     "ok1": false,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 654
+    }
+   ],
+   "res_sweep": [
+    {
+     "L": 300,
+     "q": 70,
+     "z1": 2.9,
+     "z2": 0.7,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 300,
+     "q": 40,
+     "z1": -0.4,
+     "z2": 0.8,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 400,
+     "q": 70,
+     "z1": 2.3,
+     "z2": 2.6,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 400,
+     "q": 40,
+     "z1": 1.5,
+     "z2": 1.9,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 500,
+     "q": 70,
+     "z1": 5.5,
+     "z2": 2.0,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 500,
+     "q": 40,
+     "z1": 1.7,
+     "z2": 2.2,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 600,
+     "q": 70,
+     "z1": 7.7,
+     "z2": 3.2,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 600,
+     "q": 40,
+     "z1": 4.4,
+     "z2": 2.4,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 700,
+     "q": 70,
+     "z1": 8.6,
+     "z2": 3.2,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 700,
+     "q": 40,
+     "z1": 4.4,
+     "z2": 3.3,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 800,
+     "q": 70,
+     "z1": 11.0,
+     "z2": 3.8,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 800,
+     "q": 40,
+     "z1": 6.2,
+     "z2": 3.6,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 1000,
+     "q": 70,
+     "z1": 12.3,
+     "z2": 3.4,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 1000,
+     "q": 40,
+     "z1": 8.9,
+     "z2": 3.2,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 1280,
+     "q": 70,
+     "z1": 14.4,
+     "z2": 3.6,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 1280,
+     "q": 40,
+     "z1": 10.4,
+     "z2": 3.7,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 1600,
+     "q": 70,
+     "z1": 15.9,
+     "z2": 4.0,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 1600,
+     "q": 40,
+     "z1": 13.6,
+     "z2": 3.9,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 2000,
+     "q": 70,
+     "z1": 17.3,
+     "z2": 3.9,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 2000,
+     "q": 40,
+     "z1": 14.6,
+     "z2": 3.7,
+     "ok1": true,
+     "ok2": false
+    }
+   ],
+   "q_sweep": [
+    {
+     "q": 95,
+     "z1": 20.5,
+     "z2": 4.2,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 80,
+     "z1": 17.9,
+     "z2": 4.1,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 60,
+     "z1": 16.7,
+     "z2": 4.0,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 40,
+     "z1": 13.6,
+     "z2": 3.9,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 30,
+     "z1": 15.0,
+     "z2": 3.8,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 20,
+     "z1": 13.4,
+     "z2": 3.4,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 15,
+     "z1": 7.0,
+     "z2": 3.2,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 10,
+     "z1": 13.1,
+     "z2": 3.5,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 5,
+     "z1": 1.3,
+     "z2": 2.9,
+     "ok1": false,
+     "ok2": false
+    }
+   ],
+   "crops": [
+    {
+     "name": "centre 90%",
+     "area": 81,
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 14.0,
+     "ms": 6949
+    },
+    {
+     "name": "centre 75%",
+     "area": 56,
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 10.2,
+     "ms": 6265
+    },
+    {
+     "name": "centre 60%",
+     "area": 36,
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 9.3,
+     "ms": 5611
+    },
+    {
+     "name": "centre 45%",
+     "area": 20,
+     "status": "nocrop",
+     "ok1": false,
+     "ok2": false,
+     "z1": 0,
+     "ms": 12023
+    },
+    {
+     "name": "right 10% trimmed",
+     "area": 90,
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 15.1,
+     "ms": 4478
+    },
+    {
+     "name": "top-left quarter",
+     "area": 25,
+     "status": "nocrop",
+     "ok1": false,
+     "ok2": false,
+     "z1": 0,
+     "ms": 13853
+    }
+   ],
+   "screen": [
+    {
+     "kind": "monitor",
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 15.5,
+     "ms": 27201
+    },
+    {
+     "kind": "print",
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 13.1,
+     "ms": 25165
+    }
+   ],
+   "strength": [
+    {
+     "s": 0.5,
+     "psnr": 49.44,
+     "chat_z1": 12.2,
+     "chat_ok1": true,
+     "small_z1": 3.1,
+     "small_ok1": false
+    },
+    {
+     "s": 0.75,
+     "psnr": 47.73,
+     "chat_z1": 14.5,
+     "chat_ok1": true,
+     "small_z1": 3.9,
+     "small_ok1": false
+    },
+    {
+     "s": 1.0,
+     "psnr": 45.92,
+     "chat_z1": 15.9,
+     "chat_ok1": true,
+     "small_z1": 6.2,
+     "small_ok1": false
+    },
+    {
+     "s": 1.5,
+     "psnr": 42.88,
+     "chat_z1": 18.8,
+     "chat_ok1": true,
+     "small_z1": 8.6,
+     "small_ok1": true
+    },
+    {
+     "s": 2.0,
+     "psnr": 40.58,
+     "chat_z1": 20.3,
+     "chat_ok1": true,
+     "small_z1": 10.7,
+     "small_ok1": true
+    }
+   ]
+  },
+  {
+   "id": 36,
+   "file": "Photos for Testing (13)-1.jpg",
+   "make": "Apple",
+   "model": "iPhone 17 Pro",
+   "w": 4096,
+   "h": 3072,
+   "mp": 12.6,
+   "embed_ms": 992,
+   "psnr": 41.11,
+   "ssim": 0.99716,
+   "dE": 1.617,
+   "mean_change": 1.57,
+   "max_change": 9,
+   "p_ge3": 38.06,
+   "bytes_added_pct": 2.1,
+   "texture": 0.565,
+   "luma": 132.1,
+   "read_full_ms": 259,
+   "attacks": [
+    {
+     "name": "Stored JPEG q95 (full size)",
+     "status": "ok",
+     "z1": 26.5,
+     "z2": 13.3,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 263
+    },
+    {
+     "name": "Chat app: 1600 px, q70",
+     "status": "ok",
+     "z1": 23.4,
+     "z2": 12.3,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 214
+    },
+    {
+     "name": "Social: 1080 px, q50",
+     "status": "ok",
+     "z1": 15.9,
+     "z2": 11.1,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 146
+    },
+    {
+     "name": "Thumbnail: 800 px, q40",
+     "status": "ok",
+     "z1": 9.7,
+     "z2": 8.7,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 125
+    },
+    {
+     "name": "Tiny: 600 px, q50",
+     "status": "part",
+     "z1": 5.8,
+     "z2": 6.1,
+     "ok1": false,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 144
+    },
+    {
+     "name": "Shared three times (1600 > 1280 > 1080)",
+     "status": "ok",
+     "z1": 13.7,
+     "z2": 9.8,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 172
+    },
+    {
+     "name": "Screenshot-style PNG, 1080 px",
+     "status": "ok",
+     "z1": 25.6,
+     "z2": 11.8,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 161
+    },
+    {
+     "name": "Brightness/contrast edit + 1600 q70",
+     "status": "ok",
+     "z1": 21.9,
+     "z2": 12.7,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 195
+    },
+    {
+     "name": "Colour drained to 40% + 1600 q70",
+     "status": "ok",
+     "z1": 17.8,
+     "z2": 12.5,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 215
+    },
+    {
+     "name": "Blur (sigma 1.2) + 1600 q70",
+     "status": "ok",
+     "z1": 21.2,
+     "z2": 8.8,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 189
+    },
+    {
+     "name": "25% of area painted over + 1600 q70",
+     "status": "ok",
+     "z1": 19.6,
+     "z2": 10.1,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 220
+    },
+    {
+     "name": "Black and white + 1600 q70",
+     "status": "part",
+     "z1": 0.0,
+     "z2": 12.3,
+     "ok1": false,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 347
+    },
+    {
+     "name": "CONTROL: unmarked photo, 1600 q70",
+     "status": "none",
+     "z1": -0.3,
+     "z2": 1.1,
+     "ok1": false,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 593
+    }
+   ],
+   "res_sweep": [
+    {
+     "L": 300,
+     "q": 70,
+     "z1": 4.2,
+     "z2": 0.5,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 300,
+     "q": 40,
+     "z1": 1.3,
+     "z2": 0.7,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 400,
+     "q": 70,
+     "z1": 6.2,
+     "z2": 3.6,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 400,
+     "q": 40,
+     "z1": 3.0,
+     "z2": 2.2,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 500,
+     "q": 70,
+     "z1": 9.2,
+     "z2": 5.3,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 500,
+     "q": 40,
+     "z1": 2.3,
+     "z2": 4.5,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 600,
+     "q": 70,
+     "z1": 12.7,
+     "z2": 6.1,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 600,
+     "q": 40,
+     "z1": 5.4,
+     "z2": 5.2,
+     "ok1": false,
+     "ok2": true
+    },
+    {
+     "L": 700,
+     "q": 70,
+     "z1": 14.9,
+     "z2": 8.4,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 700,
+     "q": 40,
+     "z1": 7.5,
+     "z2": 7.5,
+     "ok1": false,
+     "ok2": true
+    },
+    {
+     "L": 800,
+     "q": 70,
+     "z1": 17.5,
+     "z2": 9.9,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 800,
+     "q": 40,
+     "z1": 9.7,
+     "z2": 8.7,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1000,
+     "q": 70,
+     "z1": 19.9,
+     "z2": 10.7,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1000,
+     "q": 40,
+     "z1": 12.8,
+     "z2": 9.9,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1280,
+     "q": 70,
+     "z1": 22.1,
+     "z2": 11.7,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1280,
+     "q": 40,
+     "z1": 16.9,
+     "z2": 11.3,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1600,
+     "q": 70,
+     "z1": 23.4,
+     "z2": 12.3,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1600,
+     "q": 40,
+     "z1": 19.3,
+     "z2": 12.2,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 2000,
+     "q": 70,
+     "z1": 24.5,
+     "z2": 12.6,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 2000,
+     "q": 40,
+     "z1": 21.6,
+     "z2": 12.2,
+     "ok1": true,
+     "ok2": true
+    }
+   ],
+   "q_sweep": [
+    {
+     "q": 95,
+     "z1": 26.1,
+     "z2": 12.6,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 80,
+     "z1": 24.8,
+     "z2": 12.4,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 60,
+     "z1": 22.1,
+     "z2": 12.2,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 40,
+     "z1": 19.3,
+     "z2": 12.2,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 30,
+     "z1": 18.2,
+     "z2": 12.1,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 20,
+     "z1": 14.9,
+     "z2": 11.8,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 15,
+     "z1": 12.5,
+     "z2": 11.2,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 10,
+     "z1": 10.4,
+     "z2": 9.6,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 5,
+     "z1": 8.6,
+     "z2": 7.2,
+     "ok1": true,
+     "ok2": true
+    }
+   ],
+   "crops": [
+    {
+     "name": "centre 90%",
+     "area": 81,
+     "status": "ok",
+     "ok1": true,
+     "ok2": true,
+     "z1": 20.8,
+     "ms": 6422
+    },
+    {
+     "name": "centre 75%",
+     "area": 56,
+     "status": "ok",
+     "ok1": true,
+     "ok2": true,
+     "z1": 17.7,
+     "ms": 6214
+    },
+    {
+     "name": "centre 60%",
+     "area": 36,
+     "status": "ok",
+     "ok1": true,
+     "ok2": true,
+     "z1": 14.3,
+     "ms": 5931
+    },
+    {
+     "name": "centre 45%",
+     "area": 20,
+     "status": "nocrop",
+     "ok1": false,
+     "ok2": false,
+     "z1": 0,
+     "ms": 11498
+    },
+    {
+     "name": "right 10% trimmed",
+     "area": 90,
+     "status": "ok",
+     "ok1": true,
+     "ok2": true,
+     "z1": 22.6,
+     "ms": 4261
+    },
+    {
+     "name": "top-left quarter",
+     "area": 25,
+     "status": "nocrop",
+     "ok1": false,
+     "ok2": false,
+     "z1": 0,
+     "ms": 12640
+    }
+   ],
+   "screen": [
+    {
+     "kind": "monitor",
+     "status": "ok",
+     "ok1": true,
+     "ok2": true,
+     "z1": 21.6,
+     "ms": 29259
+    },
+    {
+     "kind": "print",
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 18.1,
+     "ms": 27149
+    }
+   ],
+   "strength": [
+    {
+     "s": 0.5,
+     "psnr": 46.27,
+     "chat_z1": 14.5,
+     "chat_ok1": true,
+     "small_z1": 5.6,
+     "small_ok1": false
+    },
+    {
+     "s": 0.75,
+     "psnr": 43.39,
+     "chat_z1": 19.8,
+     "chat_ok1": true,
+     "small_z1": 7.4,
+     "small_ok1": false
+    },
+    {
+     "s": 1.0,
+     "psnr": 41.11,
+     "chat_z1": 23.4,
+     "chat_ok1": true,
+     "small_z1": 9.7,
+     "small_ok1": true
+    },
+    {
+     "s": 1.5,
+     "psnr": 37.75,
+     "chat_z1": 27.4,
+     "chat_ok1": true,
+     "small_z1": 14.4,
+     "small_ok1": true
+    },
+    {
+     "s": 2.0,
+     "psnr": 35.31,
+     "chat_z1": 28.9,
+     "chat_ok1": true,
+     "small_z1": 19.2,
+     "small_ok1": true
+    }
+   ]
+  },
+  {
+   "id": 37,
+   "file": "Photos for Testing (14)-1.jpg",
+   "make": "Apple",
+   "model": "iPhone 17 Pro",
+   "w": 4096,
+   "h": 3072,
+   "mp": 12.6,
+   "embed_ms": 905,
+   "psnr": 45.9,
+   "ssim": 0.99241,
+   "dE": 0.926,
+   "mean_change": 0.816,
+   "max_change": 9,
+   "p_ge3": 9.15,
+   "bytes_added_pct": 3.1,
+   "texture": 0.3299,
+   "luma": 38.0,
+   "read_full_ms": 984,
+   "attacks": [
+    {
+     "name": "Stored JPEG q95 (full size)",
+     "status": "ok",
+     "z1": 19.5,
+     "z2": 4.9,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 837
+    },
+    {
+     "name": "Chat app: 1600 px, q70",
+     "status": "ok",
+     "z1": 15.8,
+     "z2": 4.3,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 503
+    },
+    {
+     "name": "Social: 1080 px, q50",
+     "status": "ok",
+     "z1": 11.4,
+     "z2": 3.2,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 340
+    },
+    {
+     "name": "Thumbnail: 800 px, q40",
+     "status": "damaged",
+     "z1": 5.2,
+     "z2": 2.8,
+     "ok1": false,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 289
+    },
+    {
+     "name": "Tiny: 600 px, q50",
+     "status": "damaged",
+     "z1": 5.6,
+     "z2": 1.9,
+     "ok1": false,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 268
+    },
+    {
+     "name": "Shared three times (1600 > 1280 > 1080)",
+     "status": "damaged",
+     "z1": 8.2,
+     "z2": 2.8,
+     "ok1": false,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 424
+    },
+    {
+     "name": "Screenshot-style PNG, 1080 px",
+     "status": "ok",
+     "z1": 19.2,
+     "z2": 3.5,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 332
+    },
+    {
+     "name": "Brightness/contrast edit + 1600 q70",
+     "status": "ok",
+     "z1": 14.1,
+     "z2": 3.6,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 513
+    },
+    {
+     "name": "Colour drained to 40% + 1600 q70",
+     "status": "ok",
+     "z1": 10.1,
+     "z2": 4.4,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 577
+    },
+    {
+     "name": "Blur (sigma 1.2) + 1600 q70",
+     "status": "ok",
+     "z1": 14.9,
+     "z2": 3.1,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 534
+    },
+    {
+     "name": "25% of area painted over + 1600 q70",
+     "status": "ok",
+     "z1": 12.5,
+     "z2": 3.4,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 654
+    },
+    {
+     "name": "Black and white + 1600 q70",
+     "status": "damaged",
+     "z1": 0,
+     "z2": 4.3,
+     "ok1": false,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 799
+    },
+    {
+     "name": "CONTROL: unmarked photo, 1600 q70",
+     "status": "none",
+     "z1": 1.3,
+     "z2": 0.7,
+     "ok1": false,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 828
+    }
+   ],
+   "res_sweep": [
+    {
+     "L": 300,
+     "q": 70,
+     "z1": 2.7,
+     "z2": 1.7,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 300,
+     "q": 40,
+     "z1": 1.0,
+     "z2": 0.9,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 400,
+     "q": 70,
+     "z1": 4.4,
+     "z2": 0.2,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 400,
+     "q": 40,
+     "z1": 3.2,
+     "z2": 0.1,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 500,
+     "q": 70,
+     "z1": 5.7,
+     "z2": 1.4,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 500,
+     "q": 40,
+     "z1": 4.3,
+     "z2": 1.5,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 600,
+     "q": 70,
+     "z1": 7.8,
+     "z2": 1.8,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 600,
+     "q": 40,
+     "z1": 4.4,
+     "z2": 1.8,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 700,
+     "q": 70,
+     "z1": 9.7,
+     "z2": 2.5,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 700,
+     "q": 40,
+     "z1": 5.4,
+     "z2": 1.8,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 800,
+     "q": 70,
+     "z1": 10.0,
+     "z2": 2.9,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 800,
+     "q": 40,
+     "z1": 5.2,
+     "z2": 2.8,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 1000,
+     "q": 70,
+     "z1": 11.8,
+     "z2": 3.5,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 1000,
+     "q": 40,
+     "z1": 8.6,
+     "z2": 3.2,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 1280,
+     "q": 70,
+     "z1": 14.3,
+     "z2": 3.9,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 1280,
+     "q": 40,
+     "z1": 11.6,
+     "z2": 3.7,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 1600,
+     "q": 70,
+     "z1": 15.8,
+     "z2": 4.3,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 1600,
+     "q": 40,
+     "z1": 13.2,
+     "z2": 4.1,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 2000,
+     "q": 70,
+     "z1": 17.3,
+     "z2": 4.3,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 2000,
+     "q": 40,
+     "z1": 15.9,
+     "z2": 4.1,
+     "ok1": true,
+     "ok2": false
+    }
+   ],
+   "q_sweep": [
+    {
+     "q": 95,
+     "z1": 19.0,
+     "z2": 4.5,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 80,
+     "z1": 16.4,
+     "z2": 4.4,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 60,
+     "z1": 15.2,
+     "z2": 4.3,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 40,
+     "z1": 13.2,
+     "z2": 4.1,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 30,
+     "z1": 11.2,
+     "z2": 3.9,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 20,
+     "z1": 12.3,
+     "z2": 3.6,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 15,
+     "z1": 9.0,
+     "z2": 3.5,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "q": 10,
+     "z1": 7.2,
+     "z2": 3.2,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "q": 5,
+     "z1": 1.8,
+     "z2": 2.2,
+     "ok1": false,
+     "ok2": false
+    }
+   ],
+   "crops": [
+    {
+     "name": "centre 90%",
+     "area": 81,
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 15.2,
+     "ms": 6302
+    },
+    {
+     "name": "centre 75%",
+     "area": 56,
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 14.1,
+     "ms": 5358
+    },
+    {
+     "name": "centre 60%",
+     "area": 36,
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 12.7,
+     "ms": 5055
+    },
+    {
+     "name": "centre 45%",
+     "area": 20,
+     "status": "nocrop",
+     "ok1": false,
+     "ok2": false,
+     "z1": 0,
+     "ms": 12617
+    },
+    {
+     "name": "right 10% trimmed",
+     "area": 90,
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 16.1,
+     "ms": 4623
+    },
+    {
+     "name": "top-left quarter",
+     "area": 25,
+     "status": "nocrop",
+     "ok1": false,
+     "ok2": false,
+     "z1": 0,
+     "ms": 13576
+    }
+   ],
+   "screen": [
+    {
+     "kind": "monitor",
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 13.9,
+     "ms": 28639
+    },
+    {
+     "kind": "print",
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 12.3,
+     "ms": 27958
+    }
+   ],
+   "strength": [
+    {
+     "s": 0.5,
+     "psnr": 49.43,
+     "chat_z1": 12.3,
+     "chat_ok1": true,
+     "small_z1": 2.8,
+     "small_ok1": false
+    },
+    {
+     "s": 0.75,
+     "psnr": 47.69,
+     "chat_z1": 14.0,
+     "chat_ok1": true,
+     "small_z1": 3.7,
+     "small_ok1": false
+    },
+    {
+     "s": 1.0,
+     "psnr": 45.9,
+     "chat_z1": 15.8,
+     "chat_ok1": true,
+     "small_z1": 5.2,
+     "small_ok1": false
+    },
+    {
+     "s": 1.5,
+     "psnr": 42.85,
+     "chat_z1": 18.1,
+     "chat_ok1": true,
+     "small_z1": 8.3,
+     "small_ok1": true
+    },
+    {
+     "s": 2.0,
+     "psnr": 40.57,
+     "chat_z1": 19.1,
+     "chat_ok1": true,
+     "small_z1": 10.0,
+     "small_ok1": true
+    }
+   ]
+  },
+  {
+   "id": 38,
+   "file": "Photos for Testing (15)-1.jpg",
+   "make": "Apple",
+   "model": "iPhone 17 Pro",
+   "w": 3072,
+   "h": 4096,
+   "mp": 12.6,
+   "embed_ms": 996,
+   "psnr": 45.9,
+   "ssim": 0.99614,
+   "dE": 0.996,
+   "mean_change": 0.848,
+   "max_change": 9,
+   "p_ge3": 11.64,
+   "bytes_added_pct": 3.6,
+   "texture": 0.3216,
+   "luma": 65.0,
+   "read_full_ms": 231,
+   "attacks": [
+    {
+     "name": "Stored JPEG q95 (full size)",
+     "status": "ok",
+     "z1": 23.6,
+     "z2": 15.1,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 302
+    },
+    {
+     "name": "Chat app: 1600 px, q70",
+     "status": "ok",
+     "z1": 18.9,
+     "z2": 12.7,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 210
+    },
+    {
+     "name": "Social: 1080 px, q50",
+     "status": "ok",
+     "z1": 10.2,
+     "z2": 10.0,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 144
+    },
+    {
+     "name": "Thumbnail: 800 px, q40",
+     "status": "part",
+     "z1": 6.7,
+     "z2": 6.9,
+     "ok1": false,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 161
+    },
+    {
+     "name": "Tiny: 600 px, q50",
+     "status": "damaged",
+     "z1": 3.4,
+     "z2": 4.8,
+     "ok1": false,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 270
+    },
+    {
+     "name": "Shared three times (1600 > 1280 > 1080)",
+     "status": "part",
+     "z1": 8.6,
+     "z2": 9.1,
+     "ok1": false,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 194
+    },
+    {
+     "name": "Screenshot-style PNG, 1080 px",
+     "status": "ok",
+     "z1": 23.9,
+     "z2": 12.1,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 168
+    },
+    {
+     "name": "Brightness/contrast edit + 1600 q70",
+     "status": "ok",
+     "z1": 18.8,
+     "z2": 11.7,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 172
+    },
+    {
+     "name": "Colour drained to 40% + 1600 q70",
+     "status": "ok",
+     "z1": 12.0,
+     "z2": 13.4,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 202
+    },
+    {
+     "name": "Blur (sigma 1.2) + 1600 q70",
+     "status": "ok",
+     "z1": 17.9,
+     "z2": 9.1,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 175
+    },
+    {
+     "name": "25% of area painted over + 1600 q70",
+     "status": "ok",
+     "z1": 16.2,
+     "z2": 11.9,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 159
+    },
+    {
+     "name": "Black and white + 1600 q70",
+     "status": "part",
+     "z1": 0,
+     "z2": 12.7,
+     "ok1": false,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 426
+    },
+    {
+     "name": "CONTROL: unmarked photo, 1600 q70",
+     "status": "none",
+     "z1": 1.6,
+     "z2": 1.5,
+     "ok1": false,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 700
+    }
+   ],
+   "res_sweep": [
+    {
+     "L": 300,
+     "q": 70,
+     "z1": 1.5,
+     "z2": 2.2,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 300,
+     "q": 40,
+     "z1": 1.5,
+     "z2": 1.4,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 400,
+     "q": 70,
+     "z1": 3.4,
+     "z2": 2.5,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 400,
+     "q": 40,
+     "z1": 1.4,
+     "z2": 1.5,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 500,
+     "q": 70,
+     "z1": 5.7,
+     "z2": 4.1,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 500,
+     "q": 40,
+     "z1": 3.1,
+     "z2": 3.1,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 600,
+     "q": 70,
+     "z1": 5.9,
+     "z2": 6.8,
+     "ok1": false,
+     "ok2": true
+    },
+    {
+     "L": 600,
+     "q": 40,
+     "z1": 2.0,
+     "z2": 3.7,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 700,
+     "q": 70,
+     "z1": 9.1,
+     "z2": 7.6,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 700,
+     "q": 40,
+     "z1": 5.1,
+     "z2": 6.0,
+     "ok1": false,
+     "ok2": true
+    },
+    {
+     "L": 800,
+     "q": 70,
+     "z1": 11.0,
+     "z2": 8.3,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 800,
+     "q": 40,
+     "z1": 6.7,
+     "z2": 6.9,
+     "ok1": false,
+     "ok2": true
+    },
+    {
+     "L": 1000,
+     "q": 70,
+     "z1": 14.0,
+     "z2": 9.7,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1000,
+     "q": 40,
+     "z1": 8.8,
+     "z2": 8.0,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1280,
+     "q": 70,
+     "z1": 16.5,
+     "z2": 11.9,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1280,
+     "q": 40,
+     "z1": 12.3,
+     "z2": 11.2,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1600,
+     "q": 70,
+     "z1": 18.9,
+     "z2": 12.7,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1600,
+     "q": 40,
+     "z1": 14.2,
+     "z2": 11.9,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 2000,
+     "q": 70,
+     "z1": 20.7,
+     "z2": 13.4,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 2000,
+     "q": 40,
+     "z1": 16.7,
+     "z2": 12.9,
+     "ok1": true,
+     "ok2": true
+    }
+   ],
+   "q_sweep": [
+    {
+     "q": 95,
+     "z1": 23.7,
+     "z2": 13.2,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 80,
+     "z1": 20.5,
+     "z2": 13.0,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 60,
+     "z1": 17.7,
+     "z2": 12.5,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 40,
+     "z1": 14.2,
+     "z2": 11.9,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 30,
+     "z1": 14.3,
+     "z2": 11.6,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 20,
+     "z1": 12.3,
+     "z2": 10.4,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 15,
+     "z1": 9.6,
+     "z2": 8.8,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 10,
+     "z1": 7.0,
+     "z2": 6.6,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 5,
+     "z1": 9.0,
+     "z2": 4.3,
+     "ok1": true,
+     "ok2": false
+    }
+   ],
+   "crops": [
+    {
+     "name": "centre 90%",
+     "area": 81,
+     "status": "ok",
+     "ok1": true,
+     "ok2": true,
+     "z1": 15.9,
+     "ms": 6393
+    },
+    {
+     "name": "centre 75%",
+     "area": 56,
+     "status": "ok",
+     "ok1": true,
+     "ok2": true,
+     "z1": 13.1,
+     "ms": 5662
+    },
+    {
+     "name": "centre 60%",
+     "area": 36,
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 9.4,
+     "ms": 5524
+    },
+    {
+     "name": "centre 45%",
+     "area": 20,
+     "status": "nocrop",
+     "ok1": false,
+     "ok2": false,
+     "z1": 0,
+     "ms": 12245
+    },
+    {
+     "name": "right 10% trimmed",
+     "area": 90,
+     "status": "ok",
+     "ok1": true,
+     "ok2": true,
+     "z1": 17.6,
+     "ms": 4634
+    },
+    {
+     "name": "top-left quarter",
+     "area": 25,
+     "status": "nocrop",
+     "ok1": false,
+     "ok2": false,
+     "z1": 0,
+     "ms": 13205
+    }
+   ],
+   "screen": [
+    {
+     "kind": "monitor",
+     "status": "ok",
+     "ok1": true,
+     "ok2": true,
+     "z1": 17.0,
+     "ms": 27746
+    },
+    {
+     "kind": "print",
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 10.6,
+     "ms": 26442
+    }
+   ],
+   "strength": [
+    {
+     "s": 0.5,
+     "psnr": 49.4,
+     "chat_z1": 15.3,
+     "chat_ok1": true,
+     "small_z1": 4.7,
+     "small_ok1": false
+    },
+    {
+     "s": 0.75,
+     "psnr": 47.66,
+     "chat_z1": 16.9,
+     "chat_ok1": true,
+     "small_z1": 5.7,
+     "small_ok1": false
+    },
+    {
+     "s": 1.0,
+     "psnr": 45.9,
+     "chat_z1": 18.9,
+     "chat_ok1": true,
+     "small_z1": 6.7,
+     "small_ok1": false
+    },
+    {
+     "s": 1.5,
+     "psnr": 42.86,
+     "chat_z1": 22.3,
+     "chat_ok1": true,
+     "small_z1": 8.3,
+     "small_ok1": true
+    },
+    {
+     "s": 2.0,
+     "psnr": 40.59,
+     "chat_z1": 23.2,
+     "chat_ok1": true,
+     "small_z1": 10.4,
+     "small_ok1": true
+    }
+   ]
+  },
+  {
+   "id": 39,
+   "file": "Photos for Testing (16)-1.jpg",
+   "make": "Apple",
+   "model": "iPhone 17 Pro",
+   "w": 4284,
+   "h": 4284,
+   "mp": 18.4,
+   "embed_ms": 1498,
+   "psnr": 40.2,
+   "ssim": 0.99666,
+   "dE": 1.696,
+   "mean_change": 1.71,
+   "max_change": 9,
+   "p_ge3": 41.36,
+   "bytes_added_pct": 2.0,
+   "texture": 0.6287,
+   "luma": 145.1,
+   "read_full_ms": 287,
+   "attacks": [
+    {
+     "name": "Stored JPEG q95 (full size)",
+     "status": "ok",
+     "z1": 21.7,
+     "z2": 7.2,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 334
+    },
+    {
+     "name": "Chat app: 1600 px, q70",
+     "status": "ok",
+     "z1": 21.2,
+     "z2": 6.7,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 243
+    },
+    {
+     "name": "Social: 1080 px, q50",
+     "status": "ok",
+     "z1": 16.2,
+     "z2": 6.7,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 177
+    },
+    {
+     "name": "Thumbnail: 800 px, q40",
+     "status": "ok",
+     "z1": 12.2,
+     "z2": 5.7,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 291
+    },
+    {
+     "name": "Tiny: 600 px, q50",
+     "status": "ok",
+     "z1": 10.4,
+     "z2": 6.0,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 123
+    },
+    {
+     "name": "Shared three times (1600 > 1280 > 1080)",
+     "status": "ok",
+     "z1": 13.2,
+     "z2": 6.6,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 161
+    },
+    {
+     "name": "Screenshot-style PNG, 1080 px",
+     "status": "ok",
+     "z1": 21.6,
+     "z2": 7.0,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 150
+    },
+    {
+     "name": "Brightness/contrast edit + 1600 q70",
+     "status": "ok",
+     "z1": 19.3,
+     "z2": 6.3,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 251
+    },
+    {
+     "name": "Colour drained to 40% + 1600 q70",
+     "status": "ok",
+     "z1": 20.5,
+     "z2": 6.8,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 236
+    },
+    {
+     "name": "Blur (sigma 1.2) + 1600 q70",
+     "status": "ok",
+     "z1": 21.3,
+     "z2": 6.7,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 224
+    },
+    {
+     "name": "25% of area painted over + 1600 q70",
+     "status": "ok",
+     "z1": 16.6,
+     "z2": 4.5,
+     "ok1": true,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 653
+    },
+    {
+     "name": "Black and white + 1600 q70",
+     "status": "part",
+     "z1": 0.0,
+     "z2": 6.8,
+     "ok1": false,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 427
+    },
+    {
+     "name": "CONTROL: unmarked photo, 1600 q70",
+     "status": "none",
+     "z1": 0.1,
+     "z2": 0.8,
+     "ok1": false,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 863
+    }
+   ],
+   "res_sweep": [
+    {
+     "L": 300,
+     "q": 70,
+     "z1": 5.8,
+     "z2": 3.2,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 300,
+     "q": 40,
+     "z1": 2.8,
+     "z2": 3.5,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 400,
+     "q": 70,
+     "z1": 8.2,
+     "z2": 3.5,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 400,
+     "q": 40,
+     "z1": 3.9,
+     "z2": 4.0,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 500,
+     "q": 70,
+     "z1": 11.1,
+     "z2": 4.8,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 500,
+     "q": 40,
+     "z1": 5.7,
+     "z2": 4.4,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 600,
+     "q": 70,
+     "z1": 13.7,
+     "z2": 5.9,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 600,
+     "q": 40,
+     "z1": 8.5,
+     "z2": 5.6,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 700,
+     "q": 70,
+     "z1": 15.2,
+     "z2": 6.1,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 700,
+     "q": 40,
+     "z1": 9.6,
+     "z2": 6.1,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 800,
+     "q": 70,
+     "z1": 18.3,
+     "z2": 5.9,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 800,
+     "q": 40,
+     "z1": 12.2,
+     "z2": 5.7,
+     "ok1": true,
+     "ok2": false
+    },
+    {
+     "L": 1000,
+     "q": 70,
+     "z1": 18.7,
+     "z2": 6.6,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1000,
+     "q": 40,
+     "z1": 13.6,
+     "z2": 6.4,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1280,
+     "q": 70,
+     "z1": 19.8,
+     "z2": 6.7,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1280,
+     "q": 40,
+     "z1": 15.5,
+     "z2": 6.6,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1600,
+     "q": 70,
+     "z1": 21.2,
+     "z2": 6.7,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1600,
+     "q": 40,
+     "z1": 19.9,
+     "z2": 6.7,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 2000,
+     "q": 70,
+     "z1": 20.8,
+     "z2": 6.9,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 2000,
+     "q": 40,
+     "z1": 18.6,
+     "z2": 7.0,
+     "ok1": true,
+     "ok2": true
+    }
+   ],
+   "q_sweep": [
+    {
+     "q": 95,
+     "z1": 21.7,
+     "z2": 6.8,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 80,
+     "z1": 21.6,
+     "z2": 6.8,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 60,
+     "z1": 20.3,
+     "z2": 6.7,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 40,
+     "z1": 19.9,
+     "z2": 6.7,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 30,
+     "z1": 18.9,
+     "z2": 6.7,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 20,
+     "z1": 18.0,
+     "z2": 6.5,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 15,
+     "z1": 17.4,
+     "z2": 6.3,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 10,
+     "z1": 14.5,
+     "z2": 6.1,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 5,
+     "z1": 10.0,
+     "z2": 5.6,
+     "ok1": true,
+     "ok2": false
+    }
+   ],
+   "crops": [
+    {
+     "name": "centre 90%",
+     "area": 81,
+     "status": "ok",
+     "ok1": true,
+     "ok2": true,
+     "z1": 18.0,
+     "ms": 13236
+    },
+    {
+     "name": "centre 75%",
+     "area": 56,
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 16.2,
+     "ms": 14334
+    },
+    {
+     "name": "centre 60%",
+     "area": 36,
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 14.9,
+     "ms": 14002
+    },
+    {
+     "name": "centre 45%",
+     "area": 20,
+     "status": "nocrop",
+     "ok1": false,
+     "ok2": false,
+     "z1": 0,
+     "ms": 12241
+    },
+    {
+     "name": "right 10% trimmed",
+     "area": 90,
+     "status": "ok",
+     "ok1": true,
+     "ok2": true,
+     "z1": 19.1,
+     "ms": 13675
+    },
+    {
+     "name": "top-left quarter",
+     "area": 25,
+     "status": "nocrop",
+     "ok1": false,
+     "ok2": false,
+     "z1": 0,
+     "ms": 12376
+    }
+   ],
+   "screen": [
+    {
+     "kind": "monitor",
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 20.4,
+     "ms": 35885
+    },
+    {
+     "kind": "print",
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 16.8,
+     "ms": 22829
+    }
+   ],
+   "strength": [
+    {
+     "s": 0.5,
+     "psnr": 45.45,
+     "chat_z1": 13.0,
+     "chat_ok1": true,
+     "small_z1": 6.8,
+     "small_ok1": false
+    },
+    {
+     "s": 0.75,
+     "psnr": 42.51,
+     "chat_z1": 17.2,
+     "chat_ok1": true,
+     "small_z1": 9.5,
+     "small_ok1": true
+    },
+    {
+     "s": 1.0,
+     "psnr": 40.2,
+     "chat_z1": 21.2,
+     "chat_ok1": true,
+     "small_z1": 12.2,
+     "small_ok1": true
+    },
+    {
+     "s": 1.5,
+     "psnr": 36.82,
+     "chat_z1": 26.0,
+     "chat_ok1": true,
+     "small_z1": 18.0,
+     "small_ok1": true
+    },
+    {
+     "s": 2.0,
+     "psnr": 34.38,
+     "chat_z1": 28.2,
+     "chat_ok1": true,
+     "small_z1": 22.4,
+     "small_ok1": true
+    }
+   ]
+  },
+  {
+   "id": 40,
+   "file": "Photos for Testing (17)-1.jpg",
+   "make": "Apple",
+   "model": "iPhone 17 Pro",
+   "w": 3213,
+   "h": 5712,
+   "mp": 18.4,
+   "embed_ms": 2364,
+   "psnr": 45.64,
+   "ssim": 0.99732,
+   "dE": 0.952,
+   "mean_change": 0.844,
+   "max_change": 9,
+   "p_ge3": 11.17,
+   "bytes_added_pct": 5.0,
+   "texture": 0.3547,
+   "luma": 142.5,
+   "read_full_ms": 242,
+   "attacks": [
+    {
+     "name": "Stored JPEG q95 (full size)",
+     "status": "ok",
+     "z1": 20.4,
+     "z2": 8.0,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 234
+    },
+    {
+     "name": "Chat app: 1600 px, q70",
+     "status": "ok",
+     "z1": 15.6,
+     "z2": 7.0,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 100
+    },
+    {
+     "name": "Social: 1080 px, q50",
+     "status": "ok",
+     "z1": 9.8,
+     "z2": 5.5,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 100
+    },
+    {
+     "name": "Thumbnail: 800 px, q40",
+     "status": "part",
+     "z1": 5.5,
+     "z2": 3.7,
+     "ok1": false,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 115
+    },
+    {
+     "name": "Tiny: 600 px, q50",
+     "status": "damaged",
+     "z1": 4.2,
+     "z2": 2.9,
+     "ok1": false,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 164
+    },
+    {
+     "name": "Shared three times (1600 > 1280 > 1080)",
+     "status": "part",
+     "z1": 6.6,
+     "z2": 5.3,
+     "ok1": false,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 116
+    },
+    {
+     "name": "Screenshot-style PNG, 1080 px",
+     "status": "ok",
+     "z1": 20.6,
+     "z2": 7.0,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 80
+    },
+    {
+     "name": "Brightness/contrast edit + 1600 q70",
+     "status": "ok",
+     "z1": 15.9,
+     "z2": 6.8,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 98
+    },
+    {
+     "name": "Colour drained to 40% + 1600 q70",
+     "status": "ok",
+     "z1": 10.5,
+     "z2": 7.0,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 183
+    },
+    {
+     "name": "Blur (sigma 1.2) + 1600 q70",
+     "status": "ok",
+     "z1": 15.5,
+     "z2": 5.7,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 138
+    },
+    {
+     "name": "25% of area painted over + 1600 q70",
+     "status": "ok",
+     "z1": 13.4,
+     "z2": 6.6,
+     "ok1": true,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 139
+    },
+    {
+     "name": "Black and white + 1600 q70",
+     "status": "part",
+     "z1": -0.0,
+     "z2": 7.1,
+     "ok1": false,
+     "ok2": true,
+     "wrong_l1": false,
+     "ms": 175
+    },
+    {
+     "name": "CONTROL: unmarked photo, 1600 q70",
+     "status": "none",
+     "z1": -0.2,
+     "z2": 1.4,
+     "ok1": false,
+     "ok2": false,
+     "wrong_l1": false,
+     "ms": 494
+    }
+   ],
+   "res_sweep": [
+    {
+     "L": 300,
+     "q": 70,
+     "z1": 1.0,
+     "z2": 1.0,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 300,
+     "q": 40,
+     "z1": 0.3,
+     "z2": 0.3,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 400,
+     "q": 70,
+     "z1": 2.9,
+     "z2": 1.9,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 400,
+     "q": 40,
+     "z1": 1.8,
+     "z2": 2.4,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 500,
+     "q": 70,
+     "z1": 5.1,
+     "z2": 2.9,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 500,
+     "q": 40,
+     "z1": 2.2,
+     "z2": 1.9,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 600,
+     "q": 70,
+     "z1": 7.3,
+     "z2": 3.8,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 600,
+     "q": 40,
+     "z1": 3.0,
+     "z2": 3.4,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 700,
+     "q": 70,
+     "z1": 9.4,
+     "z2": 4.4,
+     "ok1": false,
+     "ok2": true
+    },
+    {
+     "L": 700,
+     "q": 40,
+     "z1": 3.9,
+     "z2": 2.6,
+     "ok1": false,
+     "ok2": false
+    },
+    {
+     "L": 800,
+     "q": 70,
+     "z1": 9.1,
+     "z2": 4.6,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 800,
+     "q": 40,
+     "z1": 5.5,
+     "z2": 3.7,
+     "ok1": false,
+     "ok2": true
+    },
+    {
+     "L": 1000,
+     "q": 70,
+     "z1": 12.2,
+     "z2": 5.4,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1000,
+     "q": 40,
+     "z1": 6.3,
+     "z2": 5.0,
+     "ok1": false,
+     "ok2": true
+    },
+    {
+     "L": 1280,
+     "q": 70,
+     "z1": 14.1,
+     "z2": 6.8,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1280,
+     "q": 40,
+     "z1": 9.8,
+     "z2": 5.8,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1600,
+     "q": 70,
+     "z1": 15.6,
+     "z2": 7.0,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 1600,
+     "q": 40,
+     "z1": 12.5,
+     "z2": 6.6,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 2000,
+     "q": 70,
+     "z1": 16.7,
+     "z2": 7.4,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "L": 2000,
+     "q": 40,
+     "z1": 14.4,
+     "z2": 7.2,
+     "ok1": true,
+     "ok2": true
+    }
+   ],
+   "q_sweep": [
+    {
+     "q": 95,
+     "z1": 20.2,
+     "z2": 7.3,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 80,
+     "z1": 17.5,
+     "z2": 7.0,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 60,
+     "z1": 15.5,
+     "z2": 7.0,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 40,
+     "z1": 12.5,
+     "z2": 6.6,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 30,
+     "z1": 14.6,
+     "z2": 6.2,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 20,
+     "z1": 9.9,
+     "z2": 5.7,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 15,
+     "z1": 4.6,
+     "z2": 5.4,
+     "ok1": false,
+     "ok2": true
+    },
+    {
+     "q": 10,
+     "z1": 10.5,
+     "z2": 4.4,
+     "ok1": true,
+     "ok2": true
+    },
+    {
+     "q": 5,
+     "z1": 1.6,
+     "z2": 2.2,
+     "ok1": false,
+     "ok2": false
+    }
+   ],
+   "crops": [
+    {
+     "name": "centre 90%",
+     "area": 81,
+     "status": "ok",
+     "ok1": true,
+     "ok2": true,
+     "z1": 12.1,
+     "ms": 5200
+    },
+    {
+     "name": "centre 75%",
+     "area": 56,
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 9.1,
+     "ms": 5468
+    },
+    {
+     "name": "centre 60%",
+     "area": 36,
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 9.7,
+     "ms": 5725
+    },
+    {
+     "name": "centre 45%",
+     "area": 20,
+     "status": "nocrop",
+     "ok1": false,
+     "ok2": false,
+     "z1": 0,
+     "ms": 5716
+    },
+    {
+     "name": "right 10% trimmed",
+     "area": 90,
+     "status": "ok",
+     "ok1": true,
+     "ok2": true,
+     "z1": 13.7,
+     "ms": 3275
+    },
+    {
+     "name": "top-left quarter",
+     "area": 25,
+     "status": "nocrop",
+     "ok1": false,
+     "ok2": false,
+     "z1": 0,
+     "ms": 4703
+    }
+   ],
+   "screen": [
+    {
+     "kind": "monitor",
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 14.3,
+     "ms": 11838
+    },
+    {
+     "kind": "print",
+     "status": "ok",
+     "ok1": true,
+     "ok2": false,
+     "z1": 11.8,
+     "ms": 8787
+    }
+   ],
+   "strength": [
+    {
+     "s": 0.5,
+     "psnr": 49.28,
+     "chat_z1": 11.5,
+     "chat_ok1": true,
+     "small_z1": 3.2,
+     "small_ok1": false
+    },
+    {
+     "s": 0.75,
+     "psnr": 47.44,
+     "chat_z1": 14.1,
+     "chat_ok1": true,
+     "small_z1": 4.3,
+     "small_ok1": false
+    },
+    {
+     "s": 1.0,
+     "psnr": 45.64,
+     "chat_z1": 15.6,
+     "chat_ok1": true,
+     "small_z1": 5.5,
+     "small_ok1": false
+    },
+    {
+     "s": 1.5,
+     "psnr": 42.51,
+     "chat_z1": 18.5,
+     "chat_ok1": true,
+     "small_z1": 8.7,
+     "small_ok1": false
+    },
+    {
+     "s": 2.0,
+     "psnr": 40.2,
+     "chat_z1": 20.1,
+     "chat_ok1": true,
+     "small_z1": 10.5,
+     "small_ok1": true
+    }
+   ]
   }
  ],
- "seconds": 537
+ "seconds": 457
 }

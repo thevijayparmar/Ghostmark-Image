@@ -17,8 +17,11 @@ for p in R:
     p['dev'] = device_group(p['make'], p['model']); p['score'] = robustness(p)
 SCENE = ['Carved stone temple', 'Step-well and water', 'Stone well, looking up', 'Rebar mat, construction site', 'Crane erection site', 'Sky over a highway', 'Jetty and offshore rig',
          'Rooftop rebar and formwork', 'Telecom tower against sky', 'Power line on a shoreline', 'Cracked concrete column', 'Drone: scrubland', 'Offshore rigs, storm clouds', 'Stone-pier bridge',
-         'Drone: farm fields', 'Water tank on columns', 'River weir', 'Drone: river and bridge', 'Drone: solar farm', 'Weathered brick wall', 'Car park from a car', 'Fruit plate', 'Cafe interior']
-DEVCOL = {'iPhone 16 Pro': CYAN, 'DJI drone': GREEN, 'OnePlus': ORANGE, 'vivo': PURPLE, 'realme': (247, 120, 186), 'LAVA': RED}
+         'Drone: farm fields', 'Water tank on columns', 'River weir', 'Drone: river and bridge', 'Drone: solar farm', 'Weathered brick wall', 'Car park from a car', 'Fruit plate', 'Cafe interior',
+         'Aeroplane wing over clouds', 'Blossom at dusk', 'Rainy street at night', 'Ship wake in a bay', 'Tall-ship masts', 'Skyscraper by the river', 'River skyline at dusk',
+         'Temple spire', 'Night beach', 'Storm over a night sea', 'Beach under heavy cloud', 'Castle in fog', 'Bay with limestone islands', 'Moon over the bay',
+         'Dusk, island silhouettes', 'City rooftops', 'Tower in thick fog']
+DEVCOL = {'iPhone 16 Pro': CYAN, 'iPhone 17 Pro': (242, 204, 96), 'DJI drone': GREEN, 'OnePlus': ORANGE, 'vivo': PURPLE, 'realme': (247, 120, 186), 'LAVA': RED}
 STAT_COL = {'ok': GREEN, 'part': ORANGE, 'damaged': RED, 'none': GREY}
 
 
@@ -83,6 +86,10 @@ def frame(i, stage_i, nst, title, sub, img, rd, z1, z2, note=None):
     return im.resize((680, 425), Image.LANCZOS)
 
 
+def save_webp(frames, path, durs, quality=74):
+    frames[0].save(path, save_all=True, append_images=frames[1:], duration=durs, loop=0, quality=quality, method=4, minimize_size=False)
+
+
 def save_gif(frames, path, durs, colors=128):
     pal = [f.quantize(colors=colors, method=Image.Quantize.MEDIANCUT, dither=Image.Dither.FLOYDSTEINBERG) for f in frames]
     pal[0].save(path, save_all=True, append_images=pal[1:], duration=durs, loop=0, optimize=True, disposal=2)
@@ -115,7 +122,7 @@ def showcase(i):
         else:
             rd, z1, z2 = None, 0, 0
         frames.append(frame(i, k, len(S), '%d  %s' % (k + 1, t), s, img, rd, z1, z2, note)); durs.append(1600 if k not in (1, 8) else 2200)
-    save_gif(frames, os.path.join(A, 'photo%02d.gif' % (i + 1)), durs)
+    save_webp(frames, os.path.join(A, 'photo%02d.webp' % (i + 1)), durs)
     print('photo', i + 1, 'done', flush=True)
     return dict(i=i, rgb=cv2.resize(rgb, (max(8, rgb.shape[1] // 8), max(8, rgb.shape[0] // 8)), interpolation=cv2.INTER_AREA),
                 gm=cv2.resize(gm, (max(8, gm.shape[1] // 8), max(8, gm.shape[0] // 8)), interpolation=cv2.INTER_AREA))
@@ -127,10 +134,10 @@ if __name__ == '__main__':
     if only:
         for i in only: showcase(i)
         sys.exit()
-    with ThreadPoolExecutor(max_workers=4) as ex:
+    with ThreadPoolExecutor(max_workers=int(os.environ.get('WORKERS', 4))) as ex:
         res = list(ex.map(showcase, range(N)))
     # ---------------- the photo wall: photo, hidden layer, 12 coloured result dots
-    cw, ch, cols = 280, 190, 6; rows = (N + cols - 1) // cols; tileh = ch * 2 + 70
+    cw, ch, cols = 230, 150, 8; rows = (N + cols - 1) // cols; tileh = ch * 2 + 70
     wall = Image.new('RGB', (cols * (cw + 10) + 10, rows * (tileh + 10) + 10), BG); d = ImageDraw.Draw(wall)
     for k, r in enumerate(res):
         x, y = 10 + (k % cols) * (cw + 10), 10 + (k // cols) * (tileh + 10); p = R[k]
@@ -139,7 +146,7 @@ if __name__ == '__main__':
         d.rectangle((x, y, x + 54, y + 22), fill=BG); d.text((x + 6, y + 4), '#%d' % p['id'], font=F(12, True), fill=(255, 255, 255))
         d.rectangle((x, y + 2 * ch - 20, x + 130, y + 2 * ch), fill=BG); d.text((x + 6, y + 2 * ch - 17), 'hidden layer x26', font=F(10), fill=CYAN)
         dots = [a for a in p['attacks'] if 'CONTROL' not in a['name']]
-        for j, a in enumerate(dots): d.ellipse((x + 6 + j * 22, y + 2 * ch + 8, x + 18 + j * 22, y + 2 * ch + 20), fill=STAT_COL[a['status']])
+        for j, a in enumerate(dots): d.ellipse((x + 6 + j * 18, y + 2 * ch + 8, x + 16 + j * 18, y + 2 * ch + 18), fill=STAT_COL[a['status']])
         d.text((x + 6, y + 2 * ch + 28), SCENE[k][:30], font=F(11, True), fill=TXT)
         d.text((x + 6, y + 2 * ch + 46), '%s · %.0f MP · PSNR %.1f' % (p['model'][:16], p['mp'], p['psnr']), font=F(10), fill=MUTED)
     wall.save(os.path.join(A, 'photo_wall.jpg'), quality=88)
@@ -170,7 +177,7 @@ if __name__ == '__main__':
     save_gif(fr, os.path.join(A, 'hero_reveal.gif'), du)
     # ---------------- banner: strips of 10 photos
     BW, BH = 1600, 520
-    ban = Image.new('RGB', (BW, BH), BG); pick = [0, 2, 10, 14, 6, 17, 3, 18, 12, 7]; sw = BW // len(pick)
+    ban = Image.new('RGB', (BW, BH), BG); pick = [0, 23, 10, 14, 33, 17, 3, 35, 12, 28]; sw = BW // len(pick)
     for kk, k in enumerate(pick):
         o = cover(res[k]['rgb'], sw + 4, BH); g = cover(res[k]['gm'], sw + 4, BH)
         ban.paste(Image.blend(o, g, 0.0 if kk % 2 == 0 else 0.55), (kk * sw, 0))

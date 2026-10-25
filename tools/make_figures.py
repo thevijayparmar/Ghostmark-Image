@@ -307,13 +307,12 @@ for d_, c_ in DEVICE_COLORS.items(): ax.barh([-5], [0], color=c_, label=d_)
 ax.legend(frameon=False, fontsize=7.5, ncol=3, loc='lower right'); ax.set_ylim(-.7, N - .3)
 save(fig, 'fig12_leaderboard.png')
 
-# ================================================================== 13 HEIC + totals
-hp = [p for p in photos if 'heic' in p and 'ok1' in p['heic']]
+# ================================================================== 13 chat-app score per photo + totals
 fig, axs = plt.subplots(1, 2, figsize=(11, 3.4), gridspec_kw={'width_ratios': [1.6, 1]})
 ax = axs[0]
-for x, p in enumerate(hp): ax.bar(x, p['heic']['z1'], color=GREEN if p['heic']['ok1'] else RED, alpha=.9)
-ax.set_xticks(range(len(hp))); ax.set_xticklabels(['#%d' % p['id'] for p in hp], fontsize=7); ax.axhline(3.5, color=RED, ls='--', lw=1); ax.set_ylabel('colour-layer z')
-ax.set_title('HEIC original, marked, saved as JPEG q95: %d of %d read in full' % (sum(p['heic']['ok1'] for p in hp), len(hp)), loc='left', fontsize=9)
+for x, p in enumerate(photos): ax.bar(x, p['attacks'][1]['z1'], color=DEVICE_COLORS.get(p['dev'], MUTED), alpha=.9)
+ax.set_xticks(range(0, N, 2)); ax.set_xticklabels(['#%d' % photos[k]['id'] for k in range(0, N, 2)], fontsize=6.5); ax.axhline(3.5, color=RED, ls='--', lw=1); ax.set_ylabel('colour-layer z (chat app copy)')
+ax.set_title('Signal strength of every photo after the chat-app squeeze (red line = detection limit)', loc='left', fontsize=9)
 ax = axs[1]
 tot = dict(full=0, part=0, dmg=0)
 for p in photos:
@@ -326,6 +325,6 @@ vals = [tot['full'], tot['part'], tot['dmg']]
 ax.pie(vals, colors=[GREEN, ORANGE, RED], startangle=90, counterclock=False, wedgeprops=dict(width=.38, edgecolor=BG), autopct=lambda v: '%.0f%%' % v, textprops=dict(color=BG, fontweight='bold', fontsize=9), pctdistance=.8)
 ax.text(0, 0, '%d\nedits' % sum(vals), ha='center', va='center', fontsize=12, fontweight='bold', color=TXT)
 ax.set_title('All %d marked-photo edits' % sum(vals), fontsize=9)
-save(fig, 'fig13_heic_totals.png')
+save(fig, 'fig13_totals.png')
 json.dump(dict(totals=tot, fp=[fp_status, len(ctl), float(max_ctl)], texture_r=float(cc), n=N), open(os.path.join(W.HERE, 'results', 'summary.json'), 'w'), indent=1)
 print('figures complete', tot)

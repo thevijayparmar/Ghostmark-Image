@@ -13,8 +13,11 @@ for p in P:
 NA = len(P[0]['attacks']) - 1
 SCENE = ['Carved stone temple', 'Step-well and water', 'Stone well, looking up', 'Rebar mat, construction site', 'Crane erection site', 'Sky over a highway', 'Jetty and offshore rig',
          'Rooftop rebar and formwork', 'Telecom tower against sky', 'Power line on a shoreline', 'Cracked concrete column', 'Drone: scrubland', 'Offshore rigs, storm clouds', 'Stone-pier bridge',
-         'Drone: farm fields', 'Water tank on columns', 'River weir', 'Drone: river and bridge', 'Drone: solar farm', 'Weathered brick wall', 'Car park from a car', 'Fruit plate', 'Cafe interior']
-DEVICES = [('iPhone 16 Pro', '📱'), ('DJI drone', '🚁'), ('OnePlus', '📱'), ('vivo', '📱'), ('realme', '📱'), ('LAVA', '📱')]
+         'Drone: farm fields', 'Water tank on columns', 'River weir', 'Drone: river and bridge', 'Drone: solar farm', 'Weathered brick wall', 'Car park from a car', 'Fruit plate', 'Cafe interior',
+         'Aeroplane wing over clouds', 'Blossom at dusk', 'Rainy street at night', 'Ship wake in a bay', 'Tall-ship masts', 'Skyscraper by the river', 'River skyline at dusk',
+         'Temple spire', 'Night beach', 'Storm over a night sea', 'Beach under heavy cloud', 'Castle in fog', 'Bay with limestone islands', 'Moon over the bay',
+         'Dusk, island silhouettes', 'City rooftops', 'Tower in thick fog']
+DEVICES = [('iPhone 17 Pro', '📱'), ('iPhone 16 Pro', '📱'), ('DJI drone', '🚁'), ('OnePlus', '📱'), ('vivo', '📱'), ('realme', '📱'), ('LAVA', '📱')]
 med = lambda k: float(np.median([p[k] for p in P]))
 full, part, dmg = S['totals']['full'], S['totals']['part'], S['totals']['dmg']
 tot = full + part + dmg
@@ -31,7 +34,6 @@ chat_ok = sum(a['ok1'] for a in att(1)); chat_z = float(np.median([a['z1'] for a
 crops = [(c['name'], c['area'], sum(p['crops'][k]['ok1'] for p in P)) for k, c in enumerate(P[0]['crops'])]
 scr = [sum(p['screen'][k]['ok1'] for p in P) for k in range(2)]
 scr_ms = [np.mean([p['screen'][k]['ms'] for p in P]) / 1000 for k in range(2)]
-heic = [p for p in P if 'heic' in p and 'ok1' in p['heic']]; heic_ok = sum(p['heic']['ok1'] for p in heic)
 strength = [(s['s'], np.mean([p['strength'][k]['psnr'] for p in P]), np.mean([p['strength'][k]['chat_ok1'] for p in P]) * 100, np.mean([p['strength'][k]['small_ok1'] for p in P]) * 100) for k, s in enumerate(P[0]['strength'])]
 T = json.load(open(os.path.join(W.HERE, 'results', 'timing.json')))
 kms = np.polyfit([t['mp'] for t in T], [t['embed_ms'] for t in T], 1)[0]
@@ -55,7 +57,7 @@ def chip(p):
 
 def cell(p):
     i = p['id']
-    return ('<td width="50%%" align="center">\n  <img src="assets/photo%02d.gif" width="100%%" alt="Photo %d, %s, through nine tests"/>\n'
+    return ('<td width="50%%" align="center">\n  <img src="assets/photo%02d.webp" width="100%%" alt="Photo %d, %s, through nine tests"/>\n'
             '  <br/><sub><b>#%d · %s</b><br/>%s %s · %.0f MP · PSNR %.1f dB · chat-app z = %.0f<br/>%s</sub>\n</td>') % (
         i, i, SCENE[i - 1], i, SCENE[i - 1], p['make'], p['model'], p['mp'], p['psnr'], p['attacks'][1]['z1'], chip(p))
 
@@ -96,7 +98,6 @@ def att_table():
         rows.append('| Crop to %d%% of the area (%s), then chat app | %d / %d | n/a | n/a |' % (area, name, ok, N))
     rows.append('| Simulated phone photo of a **monitor** (4 tapped corners) | %d / %d | n/a | n/a |' % (scr[0], N))
     rows.append('| Simulated phone photo of a **print** (4 tapped corners) | %d / %d | n/a | n/a |' % (scr[1], N))
-    rows.append('| HEIC original → mark → save as JPEG q95 | %d / %d | n/a | n/a |' % (heic_ok, len(heic)))
     return '\n'.join(rows)
 
 
@@ -117,13 +118,33 @@ def strength_table():
     return '\n'.join(rows)
 
 
+BWS = json.load(open(os.path.join(W.HERE, 'results', 'bw_summary.json')))
+BWR = json.load(open(os.path.join(W.HERE, 'results', 'bw.json')))
+PYR = json.load(open(os.path.join(W.HERE, 'results', 'python.json')))
+BWN = ['B&W, saved as JPEG q95', 'B&W + chat app (1600 px, q70)', 'B&W + social (1080 px, q50)', 'B&W + thumbnail (800 px, q40)', 'B&W + strong contrast + chat app', 'B&W + 75% centre crop + chat app',
+       'Equal-weight grey + chat app', 'Red-filter B&W + chat app', 'Green-filter B&W + chat app']
+
+
+def bw_table():
+    rows = ['| Black-and-white path | Location read | Median z (brightness layer) |', '|---|:-:|:-:|']
+    for j, nm in enumerate(BWN):
+        zs = [p['rows'][j]['z2'] for p in BWR]
+        rows.append('| %s | %s%d / %d%s | %.1f |' % (nm, '**' if j == 1 else '', BWS['ok'][j], N, '**' if j == 1 else '', np.median(zs)))
+    rows.append('| Written at **1.5×** strength, B&W + chat app | %d / %d | %.1f |' % (BWS['strong15'], N, np.median([p['strong']['1.5']['z2'] for p in BWR])))
+    rows.append('| Written at **2×** strength, B&W + chat app | %d / %d | %.1f |' % (BWS['strong20'], N, np.median([p['strong']['2.0']['z2'] for p in BWR])))
+    return chr(10).join(rows)
+
+
+bw_fail = [p['id'] for p in BWR if not p['rows'][1]['ok2']]
+i17 = [p for p in P if p['dev'] == 'iPhone 17 Pro']
+NCHARTS = len([f for f in os.listdir(os.path.join(ROOT, 'assets')) if f.startswith('fig')])
 TEMPLATE = open(os.path.join(W.HERE, 'readme_template.md'), encoding='utf8').read()
 vals = dict(
     N=N, NA=NA, TOT=tot, FULL=full, PART=part, DMG=dmg, FULLPCT=full / tot * 100, FP_N=fp_n, FP_TOTAL=fp_total, FP_MAX=fp_max,
     BIG_OK=big_ok, BIG_N=big_n, CHAT_OK=chat_ok, CHAT_Z=chat_z, PSNR_MED=med('psnr'), PSNR_MIN=min(p['psnr'] for p in P), PSNR_MAX=max(p['psnr'] for p in P),
     SSIM_MED=med('ssim'), DE_MED=med('dE'), MEAN_CH=med('mean_change'), MAX_CH=max(p['max_change'] for p in P), BYTES_MAX=max(p['bytes_added_pct'] for p in P),
     TEX_R=tex_r, KMS=kms, MP_MIN=min(p['mp'] for p in P), MP_MAX=max(p['mp'] for p in P), EMB_MED=emb_med, READ_MED=read_med,
-    SCR0=scr[0], SCR1=scr[1], SCRMS0=scr_ms[0], SCRMS1=scr_ms[1], HEIC_OK=heic_ok, HEIC_N=len(heic),
+    SCR0=scr[0], SCR1=scr[1], SCRMS0=scr_ms[0], SCRMS1=scr_ms[1], 
     C90=crops[0][2], C75=crops[1][2], C60=crops[2][2], C45=crops[3][2], CTRIM=crops[4][2], CQ=crops[5][2],
     FAIL_STORED=', '.join('#%d' % i for i in fail_stored) or 'none', N_SMALL_FAIL=len(small_fail), N_RESCUED=len(rescued),
     GALLERY=gallery(), ATT_TABLE=att_table(), DEVICE_TABLE=device_table(), STRENGTH_TABLE=strength_table(),
@@ -132,6 +153,12 @@ vals = dict(
     NDEV=len({(p['make'], p['model']) for p in P}),
     BW_LOC=sum(a['ok2'] for a in att(11)), MIN_OK_Z=min(a['z1'] for p in P for a in p['attacks'] if a['ok1']),
     DJI_AVG=np.mean([p['score'] for p in P if p['dev'] == 'DJI drone']), IPH_AVG=np.mean([p['score'] for p in P if p['dev'] == 'iPhone 16 Pro']),
+    BW_CHAT_OK=BWS['chat_ok'], BW_S15=BWS['strong15'], BW_S20=BWS['strong20'], BW_MEDERR=BWS['median_err'], BW_P90ERR=BWS['p90_err'], BW_MAXERR=BWS['max_err'], BW_NREADS=BWS['n_reads'],
+    BW_PYAGREE=BWS['py_agree'], BW_PYN=BWS['py_n'], BW_CTL=BWS['control_clean'], BW_THUMB=BWS['ok'][3], BW_CROP=BWS['ok'][5], BW_AVG=BWS['ok'][6], BW_RED=BWS['ok'][7], BW_GREEN=BWS['ok'][8],
+    BW_P15=BWS['strong15_psnr'], BW_P20=BWS['strong20_psnr'], BW_TABLE=bw_table(), BW_LOST=len(bw_fail), BW_FAIL_LIST=', '.join('#%d' % i for i in bw_fail) or 'none',
+    SMALL1=[x for x in strength if x[0] == 1.0][0][3], PS1=[x for x in strength if x[0] == 1.0][0][1], PS2=[x for x in strength if x[0] == 2.0][0][1], N_I17=len(i17), IPH17_AVG=np.mean([p['score'] for p in i17]), NCHARTS=NCHARTS,
+    PY_MARK_S=PYR['speed']['mark_s'], PY_READ_S=PYR['speed']['read_s'], PY_CROP_S=PYR['speed']['crop_s'], PY_PERSP_S=PYR['speed']['persp_s'],
+    PY_INTEROP='marks written by Python were read in full by the JavaScript engine for %d of %d photos, and marks written by JavaScript were read in full by Python for %d of %d' % (PYR['py_marked_js_read'], PYR['n'], PYR['js_marked_py_read'], PYR['n']),
     LAVA_AVG=np.mean([p['score'] for p in P if p['dev'] == 'LAVA']),
 )
 out = TEMPLATE

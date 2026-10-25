@@ -12,8 +12,12 @@ PAYLOAD = dict(lat=12.971599, lon=77.594566, alt=920, t=1792929600, tenth=4, man
 
 
 def photo_files():
+    """Photo ids 1-23 are the files named "(n)"; ids 24-40 are the files named "(n)-1" (the iPhone 17 Pro batch)."""
     fs = [f for f in glob.glob(PHOTOS + '/*') if f.lower().endswith(('.jpg', '.jpeg'))]
-    return sorted(set(fs), key=lambda p: int(p.split('(')[1].split(')')[0]))
+    n = lambda p: int(p.split('(')[1].split(')')[0])
+    first = sorted([f for f in fs if ')-1' not in f], key=n)
+    second = sorted([f for f in fs if ')-1' in f], key=n)
+    return first + second
 
 
 def heic_for(path):

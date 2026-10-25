@@ -1,0 +1,8 @@
+C:\Tests_VP\Field Camera\markengine\Github\tools\make_bw.py:126: MatplotlibDeprecationWarning: vert: bool was deprecated in Matplotlib 3.11 and will be removed in 3.13. Use orientation: {'vertical', 'horizontal'} instead.
+  bp = ax.boxplot(data, vert=False, patch_artist=True, widths=.55, showfliers=False, medianprops=dict(color=BG, lw=1.6))
+{'n': 40, 'ok': [31, 29, 24, 18, 24, 0, 29, 27, 29], 'strong15': 37, 'strong20': 39, 'chat_ok': 29, 'median_err': 6.6, 'p90_err': 6.6, 'all_median_err': 6.6, 'all_p90_err': 6.6, 'max_err': 6.6, 'n_reads': 211, 'py_agree': 320, 'py_n': 320, 'control_clean': 40, 'never_wrong': True, 'full_in_bw': 0, 'strong15_psnr': 38.45, 'strong20_psnr': 36.046749999999996, 'strong15_err': None}
+saved fig14_bw_wall.jpg
+saved fig15_bw_matrix.png
+saved fig16_bw_why.png
+saved fig17_bw_stats.png
+saved bw_demo.webp 419 KB

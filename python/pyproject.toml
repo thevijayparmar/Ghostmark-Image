@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ghostmark-image"
+version = "1.1.0"
+description = "Invisible two-layer photo mark (location, time, altitude) that survives chat apps. Python port of the Ghostmark engine; same mark format as the Android engine."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["numpy>=1.22"]
+authors = [{ name = "Vijay Parmar" }]
+license = { text = "Ghostmark Attribution Licence v1.0 (see LICENSE)" }
+keywords = ["watermark", "invisible watermark", "geotag", "photo", "provenance", "image"]
+classifiers = ["Programming Language :: Python :: 3", "Topic :: Multimedia :: Graphics"]
+
+[project.optional-dependencies]
+files = ["Pillow>=9"]
+test = ["pytest", "Pillow>=9"]
+
+[project.urls]
+Homepage = "https://github.com/thevijayparmar/Ghostmark-Image"
+
+[project.scripts]
+ghostmark = "ghostmark.cli:main"
+
+[tool.setuptools]
+packages = ["ghostmark"]

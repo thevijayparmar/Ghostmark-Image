@@ -1,0 +1,42 @@
+{
+ "n": 40,
+ "variants": [
+  "B&W, stored q95",
+  "B&W + chat app (1600 px, q70)",
+  "B&W + social (1080 px, q50)",
+  "B&W + thumbnail (800 px, q40)",
+  "B&W + strong contrast + chat app",
+  "B&W + centre 75% crop + chat app",
+  "Filter: equal-weight grey + chat app",
+  "Filter: red-filter B&W + chat app",
+  "Filter: green-filter B&W + chat app"
+ ],
+ "ok": [
+  31,
+  29,
+  24,
+  18,
+  24,
+  0,
+  29,
+  27,
+  29
+ ],
+ "strong15": 37,
+ "strong20": 39,
+ "chat_ok": 29,
+ "median_err": 6.6,
+ "p90_err": 6.6,
+ "all_median_err": 6.6,
+ "all_p90_err": 6.6,
+ "max_err": 6.6,
+ "n_reads": 211,
+ "py_agree": 320,
+ "py_n": 320,
+ "control_clean": 40,
+ "never_wrong": true,
+ "full_in_bw": 0,
+ "strong15_psnr": 38.45,
+ "strong20_psnr": 36.046749999999996,
+ "strong15_err": null
+}

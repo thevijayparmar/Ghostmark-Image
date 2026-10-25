@@ -6,6 +6,7 @@ import wmlib as W, phys_sim
 
 OUT = os.path.join(W.HERE, 'results'); os.makedirs(OUT, exist_ok=True)
 files = W.photo_files()
+IDS = [int(a) for a in sys.argv[1:]] or list(range(1, len(files) + 1))   # photo ids to (re)run; the rest are kept from results.json
 res = {'payload': W.PAYLOAD, 'photos': []}
 CROPS = {'centre 90%': (.05, .05, .95, .95), 'centre 75%': (.125, .125, .875, .875), 'centre 60%': (.2, .2, .8, .8),
          'centre 45%': (.275, .275, .725, .725), 'right 10% trimmed': (0, 0, .9, 1), 'top-left quarter': (0, 0, .5, .5)}
@@ -112,8 +113,11 @@ def do_photo(i):
 
 if __name__ == '__main__':
     t0 = time.time()
+    rp = os.path.join(OUT, 'results.json')
+    keep = {p['id']: p for p in json.load(open(rp))['photos']} if os.path.exists(rp) and sys.argv[1:] else {}
     with ThreadPoolExecutor(max_workers=int(os.environ.get('WORKERS', 4))) as ex:
-        res['photos'] = list(ex.map(do_photo, range(len(files))))
+        for p in ex.map(do_photo, [i - 1 for i in IDS]): keep[p['id']] = p
+    res['photos'] = [keep[k] for k in sorted(keep)]
     res['seconds'] = round(time.time() - t0)
     json.dump(res, open(os.path.join(OUT, 'results.json'), 'w'), indent=1)
     print('written', res['seconds'], 's')

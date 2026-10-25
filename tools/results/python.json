@@ -1,0 +1,22 @@
+{
+ "n": 40,
+ "py_marked_js_read": 38,
+ "js_marked_py_read": 38,
+ "py_read_py_marked": 38,
+ "js_read_js_marked": 38,
+ "both_agree_status": 40,
+ "max_pixel_diff": 1,
+ "mean_pixel_diff": 0.4976807936500869,
+ "speed": {
+  "mp": 12.2,
+  "mark_s": 2.09,
+  "read_s": 0.46,
+  "mark_verified_s": 2.9,
+  "strength": 1.0,
+  "crop_s": 5.5,
+  "crop_status": "ok",
+  "persp_s": 48.9,
+  "persp_status": "ok",
+  "read_status": "ok"
+ }
+}

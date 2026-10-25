@@ -5,3 +5,7 @@ local.properties
 __pycache__/
 *.iml
 .idea/
+*.egg-info/
+.pytest_cache/
+*.pyc
+tools/results/run_*.log

@@ -1,5 +1,7 @@
 # Ghostmark: invisible photo marking and reading (integration guide)
 
+> Not building an Android app? The same mark format is also available as a Python package (`python/`, numpy only) and as the JavaScript reference engine (`reference/`). Marks written by any of the three engines are read by the other two.
+
 Engine version **1.1.0**, mark format **1**. This file is written for people and for AI coding assistants. If you are an AI asked to "integrate the mark engine into this app", read sections 1 to 6 and 12 first, then follow the checklist in section 12.
 
 ---

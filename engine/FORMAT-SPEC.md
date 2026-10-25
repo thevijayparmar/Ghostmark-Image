@@ -1,6 +1,6 @@
 # Ghostmark: invisible mark format spec (v1)
 
-`reference/wm-engine.js` is the reference implementation and wins over this text if they disagree.
+`reference/wm-engine.js` is the reference implementation and wins over this text if they disagree. The Python engine in `python/ghostmark/_core.py` is a line-by-line port of it and reads and writes the same marks (checked by shared fixtures and by cross-reading every test photo).
 The Kotlin engine (`engine/`) must read and write exactly this format.
 
 ## What it is

@@ -1,0 +1,5562 @@
+[
+ {
+  "id": 1,
+  "rows": [
+   {
+    "name": "B&W, stored q95",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 9.3,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 9.3
+   },
+   {
+    "name": "B&W + chat app (1600 px, q70)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 8.9,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 8.9
+   },
+   {
+    "name": "B&W + social (1080 px, q50)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 8.3,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 8.3
+   },
+   {
+    "name": "B&W + thumbnail (800 px, q40)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 7.2,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 7.2
+   },
+   {
+    "name": "B&W + strong contrast + chat app",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 7.2,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 7.2
+   },
+   {
+    "name": "B&W + centre 75% crop + chat app",
+    "mode": "std",
+    "status": "nocrop",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 0,
+    "err_m": null
+   },
+   {
+    "name": "Filter: equal-weight grey + chat app",
+    "mode": "avg",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 8.9,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 8.9
+   },
+   {
+    "name": "Filter: red-filter B&W + chat app",
+    "mode": "red",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 8.4,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 8.4
+   },
+   {
+    "name": "Filter: green-filter B&W + chat app",
+    "mode": "green",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 9.0,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 9.0
+   }
+  ],
+  "strong": {
+   "1.5": {
+    "status": "part",
+    "ok2": true,
+    "z2": 12.6,
+    "err_m": 6.6,
+    "psnr": 34.14
+   },
+   "2.0": {
+    "status": "part",
+    "ok2": true,
+    "z2": 16.3,
+    "err_m": 6.6,
+    "psnr": 31.68
+   }
+  },
+  "control": {
+   "status": "none",
+   "z2": 1.1
+  }
+ },
+ {
+  "id": 2,
+  "rows": [
+   {
+    "name": "B&W, stored q95",
+    "mode": "std",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0.0,
+    "z2": 6.1,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 6.1
+   },
+   {
+    "name": "B&W + chat app (1600 px, q70)",
+    "mode": "std",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0.0,
+    "z2": 5.5,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 5.5
+   },
+   {
+    "name": "B&W + social (1080 px, q50)",
+    "mode": "std",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0.0,
+    "z2": 4.7,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 4.7
+   },
+   {
+    "name": "B&W + thumbnail (800 px, q40)",
+    "mode": "std",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": -0.0,
+    "z2": 3.7,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 3.7
+   },
+   {
+    "name": "B&W + strong contrast + chat app",
+    "mode": "std",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0.0,
+    "z2": 4.4,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 4.4
+   },
+   {
+    "name": "B&W + centre 75% crop + chat app",
+    "mode": "std",
+    "status": "nocrop",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 0,
+    "err_m": null
+   },
+   {
+    "name": "Filter: equal-weight grey + chat app",
+    "mode": "avg",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0.0,
+    "z2": 5.6,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 5.6
+   },
+   {
+    "name": "Filter: red-filter B&W + chat app",
+    "mode": "red",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0.0,
+    "z2": 5.2,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 5.2
+   },
+   {
+    "name": "Filter: green-filter B&W + chat app",
+    "mode": "green",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0.0,
+    "z2": 5.6,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 5.6
+   }
+  ],
+  "strong": {
+   "1.5": {
+    "status": "part",
+    "ok2": true,
+    "z2": 8.5,
+    "err_m": 6.6,
+    "psnr": 37.75
+   },
+   "2.0": {
+    "status": "part",
+    "ok2": true,
+    "z2": 11.5,
+    "err_m": 6.6,
+    "psnr": 35.33
+   }
+  },
+  "control": {
+   "status": "none",
+   "z2": 0.5
+  }
+ },
+ {
+  "id": 3,
+  "rows": [
+   {
+    "name": "B&W, stored q95",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 15.3,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 15.3
+   },
+   {
+    "name": "B&W + chat app (1600 px, q70)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 14.6,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 14.6
+   },
+   {
+    "name": "B&W + social (1080 px, q50)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 13.7,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 13.7
+   },
+   {
+    "name": "B&W + thumbnail (800 px, q40)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 12.2,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 12.2
+   },
+   {
+    "name": "B&W + strong contrast + chat app",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 13.5,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 13.5
+   },
+   {
+    "name": "B&W + centre 75% crop + chat app",
+    "mode": "std",
+    "status": "nocrop",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 0,
+    "err_m": null
+   },
+   {
+    "name": "Filter: equal-weight grey + chat app",
+    "mode": "avg",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": -0.0,
+    "z2": 14.7,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 14.7
+   },
+   {
+    "name": "Filter: red-filter B&W + chat app",
+    "mode": "red",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": -0.0,
+    "z2": 14.7,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 14.7
+   },
+   {
+    "name": "Filter: green-filter B&W + chat app",
+    "mode": "green",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": -0.0,
+    "z2": 14.4,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 14.4
+   }
+  ],
+  "strong": {
+   "1.5": {
+    "status": "part",
+    "ok2": true,
+    "z2": 20.6,
+    "err_m": 6.6,
+    "psnr": 34.63
+   },
+   "2.0": {
+    "status": "part",
+    "ok2": true,
+    "z2": 26.4,
+    "err_m": 6.6,
+    "psnr": 32.17
+   }
+  },
+  "control": {
+   "status": "none",
+   "z2": 1.9
+  }
+ },
+ {
+  "id": 4,
+  "rows": [
+   {
+    "name": "B&W, stored q95",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 11.8,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 11.8
+   },
+   {
+    "name": "B&W + chat app (1600 px, q70)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 10.9,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 10.9
+   },
+   {
+    "name": "B&W + social (1080 px, q50)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": -0.0,
+    "z2": 10.5,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 10.5
+   },
+   {
+    "name": "B&W + thumbnail (800 px, q40)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": -0.0,
+    "z2": 9.2,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 9.2
+   },
+   {
+    "name": "B&W + strong contrast + chat app",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 11.5,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 11.5
+   },
+   {
+    "name": "B&W + centre 75% crop + chat app",
+    "mode": "std",
+    "status": "nocrop",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 0,
+    "err_m": null
+   },
+   {
+    "name": "Filter: equal-weight grey + chat app",
+    "mode": "avg",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 11.1,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 11.1
+   },
+   {
+    "name": "Filter: red-filter B&W + chat app",
+    "mode": "red",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 10.9,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 10.9
+   },
+   {
+    "name": "Filter: green-filter B&W + chat app",
+    "mode": "green",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 10.7,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 10.7
+   }
+  ],
+  "strong": {
+   "1.5": {
+    "status": "part",
+    "ok2": true,
+    "z2": 16.4,
+    "err_m": 6.6,
+    "psnr": 35.03
+   },
+   "2.0": {
+    "status": "part",
+    "ok2": true,
+    "z2": 21.8,
+    "err_m": 6.6,
+    "psnr": 32.55
+   }
+  },
+  "control": {
+   "status": "none",
+   "z2": 0.9
+  }
+ },
+ {
+  "id": 5,
+  "rows": [
+   {
+    "name": "B&W, stored q95",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 10.4,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 10.4
+   },
+   {
+    "name": "B&W + chat app (1600 px, q70)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 9.1,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 9.1
+   },
+   {
+    "name": "B&W + social (1080 px, q50)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 7.1,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 7.1
+   },
+   {
+    "name": "B&W + thumbnail (800 px, q40)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 5.2,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 5.2
+   },
+   {
+    "name": "B&W + strong contrast + chat app",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 10.2,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 10.2
+   },
+   {
+    "name": "B&W + centre 75% crop + chat app",
+    "mode": "std",
+    "status": "nocrop",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 0,
+    "err_m": null
+   },
+   {
+    "name": "Filter: equal-weight grey + chat app",
+    "mode": "avg",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 8.9,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 8.9
+   },
+   {
+    "name": "Filter: red-filter B&W + chat app",
+    "mode": "red",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 9.6,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 9.6
+   },
+   {
+    "name": "Filter: green-filter B&W + chat app",
+    "mode": "green",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 8.9,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 8.9
+   }
+  ],
+  "strong": {
+   "1.5": {
+    "status": "part",
+    "ok2": true,
+    "z2": 14.3,
+    "err_m": 6.6,
+    "psnr": 36.29
+   },
+   "2.0": {
+    "status": "part",
+    "ok2": true,
+    "z2": 19.4,
+    "err_m": 6.6,
+    "psnr": 33.83
+   }
+  },
+  "control": {
+   "status": "none",
+   "z2": 1.8
+  }
+ },
+ {
+  "id": 6,
+  "rows": [
+   {
+    "name": "B&W, stored q95",
+    "mode": "std",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 4.1,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 4.1
+   },
+   {
+    "name": "B&W + chat app (1600 px, q70)",
+    "mode": "std",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0.0,
+    "z2": 4.2,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 4.2
+   },
+   {
+    "name": "B&W + social (1080 px, q50)",
+    "mode": "std",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0.0,
+    "z2": 4.1,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 4.1
+   },
+   {
+    "name": "B&W + thumbnail (800 px, q40)",
+    "mode": "std",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 4.0,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 4.0
+   },
+   {
+    "name": "B&W + strong contrast + chat app",
+    "mode": "std",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0.0,
+    "z2": 3.7,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 3.7
+   },
+   {
+    "name": "B&W + centre 75% crop + chat app",
+    "mode": "std",
+    "status": "nocrop",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 0,
+    "err_m": null
+   },
+   {
+    "name": "Filter: equal-weight grey + chat app",
+    "mode": "avg",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0.0,
+    "z2": 4.4,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 4.4
+   },
+   {
+    "name": "Filter: red-filter B&W + chat app",
+    "mode": "red",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 4.4,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 4.4
+   },
+   {
+    "name": "Filter: green-filter B&W + chat app",
+    "mode": "green",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0.0,
+    "z2": 4.0,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 4.0
+   }
+  ],
+  "strong": {
+   "1.5": {
+    "status": "part",
+    "ok2": true,
+    "z2": 6.2,
+    "err_m": 6.6,
+    "psnr": 42.42
+   },
+   "2.0": {
+    "status": "part",
+    "ok2": true,
+    "z2": 8.2,
+    "err_m": 6.6,
+    "psnr": 40.11
+   }
+  },
+  "control": {
+   "status": "none",
+   "z2": 2.7
+  }
+ },
+ {
+  "id": 7,
+  "rows": [
+   {
+    "name": "B&W, stored q95",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 8.1,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 8.1
+   },
+   {
+    "name": "B&W + chat app (1600 px, q70)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 7.5,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 7.5
+   },
+   {
+    "name": "B&W + social (1080 px, q50)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 6.8,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 6.8
+   },
+   {
+    "name": "B&W + thumbnail (800 px, q40)",
+    "mode": "std",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0.0,
+    "z2": 5.2,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 5.2
+   },
+   {
+    "name": "B&W + strong contrast + chat app",
+    "mode": "std",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0.0,
+    "z2": 7.2,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 7.2
+   },
+   {
+    "name": "B&W + centre 75% crop + chat app",
+    "mode": "std",
+    "status": "nocrop",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 0,
+    "err_m": null
+   },
+   {
+    "name": "Filter: equal-weight grey + chat app",
+    "mode": "avg",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 7.5,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 7.5
+   },
+   {
+    "name": "Filter: red-filter B&W + chat app",
+    "mode": "red",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 7.7,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 7.7
+   },
+   {
+    "name": "Filter: green-filter B&W + chat app",
+    "mode": "green",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 7.5,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 7.5
+   }
+  ],
+  "strong": {
+   "1.5": {
+    "status": "part",
+    "ok2": true,
+    "z2": 10.4,
+    "err_m": 6.6,
+    "psnr": 36.94
+   },
+   "2.0": {
+    "status": "part",
+    "ok2": true,
+    "z2": 13.4,
+    "err_m": 6.6,
+    "psnr": 34.5
+   }
+  },
+  "control": {
+   "status": "none",
+   "z2": 1.4
+  }
+ },
+ {
+  "id": 8,
+  "rows": [
+   {
+    "name": "B&W, stored q95",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": -0.0,
+    "z2": 7.5,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 7.5
+   },
+   {
+    "name": "B&W + chat app (1600 px, q70)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 7.2,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 7.2
+   },
+   {
+    "name": "B&W + social (1080 px, q50)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 6.0,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 6.0
+   },
+   {
+    "name": "B&W + thumbnail (800 px, q40)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 5.9,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 5.9
+   },
+   {
+    "name": "B&W + strong contrast + chat app",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 6.5,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 6.5
+   },
+   {
+    "name": "B&W + centre 75% crop + chat app",
+    "mode": "std",
+    "status": "nocrop",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 0,
+    "err_m": null
+   },
+   {
+    "name": "Filter: equal-weight grey + chat app",
+    "mode": "avg",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 7.2,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 7.2
+   },
+   {
+    "name": "Filter: red-filter B&W + chat app",
+    "mode": "red",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 7.0,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 7.0
+   },
+   {
+    "name": "Filter: green-filter B&W + chat app",
+    "mode": "green",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 7.2,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 7.2
+   }
+  ],
+  "strong": {
+   "1.5": {
+    "status": "part",
+    "ok2": true,
+    "z2": 10.6,
+    "err_m": 6.6,
+    "psnr": 34.97
+   },
+   "2.0": {
+    "status": "part",
+    "ok2": true,
+    "z2": 13.9,
+    "err_m": 6.6,
+    "psnr": 32.51
+   }
+  },
+  "control": {
+   "status": "none",
+   "z2": 0.4
+  }
+ },
+ {
+  "id": 9,
+  "rows": [
+   {
+    "name": "B&W, stored q95",
+    "mode": "std",
+    "status": "none",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 3.3,
+    "err_m": null,
+    "py_status": "none",
+    "py_ok2": false,
+    "py_z2": 3.3
+   },
+   {
+    "name": "B&W + chat app (1600 px, q70)",
+    "mode": "std",
+    "status": "none",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 2.8,
+    "err_m": null,
+    "py_status": "none",
+    "py_ok2": false,
+    "py_z2": 2.8
+   },
+   {
+    "name": "B&W + social (1080 px, q50)",
+    "mode": "std",
+    "status": "none",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 2.1,
+    "err_m": null,
+    "py_status": "none",
+    "py_ok2": false,
+    "py_z2": 2.1
+   },
+   {
+    "name": "B&W + thumbnail (800 px, q40)",
+    "mode": "std",
+    "status": "none",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 1.7,
+    "err_m": null,
+    "py_status": "none",
+    "py_ok2": false,
+    "py_z2": 1.7
+   },
+   {
+    "name": "B&W + strong contrast + chat app",
+    "mode": "std",
+    "status": "none",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 2.1,
+    "err_m": null,
+    "py_status": "none",
+    "py_ok2": false,
+    "py_z2": 2.1
+   },
+   {
+    "name": "B&W + centre 75% crop + chat app",
+    "mode": "std",
+    "status": "nocrop",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 0,
+    "err_m": null
+   },
+   {
+    "name": "Filter: equal-weight grey + chat app",
+    "mode": "avg",
+    "status": "none",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 2.7,
+    "err_m": null,
+    "py_status": "none",
+    "py_ok2": false,
+    "py_z2": 2.7
+   },
+   {
+    "name": "Filter: red-filter B&W + chat app",
+    "mode": "red",
+    "status": "none",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 2.7,
+    "err_m": null,
+    "py_status": "none",
+    "py_ok2": false,
+    "py_z2": 2.7
+   },
+   {
+    "name": "Filter: green-filter B&W + chat app",
+    "mode": "green",
+    "status": "none",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 2.8,
+    "err_m": null,
+    "py_status": "none",
+    "py_ok2": false,
+    "py_z2": 2.8
+   }
+  ],
+  "strong": {
+   "1.5": {
+    "status": "damaged",
+    "ok2": false,
+    "z2": 3.9,
+    "err_m": null,
+    "psnr": 43.36
+   },
+   "2.0": {
+    "status": "damaged",
+    "ok2": false,
+    "z2": 5.0,
+    "err_m": null,
+    "psnr": 41.1
+   }
+  },
+  "control": {
+   "status": "none",
+   "z2": 0.4
+  }
+ },
+ {
+  "id": 10,
+  "rows": [
+   {
+    "name": "B&W, stored q95",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 6.2,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 6.2
+   },
+   {
+    "name": "B&W + chat app (1600 px, q70)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 5.8,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 5.8
+   },
+   {
+    "name": "B&W + social (1080 px, q50)",
+    "mode": "std",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0.0,
+    "z2": 5.4,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 5.4
+   },
+   {
+    "name": "B&W + thumbnail (800 px, q40)",
+    "mode": "std",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0.0,
+    "z2": 4.3,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 4.3
+   },
+   {
+    "name": "B&W + strong contrast + chat app",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 6.5,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 6.5
+   },
+   {
+    "name": "B&W + centre 75% crop + chat app",
+    "mode": "std",
+    "status": "nocrop",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 0,
+    "err_m": null
+   },
+   {
+    "name": "Filter: equal-weight grey + chat app",
+    "mode": "avg",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 5.9,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 5.9
+   },
+   {
+    "name": "Filter: red-filter B&W + chat app",
+    "mode": "red",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 6.0,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 6.0
+   },
+   {
+    "name": "Filter: green-filter B&W + chat app",
+    "mode": "green",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": -0.0,
+    "z2": 5.7,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 5.7
+   }
+  ],
+  "strong": {
+   "1.5": {
+    "status": "part",
+    "ok2": true,
+    "z2": 9.2,
+    "err_m": 6.6,
+    "psnr": 40.94
+   },
+   "2.0": {
+    "status": "part",
+    "ok2": true,
+    "z2": 12.2,
+    "err_m": 6.6,
+    "psnr": 38.57
+   }
+  },
+  "control": {
+   "status": "none",
+   "z2": 1.2
+  }
+ },
+ {
+  "id": 11,
+  "rows": [
+   {
+    "name": "B&W, stored q95",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 15.3,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 15.3
+   },
+   {
+    "name": "B&W + chat app (1600 px, q70)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 14.8,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 14.8
+   },
+   {
+    "name": "B&W + social (1080 px, q50)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": -0.0,
+    "z2": 13.1,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 13.1
+   },
+   {
+    "name": "B&W + thumbnail (800 px, q40)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": -0.0,
+    "z2": 11.4,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 11.4
+   },
+   {
+    "name": "B&W + strong contrast + chat app",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 14.4,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 14.4
+   },
+   {
+    "name": "B&W + centre 75% crop + chat app",
+    "mode": "std",
+    "status": "nocrop",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 0,
+    "err_m": null
+   },
+   {
+    "name": "Filter: equal-weight grey + chat app",
+    "mode": "avg",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": -0.0,
+    "z2": 15.0,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 15.0
+   },
+   {
+    "name": "Filter: red-filter B&W + chat app",
+    "mode": "red",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 14.2,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 14.2
+   },
+   {
+    "name": "Filter: green-filter B&W + chat app",
+    "mode": "green",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 14.7,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 14.7
+   }
+  ],
+  "strong": {
+   "1.5": {
+    "status": "part",
+    "ok2": true,
+    "z2": 21.0,
+    "err_m": 6.6,
+    "psnr": 34.45
+   },
+   "2.0": {
+    "status": "part",
+    "ok2": true,
+    "z2": 27.1,
+    "err_m": 6.6,
+    "psnr": 31.97
+   }
+  },
+  "control": {
+   "status": "none",
+   "z2": 1.5
+  }
+ },
+ {
+  "id": 12,
+  "rows": [
+   {
+    "name": "B&W, stored q95",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 18.4,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 18.4
+   },
+   {
+    "name": "B&W + chat app (1600 px, q70)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 17.0,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 17.0
+   },
+   {
+    "name": "B&W + social (1080 px, q50)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 15.4,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 15.4
+   },
+   {
+    "name": "B&W + thumbnail (800 px, q40)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 12.8,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 12.8
+   },
+   {
+    "name": "B&W + strong contrast + chat app",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 17.7,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 17.7
+   },
+   {
+    "name": "B&W + centre 75% crop + chat app",
+    "mode": "std",
+    "status": "nocrop",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 0,
+    "err_m": null
+   },
+   {
+    "name": "Filter: equal-weight grey + chat app",
+    "mode": "avg",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 17.2,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 17.2
+   },
+   {
+    "name": "Filter: red-filter B&W + chat app",
+    "mode": "red",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 15.3,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 15.3
+   },
+   {
+    "name": "Filter: green-filter B&W + chat app",
+    "mode": "green",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 17.3,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 17.3
+   }
+  ],
+  "strong": {
+   "1.5": {
+    "status": "part",
+    "ok2": true,
+    "z2": 25.2,
+    "err_m": 6.6,
+    "psnr": 34.46
+   },
+   "2.0": {
+    "status": "part",
+    "ok2": true,
+    "z2": 33.1,
+    "err_m": 6.6,
+    "psnr": 31.98
+   }
+  },
+  "control": {
+   "status": "none",
+   "z2": -0.5
+  }
+ },
+ {
+  "id": 13,
+  "rows": [
+   {
+    "name": "B&W, stored q95",
+    "mode": "std",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0.0,
+    "z2": 4.2,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 4.2
+   },
+   {
+    "name": "B&W + chat app (1600 px, q70)",
+    "mode": "std",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0.0,
+    "z2": 3.7,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 3.7
+   },
+   {
+    "name": "B&W + social (1080 px, q50)",
+    "mode": "std",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0.0,
+    "z2": 3.6,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 3.6
+   },
+   {
+    "name": "B&W + thumbnail (800 px, q40)",
+    "mode": "std",
+    "status": "none",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0.0,
+    "z2": 3.1,
+    "err_m": null,
+    "py_status": "none",
+    "py_ok2": false,
+    "py_z2": 3.1
+   },
+   {
+    "name": "B&W + strong contrast + chat app",
+    "mode": "std",
+    "status": "none",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0.0,
+    "z2": 2.9,
+    "err_m": null,
+    "py_status": "none",
+    "py_ok2": false,
+    "py_z2": 2.9
+   },
+   {
+    "name": "B&W + centre 75% crop + chat app",
+    "mode": "std",
+    "status": "nocrop",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 0,
+    "err_m": null
+   },
+   {
+    "name": "Filter: equal-weight grey + chat app",
+    "mode": "avg",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0.0,
+    "z2": 3.7,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 3.7
+   },
+   {
+    "name": "Filter: red-filter B&W + chat app",
+    "mode": "red",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0.0,
+    "z2": 4.0,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 4.0
+   },
+   {
+    "name": "Filter: green-filter B&W + chat app",
+    "mode": "green",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0.0,
+    "z2": 3.8,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 3.8
+   }
+  ],
+  "strong": {
+   "1.5": {
+    "status": "damaged",
+    "ok2": false,
+    "z2": 5.7,
+    "err_m": null,
+    "psnr": 39.35
+   },
+   "2.0": {
+    "status": "part",
+    "ok2": true,
+    "z2": 7.5,
+    "err_m": 6.6,
+    "psnr": 36.97
+   }
+  },
+  "control": {
+   "status": "none",
+   "z2": 0.3
+  }
+ },
+ {
+  "id": 14,
+  "rows": [
+   {
+    "name": "B&W, stored q95",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 10.2,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 10.2
+   },
+   {
+    "name": "B&W + chat app (1600 px, q70)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 8.8,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 8.8
+   },
+   {
+    "name": "B&W + social (1080 px, q50)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 7.8,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 7.8
+   },
+   {
+    "name": "B&W + thumbnail (800 px, q40)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 5.1,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 5.1
+   },
+   {
+    "name": "B&W + strong contrast + chat app",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 9.8,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 9.8
+   },
+   {
+    "name": "B&W + centre 75% crop + chat app",
+    "mode": "std",
+    "status": "nocrop",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 0,
+    "err_m": null
+   },
+   {
+    "name": "Filter: equal-weight grey + chat app",
+    "mode": "avg",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 8.9,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 8.9
+   },
+   {
+    "name": "Filter: red-filter B&W + chat app",
+    "mode": "red",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 8.6,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 8.6
+   },
+   {
+    "name": "Filter: green-filter B&W + chat app",
+    "mode": "green",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 8.9,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 8.9
+   }
+  ],
+  "strong": {
+   "1.5": {
+    "status": "part",
+    "ok2": true,
+    "z2": 13.6,
+    "err_m": 6.6,
+    "psnr": 35.82
+   },
+   "2.0": {
+    "status": "part",
+    "ok2": true,
+    "z2": 18.4,
+    "err_m": 6.6,
+    "psnr": 33.35
+   }
+  },
+  "control": {
+   "status": "none",
+   "z2": 2.1
+  }
+ },
+ {
+  "id": 15,
+  "rows": [
+   {
+    "name": "B&W, stored q95",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 21.2,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 21.2
+   },
+   {
+    "name": "B&W + chat app (1600 px, q70)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 20.5,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 20.5
+   },
+   {
+    "name": "B&W + social (1080 px, q50)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 18.8,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 18.8
+   },
+   {
+    "name": "B&W + thumbnail (800 px, q40)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 15.8,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 15.8
+   },
+   {
+    "name": "B&W + strong contrast + chat app",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 20.6,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 20.6
+   },
+   {
+    "name": "B&W + centre 75% crop + chat app",
+    "mode": "std",
+    "status": "nocrop",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 0,
+    "err_m": null
+   },
+   {
+    "name": "Filter: equal-weight grey + chat app",
+    "mode": "avg",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 21.1,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 21.1
+   },
+   {
+    "name": "Filter: red-filter B&W + chat app",
+    "mode": "red",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 18.1,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 18.1
+   },
+   {
+    "name": "Filter: green-filter B&W + chat app",
+    "mode": "green",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 19.9,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 19.9
+   }
+  ],
+  "strong": {
+   "1.5": {
+    "status": "part",
+    "ok2": true,
+    "z2": 29.2,
+    "err_m": 6.6,
+    "psnr": 34.03
+   },
+   "2.0": {
+    "status": "part",
+    "ok2": true,
+    "z2": 37.2,
+    "err_m": 6.6,
+    "psnr": 31.54
+   }
+  },
+  "control": {
+   "status": "none",
+   "z2": 1.3
+  }
+ },
+ {
+  "id": 16,
+  "rows": [
+   {
+    "name": "B&W, stored q95",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 6.5,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 6.5
+   },
+   {
+    "name": "B&W + chat app (1600 px, q70)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 5.3,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 5.3
+   },
+   {
+    "name": "B&W + social (1080 px, q50)",
+    "mode": "std",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0.0,
+    "z2": 4.8,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 4.8
+   },
+   {
+    "name": "B&W + thumbnail (800 px, q40)",
+    "mode": "std",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0.0,
+    "z2": 3.5,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 3.5
+   },
+   {
+    "name": "B&W + strong contrast + chat app",
+    "mode": "std",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 5.0,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 5.0
+   },
+   {
+    "name": "B&W + centre 75% crop + chat app",
+    "mode": "std",
+    "status": "nocrop",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 0,
+    "err_m": null
+   },
+   {
+    "name": "Filter: equal-weight grey + chat app",
+    "mode": "avg",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 5.4,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 5.4
+   },
+   {
+    "name": "Filter: red-filter B&W + chat app",
+    "mode": "red",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0.0,
+    "z2": 4.7,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 4.7
+   },
+   {
+    "name": "Filter: green-filter B&W + chat app",
+    "mode": "green",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 5.5,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 5.5
+   }
+  ],
+  "strong": {
+   "1.5": {
+    "status": "part",
+    "ok2": true,
+    "z2": 8.2,
+    "err_m": 6.6,
+    "psnr": 39.19
+   },
+   "2.0": {
+    "status": "part",
+    "ok2": true,
+    "z2": 10.9,
+    "err_m": 6.6,
+    "psnr": 36.78
+   }
+  },
+  "control": {
+   "status": "none",
+   "z2": 2.1
+  }
+ },
+ {
+  "id": 17,
+  "rows": [
+   {
+    "name": "B&W, stored q95",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 13.3,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 13.3
+   },
+   {
+    "name": "B&W + chat app (1600 px, q70)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 11.5,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 11.5
+   },
+   {
+    "name": "B&W + social (1080 px, q50)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 9.6,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 9.6
+   },
+   {
+    "name": "B&W + thumbnail (800 px, q40)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 7.9,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 7.9
+   },
+   {
+    "name": "B&W + strong contrast + chat app",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": -0.0,
+    "z2": 12.8,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 12.8
+   },
+   {
+    "name": "B&W + centre 75% crop + chat app",
+    "mode": "std",
+    "status": "nocrop",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 0,
+    "err_m": null
+   },
+   {
+    "name": "Filter: equal-weight grey + chat app",
+    "mode": "avg",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 11.2,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 11.2
+   },
+   {
+    "name": "Filter: red-filter B&W + chat app",
+    "mode": "red",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": -0.0,
+    "z2": 11.4,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 11.4
+   },
+   {
+    "name": "Filter: green-filter B&W + chat app",
+    "mode": "green",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 11.8,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 11.8
+   }
+  ],
+  "strong": {
+   "1.5": {
+    "status": "part",
+    "ok2": true,
+    "z2": 17.9,
+    "err_m": 6.6,
+    "psnr": 35.49
+   },
+   "2.0": {
+    "status": "part",
+    "ok2": true,
+    "z2": 24.0,
+    "err_m": 6.6,
+    "psnr": 33.02
+   }
+  },
+  "control": {
+   "status": "none",
+   "z2": 1.3
+  }
+ },
+ {
+  "id": 18,
+  "rows": [
+   {
+    "name": "B&W, stored q95",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 15.6,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 15.6
+   },
+   {
+    "name": "B&W + chat app (1600 px, q70)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 14.7,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 14.7
+   },
+   {
+    "name": "B&W + social (1080 px, q50)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 13.3,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 13.3
+   },
+   {
+    "name": "B&W + thumbnail (800 px, q40)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 11.2,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 11.2
+   },
+   {
+    "name": "B&W + strong contrast + chat app",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 15.3,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 15.3
+   },
+   {
+    "name": "B&W + centre 75% crop + chat app",
+    "mode": "std",
+    "status": "nocrop",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 0,
+    "err_m": null
+   },
+   {
+    "name": "Filter: equal-weight grey + chat app",
+    "mode": "avg",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 14.6,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 14.6
+   },
+   {
+    "name": "Filter: red-filter B&W + chat app",
+    "mode": "red",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 13.1,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 13.1
+   },
+   {
+    "name": "Filter: green-filter B&W + chat app",
+    "mode": "green",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 15.0,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 15.0
+   }
+  ],
+  "strong": {
+   "1.5": {
+    "status": "part",
+    "ok2": true,
+    "z2": 20.6,
+    "err_m": 6.6,
+    "psnr": 35.33
+   },
+   "2.0": {
+    "status": "part",
+    "ok2": true,
+    "z2": 26.2,
+    "err_m": 6.6,
+    "psnr": 32.86
+   }
+  },
+  "control": {
+   "status": "none",
+   "z2": 2.0
+  }
+ },
+ {
+  "id": 19,
+  "rows": [
+   {
+    "name": "B&W, stored q95",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 12.6,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 12.6
+   },
+   {
+    "name": "B&W + chat app (1600 px, q70)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 11.8,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 11.8
+   },
+   {
+    "name": "B&W + social (1080 px, q50)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 10.8,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 10.8
+   },
+   {
+    "name": "B&W + thumbnail (800 px, q40)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 9.4,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 9.4
+   },
+   {
+    "name": "B&W + strong contrast + chat app",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 12.8,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 12.8
+   },
+   {
+    "name": "B&W + centre 75% crop + chat app",
+    "mode": "std",
+    "status": "nocrop",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 0,
+    "err_m": null
+   },
+   {
+    "name": "Filter: equal-weight grey + chat app",
+    "mode": "avg",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 12.1,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 12.1
+   },
+   {
+    "name": "Filter: red-filter B&W + chat app",
+    "mode": "red",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 11.0,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 11.0
+   },
+   {
+    "name": "Filter: green-filter B&W + chat app",
+    "mode": "green",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 11.9,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 11.9
+   }
+  ],
+  "strong": {
+   "1.5": {
+    "status": "part",
+    "ok2": true,
+    "z2": 18.2,
+    "err_m": 6.6,
+    "psnr": 33.78
+   },
+   "2.0": {
+    "status": "part",
+    "ok2": true,
+    "z2": 24.5,
+    "err_m": 6.6,
+    "psnr": 31.3
+   }
+  },
+  "control": {
+   "status": "none",
+   "z2": -0.3
+  }
+ },
+ {
+  "id": 20,
+  "rows": [
+   {
+    "name": "B&W, stored q95",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 10.7,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 10.7
+   },
+   {
+    "name": "B&W + chat app (1600 px, q70)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 10.3,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 10.3
+   },
+   {
+    "name": "B&W + social (1080 px, q50)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 9.2,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 9.2
+   },
+   {
+    "name": "B&W + thumbnail (800 px, q40)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 7.5,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 7.5
+   },
+   {
+    "name": "B&W + strong contrast + chat app",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 10.2,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 10.2
+   },
+   {
+    "name": "B&W + centre 75% crop + chat app",
+    "mode": "std",
+    "status": "nocrop",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 0,
+    "err_m": null
+   },
+   {
+    "name": "Filter: equal-weight grey + chat app",
+    "mode": "avg",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 10.4,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 10.4
+   },
+   {
+    "name": "Filter: red-filter B&W + chat app",
+    "mode": "red",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 10.4,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 10.4
+   },
+   {
+    "name": "Filter: green-filter B&W + chat app",
+    "mode": "green",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 10.4,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 10.4
+   }
+  ],
+  "strong": {
+   "1.5": {
+    "status": "part",
+    "ok2": true,
+    "z2": 15.2,
+    "err_m": 6.6,
+    "psnr": 36.39
+   },
+   "2.0": {
+    "status": "part",
+    "ok2": true,
+    "z2": 19.8,
+    "err_m": 6.6,
+    "psnr": 33.93
+   }
+  },
+  "control": {
+   "status": "none",
+   "z2": 0.7
+  }
+ },
+ {
+  "id": 21,
+  "rows": [
+   {
+    "name": "B&W, stored q95",
+    "mode": "std",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": -0.0,
+    "z2": 6.6,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 6.6
+   },
+   {
+    "name": "B&W + chat app (1600 px, q70)",
+    "mode": "std",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": -0.0,
+    "z2": 6.1,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 6.1
+   },
+   {
+    "name": "B&W + social (1080 px, q50)",
+    "mode": "std",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": -0.0,
+    "z2": 5.8,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 5.8
+   },
+   {
+    "name": "B&W + thumbnail (800 px, q40)",
+    "mode": "std",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": -0.0,
+    "z2": 4.1,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 4.1
+   },
+   {
+    "name": "B&W + strong contrast + chat app",
+    "mode": "std",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0.0,
+    "z2": 5.9,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 5.9
+   },
+   {
+    "name": "B&W + centre 75% crop + chat app",
+    "mode": "std",
+    "status": "nocrop",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 0,
+    "err_m": null
+   },
+   {
+    "name": "Filter: equal-weight grey + chat app",
+    "mode": "avg",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0.0,
+    "z2": 6.0,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 6.0
+   },
+   {
+    "name": "Filter: red-filter B&W + chat app",
+    "mode": "red",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0.0,
+    "z2": 6.0,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 6.0
+   },
+   {
+    "name": "Filter: green-filter B&W + chat app",
+    "mode": "green",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0.0,
+    "z2": 6.1,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 6.1
+   }
+  ],
+  "strong": {
+   "1.5": {
+    "status": "part",
+    "ok2": true,
+    "z2": 8.5,
+    "err_m": 6.6,
+    "psnr": 40.64
+   },
+   "2.0": {
+    "status": "part",
+    "ok2": true,
+    "z2": 10.9,
+    "err_m": 6.6,
+    "psnr": 38.26
+   }
+  },
+  "control": {
+   "status": "none",
+   "z2": 3.0
+  }
+ },
+ {
+  "id": 22,
+  "rows": [
+   {
+    "name": "B&W, stored q95",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 6.3,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 6.3
+   },
+   {
+    "name": "B&W + chat app (1600 px, q70)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 5.5,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 5.5
+   },
+   {
+    "name": "B&W + social (1080 px, q50)",
+    "mode": "std",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0.0,
+    "z2": 4.6,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 4.6
+   },
+   {
+    "name": "B&W + thumbnail (800 px, q40)",
+    "mode": "std",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0.0,
+    "z2": 3.5,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 3.5
+   },
+   {
+    "name": "B&W + strong contrast + chat app",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 5.8,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 5.8
+   },
+   {
+    "name": "B&W + centre 75% crop + chat app",
+    "mode": "std",
+    "status": "nocrop",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 0,
+    "err_m": null
+   },
+   {
+    "name": "Filter: equal-weight grey + chat app",
+    "mode": "avg",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 5.8,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 5.8
+   },
+   {
+    "name": "Filter: red-filter B&W + chat app",
+    "mode": "red",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 4.6,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 4.6
+   },
+   {
+    "name": "Filter: green-filter B&W + chat app",
+    "mode": "green",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": -0.0,
+    "z2": 5.3,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 5.3
+   }
+  ],
+  "strong": {
+   "1.5": {
+    "status": "part",
+    "ok2": true,
+    "z2": 8.6,
+    "err_m": 6.6,
+    "psnr": 40.13
+   },
+   "2.0": {
+    "status": "part",
+    "ok2": true,
+    "z2": 11.7,
+    "err_m": 6.6,
+    "psnr": 37.74
+   }
+  },
+  "control": {
+   "status": "none",
+   "z2": -0.4
+  }
+ },
+ {
+  "id": 23,
+  "rows": [
+   {
+    "name": "B&W, stored q95",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 8.2,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 8.2
+   },
+   {
+    "name": "B&W + chat app (1600 px, q70)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 7.9,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 7.9
+   },
+   {
+    "name": "B&W + social (1080 px, q50)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 6.9,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 6.9
+   },
+   {
+    "name": "B&W + thumbnail (800 px, q40)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 5.2,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 5.2
+   },
+   {
+    "name": "B&W + strong contrast + chat app",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 7.7,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 7.7
+   },
+   {
+    "name": "B&W + centre 75% crop + chat app",
+    "mode": "std",
+    "status": "nocrop",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 0,
+    "err_m": null
+   },
+   {
+    "name": "Filter: equal-weight grey + chat app",
+    "mode": "avg",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 8.0,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 8.0
+   },
+   {
+    "name": "Filter: red-filter B&W + chat app",
+    "mode": "red",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 7.6,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 7.6
+   },
+   {
+    "name": "Filter: green-filter B&W + chat app",
+    "mode": "green",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 7.7,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 7.7
+   }
+  ],
+  "strong": {
+   "1.5": {
+    "status": "part",
+    "ok2": true,
+    "z2": 11.8,
+    "err_m": 6.6,
+    "psnr": 36.86
+   },
+   "2.0": {
+    "status": "part",
+    "ok2": true,
+    "z2": 15.6,
+    "err_m": 6.6,
+    "psnr": 34.41
+   }
+  },
+  "control": {
+   "status": "none",
+   "z2": 0.8
+  }
+ },
+ {
+  "id": 24,
+  "rows": [
+   {
+    "name": "B&W, stored q95",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 8.8,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 8.8
+   },
+   {
+    "name": "B&W + chat app (1600 px, q70)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 8.1,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 8.1
+   },
+   {
+    "name": "B&W + social (1080 px, q50)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 7.6,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 7.6
+   },
+   {
+    "name": "B&W + thumbnail (800 px, q40)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 6.1,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 6.1
+   },
+   {
+    "name": "B&W + strong contrast + chat app",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 8.5,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 8.5
+   },
+   {
+    "name": "B&W + centre 75% crop + chat app",
+    "mode": "std",
+    "status": "nocrop",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 0,
+    "err_m": null
+   },
+   {
+    "name": "Filter: equal-weight grey + chat app",
+    "mode": "avg",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 8.5,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 8.5
+   },
+   {
+    "name": "Filter: red-filter B&W + chat app",
+    "mode": "red",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": -0.0,
+    "z2": 7.5,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 7.5
+   },
+   {
+    "name": "Filter: green-filter B&W + chat app",
+    "mode": "green",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 8.2,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 8.2
+   }
+  ],
+  "strong": {
+   "1.5": {
+    "status": "part",
+    "ok2": true,
+    "z2": 13.0,
+    "err_m": 6.6,
+    "psnr": 38.95
+   },
+   "2.0": {
+    "status": "part",
+    "ok2": true,
+    "z2": 17.6,
+    "err_m": 6.6,
+    "psnr": 36.53
+   }
+  },
+  "control": {
+   "status": "none",
+   "z2": 0.9
+  }
+ },
+ {
+  "id": 25,
+  "rows": [
+   {
+    "name": "B&W, stored q95",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 7.5,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 7.5
+   },
+   {
+    "name": "B&W + chat app (1600 px, q70)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 7.2,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 7.2
+   },
+   {
+    "name": "B&W + social (1080 px, q50)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": -0.0,
+    "z2": 6.9,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 6.9
+   },
+   {
+    "name": "B&W + thumbnail (800 px, q40)",
+    "mode": "std",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0.0,
+    "z2": 6.5,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 6.5
+   },
+   {
+    "name": "B&W + strong contrast + chat app",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": -0.0,
+    "z2": 7.0,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 7.0
+   },
+   {
+    "name": "B&W + centre 75% crop + chat app",
+    "mode": "std",
+    "status": "nocrop",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 0,
+    "err_m": null
+   },
+   {
+    "name": "Filter: equal-weight grey + chat app",
+    "mode": "avg",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 7.2,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 7.2
+   },
+   {
+    "name": "Filter: red-filter B&W + chat app",
+    "mode": "red",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 7.1,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 7.1
+   },
+   {
+    "name": "Filter: green-filter B&W + chat app",
+    "mode": "green",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 7.0,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 7.0
+   }
+  ],
+  "strong": {
+   "1.5": {
+    "status": "part",
+    "ok2": true,
+    "z2": 9.8,
+    "err_m": 6.6,
+    "psnr": 39.72
+   },
+   "2.0": {
+    "status": "part",
+    "ok2": true,
+    "z2": 12.2,
+    "err_m": 6.6,
+    "psnr": 37.32
+   }
+  },
+  "control": {
+   "status": "none",
+   "z2": 2.0
+  }
+ },
+ {
+  "id": 26,
+  "rows": [
+   {
+    "name": "B&W, stored q95",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 6.9,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 6.9
+   },
+   {
+    "name": "B&W + chat app (1600 px, q70)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 6.5,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 6.5
+   },
+   {
+    "name": "B&W + social (1080 px, q50)",
+    "mode": "std",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0.0,
+    "z2": 5.7,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 5.7
+   },
+   {
+    "name": "B&W + thumbnail (800 px, q40)",
+    "mode": "std",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0.0,
+    "z2": 5.4,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 5.4
+   },
+   {
+    "name": "B&W + strong contrast + chat app",
+    "mode": "std",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0.0,
+    "z2": 6.9,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 6.9
+   },
+   {
+    "name": "B&W + centre 75% crop + chat app",
+    "mode": "std",
+    "status": "nocrop",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 0,
+    "err_m": null
+   },
+   {
+    "name": "Filter: equal-weight grey + chat app",
+    "mode": "avg",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 6.2,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 6.2
+   },
+   {
+    "name": "Filter: red-filter B&W + chat app",
+    "mode": "red",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": -0.0,
+    "z2": 6.0,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 6.0
+   },
+   {
+    "name": "Filter: green-filter B&W + chat app",
+    "mode": "green",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 6.6,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 6.6
+   }
+  ],
+  "strong": {
+   "1.5": {
+    "status": "part",
+    "ok2": true,
+    "z2": 9.1,
+    "err_m": 6.6,
+    "psnr": 37.96
+   },
+   "2.0": {
+    "status": "part",
+    "ok2": true,
+    "z2": 11.6,
+    "err_m": 6.6,
+    "psnr": 35.53
+   }
+  },
+  "control": {
+   "status": "none",
+   "z2": 1.2
+  }
+ },
+ {
+  "id": 27,
+  "rows": [
+   {
+    "name": "B&W, stored q95",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 12.4,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 12.4
+   },
+   {
+    "name": "B&W + chat app (1600 px, q70)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": -0.0,
+    "z2": 11.8,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 11.8
+   },
+   {
+    "name": "B&W + social (1080 px, q50)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 11.0,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 11.0
+   },
+   {
+    "name": "B&W + thumbnail (800 px, q40)",
+    "mode": "std",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0.0,
+    "z2": 9.1,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 9.1
+   },
+   {
+    "name": "B&W + strong contrast + chat app",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 11.4,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 11.4
+   },
+   {
+    "name": "B&W + centre 75% crop + chat app",
+    "mode": "std",
+    "status": "nocrop",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 0,
+    "err_m": null
+   },
+   {
+    "name": "Filter: equal-weight grey + chat app",
+    "mode": "avg",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 11.8,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 11.8
+   },
+   {
+    "name": "Filter: red-filter B&W + chat app",
+    "mode": "red",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 11.3,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 11.3
+   },
+   {
+    "name": "Filter: green-filter B&W + chat app",
+    "mode": "green",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": -0.0,
+    "z2": 11.7,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 11.7
+   }
+  ],
+  "strong": {
+   "1.5": {
+    "status": "part",
+    "ok2": true,
+    "z2": 16.4,
+    "err_m": 6.6,
+    "psnr": 38.29
+   },
+   "2.0": {
+    "status": "part",
+    "ok2": true,
+    "z2": 20.8,
+    "err_m": 6.6,
+    "psnr": 35.85
+   }
+  },
+  "control": {
+   "status": "none",
+   "z2": 1.8
+  }
+ },
+ {
+  "id": 28,
+  "rows": [
+   {
+    "name": "B&W, stored q95",
+    "mode": "std",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0.0,
+    "z2": 3.5,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 3.5
+   },
+   {
+    "name": "B&W + chat app (1600 px, q70)",
+    "mode": "std",
+    "status": "none",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0.0,
+    "z2": 3.1,
+    "err_m": null,
+    "py_status": "none",
+    "py_ok2": false,
+    "py_z2": 3.1
+   },
+   {
+    "name": "B&W + social (1080 px, q50)",
+    "mode": "std",
+    "status": "none",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0.0,
+    "z2": 2.6,
+    "err_m": null,
+    "py_status": "none",
+    "py_ok2": false,
+    "py_z2": 2.6
+   },
+   {
+    "name": "B&W + thumbnail (800 px, q40)",
+    "mode": "std",
+    "status": "none",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0.0,
+    "z2": 1.8,
+    "err_m": null,
+    "py_status": "none",
+    "py_ok2": false,
+    "py_z2": 1.8
+   },
+   {
+    "name": "B&W + strong contrast + chat app",
+    "mode": "std",
+    "status": "none",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 2.6,
+    "err_m": null,
+    "py_status": "none",
+    "py_ok2": false,
+    "py_z2": 2.6
+   },
+   {
+    "name": "B&W + centre 75% crop + chat app",
+    "mode": "std",
+    "status": "nocrop",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 0,
+    "err_m": null
+   },
+   {
+    "name": "Filter: equal-weight grey + chat app",
+    "mode": "avg",
+    "status": "none",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0.0,
+    "z2": 3.0,
+    "err_m": null,
+    "py_status": "none",
+    "py_ok2": false,
+    "py_z2": 3.0
+   },
+   {
+    "name": "Filter: red-filter B&W + chat app",
+    "mode": "red",
+    "status": "none",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0.0,
+    "z2": 3.2,
+    "err_m": null,
+    "py_status": "none",
+    "py_ok2": false,
+    "py_z2": 3.2
+   },
+   {
+    "name": "Filter: green-filter B&W + chat app",
+    "mode": "green",
+    "status": "none",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0.0,
+    "z2": 2.9,
+    "err_m": null,
+    "py_status": "none",
+    "py_ok2": false,
+    "py_z2": 2.9
+   }
+  ],
+  "strong": {
+   "1.5": {
+    "status": "damaged",
+    "ok2": false,
+    "z2": 4.7,
+    "err_m": null,
+    "psnr": 39.73
+   },
+   "2.0": {
+    "status": "part",
+    "ok2": true,
+    "z2": 6.4,
+    "err_m": 6.6,
+    "psnr": 37.36
+   }
+  },
+  "control": {
+   "status": "none",
+   "z2": 0.6
+  }
+ },
+ {
+  "id": 29,
+  "rows": [
+   {
+    "name": "B&W, stored q95",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 9.1,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 9.1
+   },
+   {
+    "name": "B&W + chat app (1600 px, q70)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 8.8,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 8.8
+   },
+   {
+    "name": "B&W + social (1080 px, q50)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 8.1,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 8.1
+   },
+   {
+    "name": "B&W + thumbnail (800 px, q40)",
+    "mode": "std",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0.0,
+    "z2": 6.9,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 6.9
+   },
+   {
+    "name": "B&W + strong contrast + chat app",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 8.4,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 8.4
+   },
+   {
+    "name": "B&W + centre 75% crop + chat app",
+    "mode": "std",
+    "status": "nocrop",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 0,
+    "err_m": null
+   },
+   {
+    "name": "Filter: equal-weight grey + chat app",
+    "mode": "avg",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 8.9,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 8.9
+   },
+   {
+    "name": "Filter: red-filter B&W + chat app",
+    "mode": "red",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 8.5,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 8.5
+   },
+   {
+    "name": "Filter: green-filter B&W + chat app",
+    "mode": "green",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 8.8,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 8.8
+   }
+  ],
+  "strong": {
+   "1.5": {
+    "status": "part",
+    "ok2": true,
+    "z2": 12.5,
+    "err_m": 6.6,
+    "psnr": 38.56
+   },
+   "2.0": {
+    "status": "part",
+    "ok2": true,
+    "z2": 16.2,
+    "err_m": 6.6,
+    "psnr": 36.14
+   }
+  },
+  "control": {
+   "status": "none",
+   "z2": 1.5
+  }
+ },
+ {
+  "id": 30,
+  "rows": [
+   {
+    "name": "B&W, stored q95",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 7.2,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 7.2
+   },
+   {
+    "name": "B&W + chat app (1600 px, q70)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 6.7,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 6.7
+   },
+   {
+    "name": "B&W + social (1080 px, q50)",
+    "mode": "std",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 6.3,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 6.3
+   },
+   {
+    "name": "B&W + thumbnail (800 px, q40)",
+    "mode": "std",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 5.0,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 5.0
+   },
+   {
+    "name": "B&W + strong contrast + chat app",
+    "mode": "std",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 4.7,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 4.7
+   },
+   {
+    "name": "B&W + centre 75% crop + chat app",
+    "mode": "std",
+    "status": "nocrop",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 0,
+    "err_m": null
+   },
+   {
+    "name": "Filter: equal-weight grey + chat app",
+    "mode": "avg",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 6.9,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 6.9
+   },
+   {
+    "name": "Filter: red-filter B&W + chat app",
+    "mode": "red",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 6.1,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 6.1
+   },
+   {
+    "name": "Filter: green-filter B&W + chat app",
+    "mode": "green",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 6.8,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 6.8
+   }
+  ],
+  "strong": {
+   "1.5": {
+    "status": "part",
+    "ok2": true,
+    "z2": 9.4,
+    "err_m": 6.6,
+    "psnr": 41.56
+   },
+   "2.0": {
+    "status": "part",
+    "ok2": true,
+    "z2": 11.9,
+    "err_m": 6.6,
+    "psnr": 39.25
+   }
+  },
+  "control": {
+   "status": "none",
+   "z2": 1.0
+  }
+ },
+ {
+  "id": 31,
+  "rows": [
+   {
+    "name": "B&W, stored q95",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 6.6,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 6.6
+   },
+   {
+    "name": "B&W + chat app (1600 px, q70)",
+    "mode": "std",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": -0.0,
+    "z2": 6.6,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 6.6
+   },
+   {
+    "name": "B&W + social (1080 px, q50)",
+    "mode": "std",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0.0,
+    "z2": 6.1,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 6.1
+   },
+   {
+    "name": "B&W + thumbnail (800 px, q40)",
+    "mode": "std",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0.0,
+    "z2": 5.7,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 5.7
+   },
+   {
+    "name": "B&W + strong contrast + chat app",
+    "mode": "std",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0.0,
+    "z2": 5.9,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 5.9
+   },
+   {
+    "name": "B&W + centre 75% crop + chat app",
+    "mode": "std",
+    "status": "nocrop",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 0,
+    "err_m": null
+   },
+   {
+    "name": "Filter: equal-weight grey + chat app",
+    "mode": "avg",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0.0,
+    "z2": 6.6,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 6.6
+   },
+   {
+    "name": "Filter: red-filter B&W + chat app",
+    "mode": "red",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0.0,
+    "z2": 6.8,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 6.8
+   },
+   {
+    "name": "Filter: green-filter B&W + chat app",
+    "mode": "green",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0.0,
+    "z2": 6.5,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 6.5
+   }
+  ],
+  "strong": {
+   "1.5": {
+    "status": "part",
+    "ok2": true,
+    "z2": 9.2,
+    "err_m": 6.6,
+    "psnr": 39.02
+   },
+   "2.0": {
+    "status": "part",
+    "ok2": true,
+    "z2": 11.8,
+    "err_m": 6.6,
+    "psnr": 36.62
+   }
+  },
+  "control": {
+   "status": "none",
+   "z2": 1.8
+  }
+ },
+ {
+  "id": 32,
+  "rows": [
+   {
+    "name": "B&W, stored q95",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 4.2,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 4.2
+   },
+   {
+    "name": "B&W + chat app (1600 px, q70)",
+    "mode": "std",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 3.8,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 3.8
+   },
+   {
+    "name": "B&W + social (1080 px, q50)",
+    "mode": "std",
+    "status": "none",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 3.0,
+    "err_m": null,
+    "py_status": "none",
+    "py_ok2": false,
+    "py_z2": 3.0
+   },
+   {
+    "name": "B&W + thumbnail (800 px, q40)",
+    "mode": "std",
+    "status": "none",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 2.5,
+    "err_m": null,
+    "py_status": "none",
+    "py_ok2": false,
+    "py_z2": 2.5
+   },
+   {
+    "name": "B&W + strong contrast + chat app",
+    "mode": "std",
+    "status": "none",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 3.4,
+    "err_m": null,
+    "py_status": "none",
+    "py_ok2": false,
+    "py_z2": 3.4
+   },
+   {
+    "name": "B&W + centre 75% crop + chat app",
+    "mode": "std",
+    "status": "nocrop",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 0,
+    "err_m": null
+   },
+   {
+    "name": "Filter: equal-weight grey + chat app",
+    "mode": "avg",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 4.0,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 4.0
+   },
+   {
+    "name": "Filter: red-filter B&W + chat app",
+    "mode": "red",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 3.6,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 3.6
+   },
+   {
+    "name": "Filter: green-filter B&W + chat app",
+    "mode": "green",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 3.6,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 3.6
+   }
+  ],
+  "strong": {
+   "1.5": {
+    "status": "part",
+    "ok2": true,
+    "z2": 6.3,
+    "err_m": 6.6,
+    "psnr": 40.26
+   },
+   "2.0": {
+    "status": "part",
+    "ok2": true,
+    "z2": 8.9,
+    "err_m": 6.6,
+    "psnr": 37.86
+   }
+  },
+  "control": {
+   "status": "none",
+   "z2": 1.3
+  }
+ },
+ {
+  "id": 33,
+  "rows": [
+   {
+    "name": "B&W, stored q95",
+    "mode": "std",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 3.6,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 3.6
+   },
+   {
+    "name": "B&W + chat app (1600 px, q70)",
+    "mode": "std",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 3.5,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 3.5
+   },
+   {
+    "name": "B&W + social (1080 px, q50)",
+    "mode": "std",
+    "status": "none",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0.0,
+    "z2": 3.4,
+    "err_m": null,
+    "py_status": "none",
+    "py_ok2": false,
+    "py_z2": 3.4
+   },
+   {
+    "name": "B&W + thumbnail (800 px, q40)",
+    "mode": "std",
+    "status": "none",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0.0,
+    "z2": 2.5,
+    "err_m": null,
+    "py_status": "none",
+    "py_ok2": false,
+    "py_z2": 2.5
+   },
+   {
+    "name": "B&W + strong contrast + chat app",
+    "mode": "std",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0.0,
+    "z2": 3.7,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 3.7
+   },
+   {
+    "name": "B&W + centre 75% crop + chat app",
+    "mode": "std",
+    "status": "nocrop",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 0,
+    "err_m": null
+   },
+   {
+    "name": "Filter: equal-weight grey + chat app",
+    "mode": "avg",
+    "status": "none",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 3.5,
+    "err_m": null,
+    "py_status": "none",
+    "py_ok2": false,
+    "py_z2": 3.5
+   },
+   {
+    "name": "Filter: red-filter B&W + chat app",
+    "mode": "red",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 3.5,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 3.5
+   },
+   {
+    "name": "Filter: green-filter B&W + chat app",
+    "mode": "green",
+    "status": "none",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0.0,
+    "z2": 3.5,
+    "err_m": null,
+    "py_status": "none",
+    "py_ok2": false,
+    "py_z2": 3.5
+   }
+  ],
+  "strong": {
+   "1.5": {
+    "status": "part",
+    "ok2": true,
+    "z2": 5.6,
+    "err_m": 6.6,
+    "psnr": 44.05
+   },
+   "2.0": {
+    "status": "part",
+    "ok2": true,
+    "z2": 7.6,
+    "err_m": 6.6,
+    "psnr": 41.82
+   }
+  },
+  "control": {
+   "status": "none",
+   "z2": 1.1
+  }
+ },
+ {
+  "id": 34,
+  "rows": [
+   {
+    "name": "B&W, stored q95",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 9.7,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 9.7
+   },
+   {
+    "name": "B&W + chat app (1600 px, q70)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 8.4,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 8.4
+   },
+   {
+    "name": "B&W + social (1080 px, q50)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 6.6,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 6.6
+   },
+   {
+    "name": "B&W + thumbnail (800 px, q40)",
+    "mode": "std",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 4.9,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 4.9
+   },
+   {
+    "name": "B&W + strong contrast + chat app",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 7.7,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 7.7
+   },
+   {
+    "name": "B&W + centre 75% crop + chat app",
+    "mode": "std",
+    "status": "nocrop",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 0,
+    "err_m": null
+   },
+   {
+    "name": "Filter: equal-weight grey + chat app",
+    "mode": "avg",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 8.8,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 8.8
+   },
+   {
+    "name": "Filter: red-filter B&W + chat app",
+    "mode": "red",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 7.5,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 7.5
+   },
+   {
+    "name": "Filter: green-filter B&W + chat app",
+    "mode": "green",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 8.7,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 8.7
+   }
+  ],
+  "strong": {
+   "1.5": {
+    "status": "part",
+    "ok2": true,
+    "z2": 12.3,
+    "err_m": 6.6,
+    "psnr": 41.84
+   },
+   "2.0": {
+    "status": "part",
+    "ok2": true,
+    "z2": 15.7,
+    "err_m": 6.6,
+    "psnr": 39.5
+   }
+  },
+  "control": {
+   "status": "none",
+   "z2": 1.8
+  }
+ },
+ {
+  "id": 35,
+  "rows": [
+   {
+    "name": "B&W, stored q95",
+    "mode": "std",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 4.1,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 4.1
+   },
+   {
+    "name": "B&W + chat app (1600 px, q70)",
+    "mode": "std",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0.0,
+    "z2": 4.1,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 4.1
+   },
+   {
+    "name": "B&W + social (1080 px, q50)",
+    "mode": "std",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": -0.0,
+    "z2": 3.7,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 3.7
+   },
+   {
+    "name": "B&W + thumbnail (800 px, q40)",
+    "mode": "std",
+    "status": "none",
+    "ok1": false,
+    "ok2": false,
+    "z1": -0.0,
+    "z2": 3.4,
+    "err_m": null,
+    "py_status": "none",
+    "py_ok2": false,
+    "py_z2": 3.4
+   },
+   {
+    "name": "B&W + strong contrast + chat app",
+    "mode": "std",
+    "status": "none",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0.0,
+    "z2": 3.1,
+    "err_m": null,
+    "py_status": "none",
+    "py_ok2": false,
+    "py_z2": 3.1
+   },
+   {
+    "name": "B&W + centre 75% crop + chat app",
+    "mode": "std",
+    "status": "nocrop",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 0,
+    "err_m": null
+   },
+   {
+    "name": "Filter: equal-weight grey + chat app",
+    "mode": "avg",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": -0.0,
+    "z2": 4.1,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 4.1
+   },
+   {
+    "name": "Filter: red-filter B&W + chat app",
+    "mode": "red",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 3.9,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 3.9
+   },
+   {
+    "name": "Filter: green-filter B&W + chat app",
+    "mode": "green",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0.0,
+    "z2": 4.0,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 4.0
+   }
+  ],
+  "strong": {
+   "1.5": {
+    "status": "part",
+    "ok2": true,
+    "z2": 6.0,
+    "err_m": 6.6,
+    "psnr": 42.88
+   },
+   "2.0": {
+    "status": "part",
+    "ok2": true,
+    "z2": 8.1,
+    "err_m": 6.6,
+    "psnr": 40.58
+   }
+  },
+  "control": {
+   "status": "none",
+   "z2": -0.1
+  }
+ },
+ {
+  "id": 36,
+  "rows": [
+   {
+    "name": "B&W, stored q95",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": -0.0,
+    "z2": 13.3,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 13.3
+   },
+   {
+    "name": "B&W + chat app (1600 px, q70)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 12.3,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 12.3
+   },
+   {
+    "name": "B&W + social (1080 px, q50)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 11.1,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 11.1
+   },
+   {
+    "name": "B&W + thumbnail (800 px, q40)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": -0.0,
+    "z2": 8.6,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 8.6
+   },
+   {
+    "name": "B&W + strong contrast + chat app",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 12.9,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 12.9
+   },
+   {
+    "name": "B&W + centre 75% crop + chat app",
+    "mode": "std",
+    "status": "nocrop",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 0,
+    "err_m": null
+   },
+   {
+    "name": "Filter: equal-weight grey + chat app",
+    "mode": "avg",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 12.2,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 12.2
+   },
+   {
+    "name": "Filter: red-filter B&W + chat app",
+    "mode": "red",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 11.6,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 11.6
+   },
+   {
+    "name": "Filter: green-filter B&W + chat app",
+    "mode": "green",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 12.8,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 12.8
+   }
+  ],
+  "strong": {
+   "1.5": {
+    "status": "part",
+    "ok2": true,
+    "z2": 18.1,
+    "err_m": 6.6,
+    "psnr": 37.75
+   },
+   "2.0": {
+    "status": "part",
+    "ok2": true,
+    "z2": 23.4,
+    "err_m": 6.6,
+    "psnr": 35.31
+   }
+  },
+  "control": {
+   "status": "none",
+   "z2": 1.1
+  }
+ },
+ {
+  "id": 37,
+  "rows": [
+   {
+    "name": "B&W, stored q95",
+    "mode": "std",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 4.9,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 4.9
+   },
+   {
+    "name": "B&W + chat app (1600 px, q70)",
+    "mode": "std",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 4.3,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 4.3
+   },
+   {
+    "name": "B&W + social (1080 px, q50)",
+    "mode": "std",
+    "status": "none",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 3.3,
+    "err_m": null,
+    "py_status": "none",
+    "py_ok2": false,
+    "py_z2": 3.3
+   },
+   {
+    "name": "B&W + thumbnail (800 px, q40)",
+    "mode": "std",
+    "status": "none",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 2.7,
+    "err_m": null,
+    "py_status": "none",
+    "py_ok2": false,
+    "py_z2": 2.7
+   },
+   {
+    "name": "B&W + strong contrast + chat app",
+    "mode": "std",
+    "status": "none",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 3.1,
+    "err_m": null,
+    "py_status": "none",
+    "py_ok2": false,
+    "py_z2": 3.1
+   },
+   {
+    "name": "B&W + centre 75% crop + chat app",
+    "mode": "std",
+    "status": "nocrop",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 0,
+    "err_m": null
+   },
+   {
+    "name": "Filter: equal-weight grey + chat app",
+    "mode": "avg",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 4.4,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 4.4
+   },
+   {
+    "name": "Filter: red-filter B&W + chat app",
+    "mode": "red",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 4.1,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 4.1
+   },
+   {
+    "name": "Filter: green-filter B&W + chat app",
+    "mode": "green",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 4.4,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 4.4
+   }
+  ],
+  "strong": {
+   "1.5": {
+    "status": "part",
+    "ok2": true,
+    "z2": 6.1,
+    "err_m": 6.6,
+    "psnr": 42.85
+   },
+   "2.0": {
+    "status": "part",
+    "ok2": true,
+    "z2": 7.8,
+    "err_m": 6.6,
+    "psnr": 40.57
+   }
+  },
+  "control": {
+   "status": "none",
+   "z2": 0.7
+  }
+ },
+ {
+  "id": 38,
+  "rows": [
+   {
+    "name": "B&W, stored q95",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 15.1,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 15.1
+   },
+   {
+    "name": "B&W + chat app (1600 px, q70)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 12.7,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 12.7
+   },
+   {
+    "name": "B&W + social (1080 px, q50)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 9.9,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 9.9
+   },
+   {
+    "name": "B&W + thumbnail (800 px, q40)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 6.9,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 6.9
+   },
+   {
+    "name": "B&W + strong contrast + chat app",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 9.1,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 9.1
+   },
+   {
+    "name": "B&W + centre 75% crop + chat app",
+    "mode": "std",
+    "status": "nocrop",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 0,
+    "err_m": null
+   },
+   {
+    "name": "Filter: equal-weight grey + chat app",
+    "mode": "avg",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 13.1,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 13.1
+   },
+   {
+    "name": "Filter: red-filter B&W + chat app",
+    "mode": "red",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 11.7,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 11.7
+   },
+   {
+    "name": "Filter: green-filter B&W + chat app",
+    "mode": "green",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 13.0,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 13.0
+   }
+  ],
+  "strong": {
+   "1.5": {
+    "status": "part",
+    "ok2": true,
+    "z2": 17.4,
+    "err_m": 6.6,
+    "psnr": 42.86
+   },
+   "2.0": {
+    "status": "part",
+    "ok2": true,
+    "z2": 21.5,
+    "err_m": 6.6,
+    "psnr": 40.59
+   }
+  },
+  "control": {
+   "status": "none",
+   "z2": 1.5
+  }
+ },
+ {
+  "id": 39,
+  "rows": [
+   {
+    "name": "B&W, stored q95",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 7.2,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 7.2
+   },
+   {
+    "name": "B&W + chat app (1600 px, q70)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 6.8,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 6.8
+   },
+   {
+    "name": "B&W + social (1080 px, q50)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 6.7,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 6.7
+   },
+   {
+    "name": "B&W + thumbnail (800 px, q40)",
+    "mode": "std",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0.0,
+    "z2": 5.7,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 5.7
+   },
+   {
+    "name": "B&W + strong contrast + chat app",
+    "mode": "std",
+    "status": "damaged",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0.0,
+    "z2": 6.2,
+    "err_m": null,
+    "py_status": "damaged",
+    "py_ok2": false,
+    "py_z2": 6.2
+   },
+   {
+    "name": "B&W + centre 75% crop + chat app",
+    "mode": "std",
+    "status": "nocrop",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 0,
+    "err_m": null
+   },
+   {
+    "name": "Filter: equal-weight grey + chat app",
+    "mode": "avg",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0,
+    "z2": 6.9,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 6.9
+   },
+   {
+    "name": "Filter: red-filter B&W + chat app",
+    "mode": "red",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 6.7,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 6.7
+   },
+   {
+    "name": "Filter: green-filter B&W + chat app",
+    "mode": "green",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 6.7,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 6.7
+   }
+  ],
+  "strong": {
+   "1.5": {
+    "status": "part",
+    "ok2": true,
+    "z2": 9.6,
+    "err_m": 6.6,
+    "psnr": 36.82
+   },
+   "2.0": {
+    "status": "part",
+    "ok2": true,
+    "z2": 12.4,
+    "err_m": 6.6,
+    "psnr": 34.38
+   }
+  },
+  "control": {
+   "status": "none",
+   "z2": 0.8
+  }
+ },
+ {
+  "id": 40,
+  "rows": [
+   {
+    "name": "B&W, stored q95",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": -0.0,
+    "z2": 8.0,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 8.0
+   },
+   {
+    "name": "B&W + chat app (1600 px, q70)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": -0.0,
+    "z2": 7.1,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 7.1
+   },
+   {
+    "name": "B&W + social (1080 px, q50)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": -0.0,
+    "z2": 5.6,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 5.6
+   },
+   {
+    "name": "B&W + thumbnail (800 px, q40)",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": -0.0,
+    "z2": 3.6,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 3.6
+   },
+   {
+    "name": "B&W + strong contrast + chat app",
+    "mode": "std",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 6.2,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 6.2
+   },
+   {
+    "name": "B&W + centre 75% crop + chat app",
+    "mode": "std",
+    "status": "nocrop",
+    "ok1": false,
+    "ok2": false,
+    "z1": 0,
+    "z2": 0,
+    "err_m": null
+   },
+   {
+    "name": "Filter: equal-weight grey + chat app",
+    "mode": "avg",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 7.2,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 7.2
+   },
+   {
+    "name": "Filter: red-filter B&W + chat app",
+    "mode": "red",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": -0.0,
+    "z2": 6.7,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 6.7
+   },
+   {
+    "name": "Filter: green-filter B&W + chat app",
+    "mode": "green",
+    "status": "part",
+    "ok1": false,
+    "ok2": true,
+    "z1": 0.0,
+    "z2": 7.1,
+    "err_m": 6.6,
+    "py_status": "part",
+    "py_ok2": true,
+    "py_z2": 7.1
+   }
+  ],
+  "strong": {
+   "1.5": {
+    "status": "part",
+    "ok2": true,
+    "z2": 11.0,
+    "err_m": 6.6,
+    "psnr": 42.51
+   },
+   "2.0": {
+    "status": "part",
+    "ok2": true,
+    "z2": 14.8,
+    "err_m": 6.6,
+    "psnr": 40.2
+   }
+  },
+  "control": {
+   "status": "none",
+   "z2": 1.4
+  }
+ }
+]
