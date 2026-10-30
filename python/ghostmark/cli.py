@@ -17,6 +17,19 @@ def _time(s):
         return (d if d.tzinfo else d.replace(tzinfo=datetime.timezone.utc)).timestamp()
 
 
+def _num(v, fmt):
+    """Formats an optional number; a missing field prints as '-' instead of raising TypeError."""
+    return fmt % v if v is not None else '-'
+
+
+def _print_human(res):
+    print('status: %s   (z1 %.1f, z2 %.1f)' % (res.status, res.z1, res.z2))
+    if res.l1:
+        print('  full record: lat %s lon %s alt %s  time %s  id %s' % (_num(res.l1['lat'], '%.6f'), _num(res.l1['lon'], '%.6f'), res.l1['alt'], res.time, res.id))
+    elif res.l2:
+        print('  location only (+-10 m): lat %s lon %s' % (_num(res.l2['lat'], '%.4f'), _num(res.l2['lon'], '%.4f')))
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser(prog='ghostmark', description='Invisible location/time mark for photos (Ghostmark-Image).')
     ap.add_argument('--version', action='version', version='ghostmark ' + g.__version__)
@@ -55,11 +68,7 @@ def main(argv=None):
     if a.json:
         print(json.dumps(dict(status=res.status, l1=res.l1, l2=res.l2, z1=res.z1, z2=res.z2, **res.extra), default=float))
     else:
-        print('status: %s   (z1 %.1f, z2 %.1f)' % (res.status, res.z1, res.z2))
-        if res.l1:
-            print('  full record: lat %.6f lon %.6f alt %s  time %s  id %s' % (res.l1['lat'], res.l1['lon'], res.l1['alt'], res.time, res.id))
-        elif res.l2:
-            print('  location only (+-10 m): lat %.4f lon %.4f' % (res.l2['lat'], res.l2['lon']))
+        _print_human(res)
     return 0 if res.status in ('ok', 'part') else 2
 
 

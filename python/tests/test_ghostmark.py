@@ -138,3 +138,15 @@ def test_turned_picture_is_found_with_try_turns():
     assert gm.read(sideways).status != 'ok'
     r = gm.read(sideways, try_turns=True)
     assert r.status == 'ok' and r.extra.get('turned') in (90, 270)
+
+
+def test_cli_prints_records_without_location(capsys):
+    # a mark can carry only a time (or only a location); the CLI must print '-' for the missing fields
+    from ghostmark import cli
+    from ghostmark._api import ReadResult
+    cli._print_human(ReadResult(status='ok', l1=dict(id='ABCDEFGHIJ', lat=None, lon=None, alt=None, t=1792929600, tenth=0, manual=0), z1=5.0, z2=4.0))
+    out = capsys.readouterr().out
+    assert 'lat - lon -' in out and 'ABCDEFGHIJ' in out
+    cli._print_human(ReadResult(status='part', l2=dict(lat=None, lon=None), z1=0.0, z2=5.0))
+    out = capsys.readouterr().out
+    assert 'lat - lon -' in out
